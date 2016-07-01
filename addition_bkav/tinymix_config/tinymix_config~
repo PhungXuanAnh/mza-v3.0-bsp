@@ -1,0 +1,20 @@
+#!/system/bin/sh
+/system/bin/tinymix 12 3
+/system/bin/tinymix 50 1
+/system/bin/tinymix 51 1
+/system/bin/tinymix 52 1
+/system/bin/tinymix 53 1
+/system/bin/tinymix 13 3
+/system/bin/tinymix 44 1
+/system/bin/tinymix 45 1
+/system/bin/tinymix 46 1
+/system/bin/tinymix 47 1
+/system/bin/tinymix 48 1
+/system/bin/tinymix 49 1
+/system/bin/tinymix 18 0
+/system/bin/tinymix 28 1
+/system/bin/tinymix 25 1
+/system/bin/tinymix 26 1
+echo 14 > /sys/class/gpio/export
+echo out > /sys/class/gpio/gpio14/direction
+echo 1 > /sys/class/gpio/gpio14/value

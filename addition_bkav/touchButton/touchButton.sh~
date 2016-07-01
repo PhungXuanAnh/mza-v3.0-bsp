@@ -1,0 +1,10 @@
+#!/system/bin/sh
+su
+/system/bin/ifconfig usb0 10.2.64.33 netmask 255.255.255.0
+/system/bin/ip route add default via 10.2.64.1
+/system/bin/setprop net.eth0.dns1 10.3.10.251
+/system/bin/ifconfig usb0 up
+/system/bin/svc wifi disable
+/system/bin/svc wifi enable
+/system/bin/touchButton
+

@@ -1,0 +1,2199 @@
+scripts/kconfig/conf --silentoldconfig Kconfig
+  CHK     include/linux/version.h
+  UPD     include/linux/version.h
+  HOSTCC  scripts/kallsyms
+  HOSTCC  scripts/pnmtologo
+  HOSTCC  scripts/conmakehash
+  HOSTCC  scripts/genksyms/genksyms.o
+  SHIPPED scripts/genksyms/lex.c
+  HOSTCC  scripts/bin2c
+  CC      scripts/mod/empty.o
+  HOSTCC  scripts/mod/mk_elfconfig
+  SHIPPED scripts/genksyms/parse.h
+  SHIPPED scripts/genksyms/keywords.c
+  SHIPPED scripts/genksyms/parse.c
+  HOSTCC  scripts/genksyms/lex.o
+  HOSTCC  scripts/genksyms/parse.o
+  CHK     include/generated/utsrelease.h
+  MKELF   scripts/mod/elfconfig.h
+  HOSTCC  scripts/mod/file2alias.o
+  HOSTCC  scripts/mod/modpost.o
+  UPD     include/generated/utsrelease.h
+  HOSTCC  scripts/mod/sumversion.o
+  HOSTLD  scripts/genksyms/genksyms
+  Generating include/generated/mach-types.h
+  CC      kernel/bounds.s
+  GEN     include/generated/bounds.h
+  CC      arch/arm/kernel/asm-offsets.s
+  HOSTLD  scripts/mod/modpost
+  GEN     include/generated/asm-offsets.h
+  CALL    scripts/checksyscalls.sh
+  CHK     include/generated/compile.h
+  CC      init/main.o
+  HOSTCC  usr/gen_init_cpio
+  CC      init/do_mounts.o
+  CC      init/do_mounts_rd.o
+  CC      init/do_mounts_initrd.o
+  CC      init/initramfs.o
+  CC      arch/arm/nwfpe/fpa11.o
+  CC      arch/arm/nwfpe/fpa11_cpdo.o
+  UPD     include/generated/compile.h
+  CC      arch/arm/nwfpe/fpa11_cpdt.o
+  CC      init/calibrate.o
+  GEN     usr/initramfs_data.cpio
+  CC      init/version.o
+  CC      arch/arm/nwfpe/fpa11_cprt.o
+  CC      arch/arm/nwfpe/fpmodule.o
+  CC      arch/arm/nwfpe/fpopcode.o
+  CC      arch/arm/nwfpe/softfloat.o
+  CC      arch/arm/nwfpe/single_cpdo.o
+  CC      arch/arm/nwfpe/double_cpdo.o
+  AS      usr/initramfs_data.o
+arch/arm/nwfpe/softfloat.c: In function 'float32_rem':
+arch/arm/nwfpe/softfloat.c:1349:17: warning: variable 'bSign' set but not used [-Wunused-but-set-variable]
+  AS      arch/arm/nwfpe/entry.o
+arch/arm/nwfpe/softfloat.c: In function 'float64_rem':
+arch/arm/nwfpe/softfloat.c:2247:17: warning: variable 'bSign' set but not used [-Wunused-but-set-variable]
+  LD      usr/built-in.o
+  CC      arch/arm/vfp/vfpmodule.o
+  AS      arch/arm/vfp/entry.o
+  AS      arch/arm/vfp/vfphw.o
+  CC      arch/arm/vfp/vfpsingle.o
+  CC      arch/arm/kernel/elf.o
+  AS      arch/arm/kernel/entry-armv.o
+  CC      arch/arm/vfp/vfpdouble.o
+  LD      init/mounts.o
+  LD      init/built-in.o
+  CC      arch/arm/mm/dma-mapping.o
+  AS      arch/arm/kernel/entry-common.o
+  CC      arch/arm/mm/extable.o
+  CC      arch/arm/mm/fault.o
+  CC      arch/arm/kernel/irq.o
+  CC      arch/arm/kernel/process.o
+  CC      arch/arm/mm/init.o
+arch/arm/mm/dma-mapping.c: In function '__dma_alloc_remap':
+arch/arm/mm/dma-mapping.c:229:25: warning: array subscript is above array bounds [-Warray-bounds]
+  CC      arch/arm/mm/iomap.o
+  CC      arch/arm/kernel/ptrace.o
+arch/arm/mm/dma-mapping.c: In function 'dma_free_coherent':
+arch/arm/mm/dma-mapping.c:275:25: warning: array subscript is above array bounds [-Warray-bounds]
+  LD      arch/arm/vfp/vfp.o
+  LD      arch/arm/vfp/built-in.o
+  CC      arch/arm/mm/fault-armv.o
+  LD      arch/arm/nwfpe/nwfpe.o
+  CC      arch/arm/common/clkdev.o
+  LD      arch/arm/nwfpe/built-in.o
+  CC      arch/arm/mm/flush.o
+  CC      arch/arm/mm/ioremap.o
+  CC      arch/arm/mach-omap2/id.o
+  CC      arch/arm/mm/mmap.o
+  CC      arch/arm/kernel/return_address.o
+  LD      arch/arm/common/built-in.o
+  CC      arch/arm/plat-omap/common.o
+  CC      kernel/sched.o
+  CC      arch/arm/mm/pgd.o
+  CC      arch/arm/kernel/setup.o
+  CC      arch/arm/mm/mmu.o
+  CC      arch/arm/mm/vmregion.o
+  CC      arch/arm/mm/proc-syms.o
+  CC      arch/arm/mach-omap2/io.o
+  CC      arch/arm/mm/alignment.o
+  AS      arch/arm/mm/abort-ev7.o
+  CC      arch/arm/plat-omap/sram.o
+  AS      arch/arm/mm/pabort-v7.o
+arch/arm/mach-omap2/io.c: In function 'omap2_init_common_infrastructure':
+arch/arm/mach-omap2/io.c:418:3: warning: statement with no effect [-Wunused-value]
+arch/arm/mach-omap2/io.c:420:3: warning: statement with no effect [-Wunused-value]
+  AS      arch/arm/mm/cache-v7.o
+  CC      arch/arm/mm/copypage-v6.o
+kernel/sched.c: In function 'sched_init':
+kernel/sched.c:8115:32: warning: variable 'ptr' set but not used [-Wunused-but-set-variable]
+  CC      arch/arm/mm/context.o
+  CC      arch/arm/plat-omap/clock.o
+arch/arm/mm/alignment.c: In function 'do_alignment':
+arch/arm/mm/alignment.c:298:15: warning: 'offset.un' may be used uninitialized in this function [-Wmaybe-uninitialized]
+arch/arm/mm/alignment.c:720:21: note: 'offset.un' was declared here
+  AS      arch/arm/mm/tlb-v7.o
+  CC      arch/arm/mach-omap2/control.o
+  AS      arch/arm/mm/proc-v7.o
+  CC      arch/arm/mach-omap2/mux.o
+  CC      arch/arm/mach-omap2/devices.o
+  LD      arch/arm/mm/built-in.o
+  CC      arch/arm/mach-omap2/serial.o
+  CC      mm/bootmem.o
+arch/arm/mach-omap2/serial.c: In function 'omap_uart_enable_irqs':arch/arm/mach-omap2/mux.c: In function '_omap_mux_get_by_name':
+arch/arm/mach-omap2/mux.c:163:17: warning: 'found_mode' may be used uninitialized in this function [-Wmaybe-uninitialized]
+
+arch/arm/mach-omap2/serial.c:557:6: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+  CC      arch/arm/mach-omap2/gpmc.o
+  CC      arch/arm/plat-omap/devices.o
+  CC      arch/arm/kernel/signal.o
+arch/arm/mach-omap2/devices.c: In function 'omap_hsmmc_reset':
+arch/arm/mach-omap2/devices.c:748:7: warning: variable 'v' set but not used [-Wunused-but-set-variable]
+  CC      arch/arm/kernel/sys_arm.o
+  CC      arch/arm/mach-omap2/timer-gp.o
+  CC      mm/filemap.o
+  CC      arch/arm/kernel/stacktrace.o
+  CC      arch/arm/mach-omap2/pm.o
+  CC      arch/arm/plat-omap/dma.o
+  CC      arch/arm/mach-omap2/common.o
+  CC      arch/arm/mach-omap2/gpio.o
+  CC      arch/arm/kernel/time.o
+  CC      arch/arm/kernel/traps.o
+arch/arm/plat-omap/dma.c: In function 'omap_enable_channel_irq':
+arch/arm/plat-omap/dma.c:566:6: warning: variable 'status' set but not used [-Wunused-but-set-variable]
+  CC      kernel/fork.o
+  CC      arch/arm/mach-omap2/dma.o
+  CC      arch/arm/mach-omap2/wd_timer.o
+  CC      arch/arm/kernel/armksyms.o
+  CC      fs/open.o
+  CC      arch/arm/mach-omap2/irq.o
+  CC      arch/arm/mach-omap2/sdrc.o
+  CC      fs/read_write.o
+  CC      fs/file_table.o
+  CC      arch/arm/mach-omap2/omap_hwmod.o
+  CC      arch/arm/plat-omap/mux.o
+  CC      arch/arm/kernel/module.o
+arch/arm/mach-omap2/omap_hwmod.c: In function '_wait_target_ready':
+arch/arm/mach-omap2/omap_hwmod.c:943:28: warning: variable 'os' set but not used [-Wunused-but-set-variable]
+  CC      mm/mempool.o
+  CC      arch/arm/kernel/machine_kexec.o
+  CC      arch/arm/plat-omap/gpio.o
+arch/arm/plat-omap/gpio.c: In function 'gpio_irq_handler':
+arch/arm/plat-omap/gpio.c:1210:25: warning: variable 'gpio_index' set but not used [-Wunused-but-set-variable]
+arch/arm/plat-omap/gpio.c: In function 'gpio_get':
+arch/arm/plat-omap/gpio.c:1543:16: warning: variable 'reg' set but not used [-Wunused-but-set-variable]
+arch/arm/plat-omap/gpio.c: In function 'omap_gpio_chip_init':
+arch/arm/plat-omap/gpio.c:1819:20: warning: unused variable 'd' [-Wunused-variable]
+  CC      kernel/exec_domain.o
+  CC      arch/arm/mach-omap2/omap_hwmod_common_data.o
+  CC      fs/super.o
+  CC      fs/char_dev.o
+  CC      fs/stat.o
+  CC      mm/oom_kill.o
+  CC      arch/arm/mach-omap2/mcbsp.o
+  AS      arch/arm/kernel/relocate_kernel.o
+  CC      arch/arm/plat-omap/usb.o
+  CC      arch/arm/kernel/kprobes.o
+  CC      kernel/panic.o
+  CC      arch/arm/mach-omap2/omap_twl.o
+  CC      fs/exec.o
+  CC      arch/arm/plat-omap/fb.o
+  CC      fs/pipe.o
+  CC      arch/arm/kernel/kprobes-decode.o
+  CC      mm/fadvise.o
+  CC      arch/arm/plat-omap/io.o
+  CC      fs/namei.o
+  AS      arch/arm/mach-omap2/sram34xx.o
+  CC      mm/maccess.o
+  CC      kernel/printk.o
+  CC      arch/arm/mach-omap2/mux34xx.o
+  CC      arch/arm/kernel/atags.o
+  CC      arch/arm/plat-omap/counter_32k.o
+  CC      mm/page_alloc.o
+  CC      arch/arm/kernel/sys_oabi-compat.o
+  CC      fs/fcntl.o
+  CC      arch/arm/mach-omap2/opp.o
+  CC      arch/arm/plat-omap/omap_device.o
+mm/page_alloc.c: In function 'set_migratetype_isolate':
+mm/page_alloc.c:5378:6: warning: variable 'zone_idx' set but not used [-Wunused-but-set-variable]
+  CC      arch/arm/mach-omap2/opp3xxx_data.o
+  CC      fs/ioctl.o
+  CC      arch/arm/mach-omap2/pm34xx.o
+  CC      arch/arm/kernel/thumbee.o
+  CC      arch/arm/plat-omap/mcbsp.o
+  CC      kernel/cpu.o
+  CC      arch/arm/kernel/hw_breakpoint.o
+arch/arm/mach-omap2/pm34xx.c: In function 'omap3_pm_init':
+arch/arm/mach-omap2/pm34xx.c:1140:59: warning: variable 'core_clkdm' set but not used [-Wunused-but-set-variable]
+arch/arm/mach-omap2/pm34xx.c:1140:35: warning: variable 'per_clkdm' set but not used [-Wunused-but-set-variable]
+arch/arm/plat-omap/mcbsp.c: In function 'omap_mcbsp_spi_master_xmit_word_poll':
+arch/arm/plat-omap/mcbsp.c:1129:44: warning: variable 'word_msb' set but not used [-Wunused-but-set-variable]
+arch/arm/plat-omap/mcbsp.c:1129:34: warning: variable 'word_lsb' set but not used [-Wunused-but-set-variable]
+arch/arm/plat-omap/mcbsp.c: In function 'omap_mcbsp_set_spi_mode':
+arch/arm/plat-omap/mcbsp.c:1407:21: warning: variable 'mcbsp' set but not used [-Wunused-but-set-variable]
+  CC      fs/readdir.o
+  CC      fs/select.o
+  CC      arch/arm/kernel/io.o
+  CC      kernel/exit.o
+  CC      fs/fifo.o
+  AS      arch/arm/mach-omap2/sleep34xx.o
+  AS      arch/arm/mach-omap2/sleep3517.o
+  CC      fs/dcache.o
+  CC      arch/arm/plat-omap/iommu.o
+  AS      arch/arm/kernel/head.o
+  CC      arch/arm/mach-omap2/voltage.o
+  CC      mm/page-writeback.o
+  CC      arch/arm/kernel/init_task.o
+  CC      mm/readahead.o
+  CC      arch/arm/plat-omap/iovmm.o
+  CC      arch/arm/plat-omap/cpu-omap.o
+arch/arm/plat-omap/iovmm.c: In function 'sgtable_fill_vmalloc':
+arch/arm/plat-omap/iovmm.c:392:8: warning: variable 'va_end' set but not used [-Wunused-but-set-variable]
+arch/arm/plat-omap/iovmm.c: In function 'sgtable_fill_kmalloc':
+arch/arm/plat-omap/iovmm.c:425:8: warning: variable 'va' set but not used [-Wunused-but-set-variable]
+  CC      kernel/itimer.o
+  LDS     arch/arm/kernel/vmlinux.lds
+  CC      arch/arm/mach-omap2/cpuidle34xx.o
+  LD      arch/arm/kernel/built-in.o
+  CC      arch/arm/plat-omap/dmtimer.o
+  CC      ipc/util.o
+arch/arm/mach-omap2/cpuidle34xx.c: In function 'omap3_enter_idle':
+arch/arm/mach-omap2/cpuidle34xx.c:124:6: warning: unused variable 'core_next_state' [-Wunused-variable]
+  CC      ipc/msgutil.o
+  CC      arch/arm/plat-omap/i2c.o
+  CC      mm/swap.o
+arch/arm/plat-omap/i2c.c: In function 'omap1_i2c_add_bus':
+arch/arm/plat-omap/i2c.c:103:37: warning: variable 'pdata' set but not used [-Wunused-but-set-variable]
+  TIMEC   kernel/timeconst.h
+  CC      arch/arm/mach-omap2/pm_bus.o
+defined(@array) is deprecated at kernel/timeconst.pl line 373.
+	(Maybe you should just omit the defined()?)
+  CC      ipc/msg.o
+  CC      arch/arm/plat-omap/psp-version.o
+  CC      fs/inode.o
+  CC      arch/arm/mach-omap2/pm-debug.o
+  CC      arch/arm/plat-omap/omap-pm-noop.o
+  CC      ipc/sem.o
+  CC      mm/truncate.o
+  CC      mm/vmscan.o
+  CC      kernel/softirq.o
+  CC      arch/arm/mach-omap2/sr_device.o
+  LD      arch/arm/plat-omap/built-in.o
+  CC      fs/attr.o
+  CC      ipc/shm.o
+  CC      mm/shmem.o
+  CC      security/keys/gc.o
+  CC      arch/arm/mach-omap2/smartreflex.o
+  CC      kernel/resource.o
+  CC      arch/arm/mach-omap2/smartreflex-class3.o
+  CC      ipc/ipcns_notifier.o
+  CC      ipc/syscall.o
+  CC      fs/bad_inode.o
+  CC      security/keys/key.o
+  CC      mm/prio_tree.o
+  CC      ipc/ipc_sysctl.o
+  CC      ipc/mqueue.o
+  CC      arch/arm/mach-omap2/prcm.o
+  CC      mm/util.o
+  CC      kernel/sysctl.o
+  CC      fs/file.o
+  CC      arch/arm/mach-omap2/cm2xxx_3xxx.o
+  CC      arch/arm/mach-omap2/prm2xxx_3xxx.o
+  CC      security/keys/keyring.o
+  CC      ipc/mq_sysctl.o
+  CC      arch/arm/mach-omap2/powerdomain.o
+  CC      arch/arm/mach-omap2/powerdomain-common.o
+  LD      ipc/built-in.o
+  CC      arch/arm/mach-omap2/powerdomain2xxx_3xxx.o
+  CC      fs/filesystems.o
+  CC      arch/arm/mach-omap2/powerdomains3xxx_data.o
+  CC      arch/arm/mach-omap2/powerdomains2xxx_3xxx_data.o
+  CC      arch/arm/mach-omap2/clockdomain.o
+  CC      arch/arm/mach-omap2/clockdomains2xxx_3xxx_data.o
+  CC      mm/mmzone.o
+  CC      arch/arm/mach-omap2/clock.o
+  CC      mm/vmstat.o
+  CC      arch/arm/mach-omap2/clock_common_data.o
+  CC      kernel/sysctl_binary.o
+  CC      security/keys/keyctl.o
+  CC      mm/backing-dev.o
+  CC      arch/arm/mach-omap2/clkt_dpll.o
+  CC      fs/namespace.o
+  CC      arch/arm/mach-omap2/clkt_clksel.o
+mm/backing-dev.c: In function 'bdi_debug_stats_show':
+mm/backing-dev.c:72:45: warning: variable 'nr_wb' set but not used [-Wunused-but-set-variable]
+  CC      arch/arm/mach-omap2/clock3xxx.o
+  CC      arch/arm/mach-omap2/clock34xx.o
+  CC      arch/arm/mach-omap2/clkt34xx_dpll3m2.o
+  CC      security/keys/permission.o
+  CC      mm/page_isolation.o
+  CC      arch/arm/mach-omap2/clock3517.o
+  CC      security/keys/process_keys.o
+  CC      security/keys/request_key.o
+  CC      mm/mm_init.o
+  CC      kernel/capability.o
+  CC      kernel/ptrace.o
+  CC      arch/arm/mach-omap2/clock36xx.o
+  CC      security/keys/request_key_auth.o
+  CC      mm/mmu_context.o
+  CC      arch/arm/mach-omap2/dpll3xxx.o
+  CC      kernel/timer.o
+  CC      security/keys/user_defined.o
+  CC      security/keys/proc.o
+  CC      kernel/user.o
+  CC      arch/arm/mach-omap2/clock3xxx_data.o
+  CC      security/keys/sysctl.o
+  CC      mm/percpu.o
+  CC      mm/fremap.o
+  CC      mm/highmem.o
+  LD      security/keys/built-in.o
+  CC      security/commoncap.o
+  CC      fs/seq_file.o
+  CC      arch/arm/mach-omap2/omap_hwmod_3xxx_data.o
+  CC      kernel/signal.o
+  CC      mm/madvise.o
+  CC      arch/arm/mach-omap2/iommu2.o
+  CC      mm/memory.o
+  CC      mm/mincore.o
+  CC      mm/mlock.o
+  CC      arch/arm/mach-omap2/omap-iommu.o
+  CC      fs/xattr.o
+mm/memory.c: In function 'copy_pte_range':
+mm/memory.c:726:24: warning: variable 'orig_dst_pte' set but not used [-Wunused-but-set-variable]
+mm/memory.c:726:9: warning: variable 'orig_src_pte' set but not used [-Wunused-but-set-variable]
+  CC      kernel/sys.o
+  CC      mm/mmap.o
+  CC      arch/arm/mach-omap2/i2c.o
+  CC      security/min_addr.o
+mm/mmap.c: In function 'acct_stack_growth':
+mm/mmap.c:1674:16: warning: variable 'new_start' set but not used [-Wunused-but-set-variable]
+  CC      arch/arm/mach-omap2/board-omap3beagle.o
+  CC      mm/mprotect.o
+  CC      security/security.o
+  CC      fs/libfs.o
+arch/arm/mach-omap2/board-omap3beagle.c:182:11: warning: 'omap3_beagle_get_rev' defined but not used [-Wunused-function]
+arch/arm/mach-omap2/board-omap3beagle.c:214:20: warning: 'omap3_beagle_init_rev' defined but not used [-Wunused-function]
+arch/arm/mach-omap2/board-omap3beagle.c:794:41: warning: 'beagle_i2c_eeprom' defined but not used [-Wunused-variable]
+  CC      mm/mremap.o
+  CC      security/capability.o
+  CC      kernel/kmod.o
+  CC      kernel/workqueue.o
+  CC      mm/msync.o
+  CC      arch/arm/mach-omap2/board-flash.o
+  CC      fs/fs-writeback.o
+  CC      fs/pnode.o
+  CC      mm/rmap.o
+  CC      mm/vmalloc.o
+  CC      arch/arm/mach-omap2/hsmmc.o
+  CC      kernel/pid.o
+  LD      security/built-in.o
+  CC      fs/drop_caches.o
+  CC      crypto/api.o
+  CC      arch/arm/mach-omap2/usb-fs.o
+  CC      fs/splice.o
+  CC      arch/arm/mach-omap2/usb-musb.o
+  CC      fs/sync.o
+  CC      mm/pagewalk.o
+  CC      kernel/rcupdate.o
+  CC      crypto/cipher.o
+  CC      kernel/extable.o
+  CC      mm/init-mm.o
+  CC      kernel/params.o
+  CC      arch/arm/mach-omap2/usb-ehci.o
+  CC      mm/memblock.o
+  CC      mm/page_io.o
+  CC      kernel/posix-timers.o
+  CC      crypto/compress.o
+  CC      fs/utimes.o
+  CC      mm/swap_state.o
+  CC      arch/arm/mach-omap2/gpmc-onenand.o
+  CC      block/elevator.o
+  CC      crypto/algapi.o
+  CC      kernel/kthread.o
+arch/arm/mach-omap2/gpmc-onenand.c: In function 'omap2_onenand_set_sync_mode':
+arch/arm/mach-omap2/gpmc-onenand.c:132:6: warning: variable 'tick_ns' set but not used [-Wunused-but-set-variable]
+  LD      drivers/auxdisplay/built-in.o
+  CC      drivers/base/core.o
+  CC      fs/stack.o
+  CC      arch/arm/mach-omap2/gpmc-nand.o
+  CC      block/blk-core.o
+  CC      mm/swapfile.o
+  CC      kernel/wait.o
+  CC      fs/fs_struct.o
+  CC      arch/arm/mach-omap2/gpmc-smsc911x.o
+block/blk-core.c: In function 'blk_account_io_completion':
+block/blk-core.c:1776:7: warning: variable 'cpu' set but not used [-Wunused-but-set-variable]
+  CC      crypto/scatterwalk.o
+  CC      block/blk-tag.o
+  CC      kernel/kfifo.o
+  CC      arch/arm/mach-omap2/board-omap3beagle-camera.o
+  CC      fs/statfs.o
+  CC      drivers/base/sys.o
+  CC      crypto/proc.o
+  LD      arch/arm/mach-omap2/built-in.o
+  CC      crypto/ablkcipher.o
+  CC      block/blk-sysfs.o
+  CC      sound/sound_core.o
+  CC      kernel/sys_ni.o
+  CC      fs/buffer.o
+  CC      drivers/base/bus.o
+  CC      kernel/posix-cpu-timers.o
+  CC      mm/thrash.o
+  CC      block/blk-flush.o
+  CC      mm/dmapool.o
+  LD      sound/arm/built-in.o
+  CC      crypto/blkcipher.o
+  LD      sound/atmel/built-in.o
+  CC      sound/core/hwdep.o
+  CC      block/blk-settings.o
+  CC      drivers/base/dd.o
+  CC      kernel/mutex.o
+  CC      mm/ashmem.o
+  CC      crypto/ahash.o
+  CC      crypto/shash.o
+  CC      drivers/base/driver.o
+  CC      sound/core/memalloc.o
+  CC      kernel/hrtimer.o
+  CC      block/blk-ioc.o
+  CC      mm/slab.o
+  CC      sound/core/pcm.o
+  CC      drivers/base/class.o
+  CC      sound/core/pcm_native.o
+  CC      block/blk-map.o
+  CC      crypto/algboss.o
+  CC      fs/bio.o
+sound/core/pcm_native.c: In function 'snd_pcm_drop':
+sound/core/pcm_native.c:1518:19: warning: variable 'card' set but not used [-Wunused-but-set-variable]
+sound/core/pcm_native.c: In function 'snd_pcm_open_file':
+sound/core/pcm_native.c:2056:22: warning: variable 'str' set but not used [-Wunused-but-set-variable]
+  CC      kernel/rwsem.o
+  CC      drivers/base/platform.o
+  CC      sound/core/pcm_lib.o
+  CC      crypto/testmgr.o
+  CC      block/blk-exec.o
+  CC      kernel/nsproxy.o
+  LD      mm/built-in.o
+  LD      firmware/built-in.o
+  CC      drivers/base/cpu.o
+  CC      drivers/base/firmware.o
+  CC      fs/block_dev.o
+  CC      block/blk-merge.o
+  CC      kernel/srcu.o
+  CC      crypto/crypto_wq.o
+  CC      drivers/base/init.o
+  CC      drivers/base/map.o
+  LD      crypto/crypto_algapi.o
+  CC      kernel/semaphore.o
+  CC      crypto/aead.o
+  CC      drivers/base/devres.o
+  CC      sound/core/pcm_timer.o
+  CC      sound/core/pcm_misc.o
+  CC      drivers/base/attribute_container.o
+  CC      block/blk-softirq.o
+  CC      sound/core/pcm_memory.o
+  CC      kernel/notifier.o
+  CC      drivers/base/transport_class.o
+  CC      sound/core/rawmidi.o
+  CC      fs/direct-io.o
+  CC      drivers/base/power/sysfs.o
+  LD      crypto/crypto_blkcipher.o
+  CC      drivers/base/dma-mapping.o
+  CC      crypto/chainiv.o
+  CC      block/blk-timeout.o
+  CC      kernel/ksysfs.o
+  CC      drivers/block/brd.o
+  CC      drivers/base/power/main.o
+  CC      drivers/block/loop.o
+  CC      block/blk-iopoll.o
+  CC      crypto/eseqiv.o
+  CC      kernel/pm_qos_params.o
+  CC      fs/mpage.o
+  CC      fs/ioprio.o
+  CC      sound/core/timer.o
+  LD      crypto/crypto_hash.o
+  CC      crypto/pcompress.o
+  CC      drivers/base/power/wakeup.o
+  CC      kernel/sched_clock.o
+  CC      block/blk-lib.o
+  LD      crypto/cryptomgr.o
+  CC      crypto/hmac.o
+  CC      fs/cramfs/inode.o
+  CC      fs/debugfs/inode.o
+  CC      kernel/cred.o
+  LD      drivers/block/built-in.o
+  CC      block/ioctl.o
+  CC      kernel/async.o
+  CC      drivers/base/power/runtime.o
+  CC      crypto/md5.o
+  CC      crypto/sha1_generic.o
+  CC      fs/debugfs/file.o
+  CC      crypto/ecb.o
+  CC      sound/core/sound.o
+  CC      crypto/cbc.o
+  CC      kernel/range.o
+  CC      fs/cramfs/uncompress.o
+  CC      crypto/des_generic.o
+  CC      block/genhd.o
+  CC      crypto/twofish_generic.o
+  LD      fs/cramfs/cramfs.o
+  CC      kernel/jump_label.o
+  LD      fs/cramfs/built-in.o
+  CC      fs/devpts/inode.o
+  CC      drivers/base/power/generic_ops.o
+  LD      fs/debugfs/debugfs.o
+  CC      kernel/groups.o
+  LD      fs/debugfs/built-in.o
+  CC      sound/core/init.o
+  CC      fs/ext2/balloc.o
+  LD      fs/devpts/devpts.o
+  CC      crypto/twofish_common.o
+  LD      fs/devpts/built-in.o
+sound/core/init.c: In function 'snd_card_disconnect':
+sound/core/init.c:345:15: warning: variable 'file' set but not used [-Wunused-but-set-variable]
+  CC      fs/ext3/balloc.o
+  CC      crypto/aes_generic.o
+  CC      drivers/base/power/opp.o
+  CC      kernel/freezer.o
+  CC      fs/ext2/dir.o
+  LD      drivers/base/power/built-in.o
+  CC      sound/core/memory.o
+  CC      drivers/base/dma-coherent.o
+  CC      block/scsi_ioctl.o
+  CC      crypto/arc4.o
+  CC      fs/ext3/bitmap.o
+  CC      kernel/profile.o
+  CC      fs/ext2/file.o
+  CC      drivers/base/firmware_class.o
+  CC      crypto/deflate.o
+  CC      block/noop-iosched.o
+  CC      sound/core/info.o
+  CC      fs/ext3/dir.o
+  CC      fs/ext2/ialloc.o
+  CC      block/deadline-iosched.o
+  CC      block/cfq-iosched.o
+  CC      kernel/stacktrace.o
+  CC      crypto/michael_mic.o
+  CC      fs/ext3/file.o
+  CC      drivers/base/module.o
+  CC      fs/ext3/fsync.o
+  CC      crypto/crc32c.o
+drivers/base/module.c: In function 'module_add_driver':
+drivers/base/module.c:36:6: warning: variable 'no_warn' set but not used [-Wunused-but-set-variable]
+  CC      fs/ext2/inode.o
+  CC      sound/core/control.o
+  CC      kernel/irq/irqdesc.o
+  LD      drivers/base/built-in.o
+  CC      fs/ext3/ialloc.o
+  CC      drivers/bluetooth/hci_ldisc.o
+sound/core/control.c: In function 'snd_ctl_elem_list':
+sound/core/control.c:599:30: warning: variable 'first' set but not used [-Wunused-but-set-variable]
+  CC      crypto/authenc.o
+  LD      drivers/cdrom/built-in.o
+  CC      kernel/power/main.o
+  CC      kernel/irq/handle.o
+  CC      fs/ext3/inode.o
+  CC      drivers/bluetooth/hci_h4.o
+  CC      fs/ext2/ioctl.o
+  LD      block/built-in.o
+  CC      kernel/power/console.o
+  CC      kernel/irq/manage.o
+  CC      arch/arm/oprofile/../../../drivers/oprofile/oprof.o
+  CC      crypto/lzo.o
+  CC      sound/core/misc.o
+  CC      fs/ext2/namei.o
+kernel/irq/manage.c: In function '__setup_irq':
+kernel/irq/manage.c:657:14: warning: variable 'old_name' set but not used [-Wunused-but-set-variable]
+  CC      kernel/power/process.o
+  CC      drivers/bluetooth/btwilink.o
+  CC      crypto/rng.o
+  CC      sound/core/device.o
+  CC      arch/arm/oprofile/../../../drivers/oprofile/cpu_buffer.o
+  CC      fs/ext2/super.o
+  CC      kernel/irq/spurious.o
+  CC      kernel/power/suspend.o
+  LD      drivers/bluetooth/hci_uart.o
+  CC      crypto/krng.o
+  CC      arch/arm/oprofile/../../../drivers/oprofile/buffer_sync.o
+  LD      drivers/bluetooth/built-in.o
+  CC      drivers/char/mem.o
+  CC      kernel/irq/resend.o
+  CC      fs/ext3/ioctl.o
+  CC      sound/core/jack.o
+  CC      crypto/ansi_cprng.o
+  CC      kernel/power/nvs.o
+  CC      kernel/irq/chip.o
+  LD      crypto/crypto.o
+  CC      fs/ext2/symlink.o
+  LD      crypto/built-in.o
+  CC      net/socket.o
+  CC      fs/ext3/namei.o
+  CC      arch/arm/oprofile/../../../drivers/oprofile/event_buffer.o
+  CC      drivers/char/random.o
+  CC      kernel/power/wakelock.o
+  LD      fs/ext2/ext2.o
+  LD      fs/ext2/built-in.o
+  CC      fs/ext4/balloc.o
+  CC      arch/arm/oprofile/../../../drivers/oprofile/oprofile_files.o
+kernel/power/wakelock.c: In function 'wakelock_stats_show':  LD      sound/core/snd.o
+
+kernel/power/wakelock.c:125:6: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+  LD      sound/core/snd-hwdep.o
+  LD      sound/core/snd-timer.o
+  LD      sound/core/snd-pcm.o
+  LD      sound/core/snd-page-alloc.o
+  LD      sound/core/snd-rawmidi.o
+  CC      arch/arm/oprofile/../../../drivers/oprofile/oprofilefs.o
+  LD      sound/core/built-in.o
+  LD      sound/drivers/mpu401/built-in.o
+  CC      kernel/irq/dummychip.o
+  LD      sound/drivers/opl3/built-in.o
+  LD      sound/drivers/opl4/built-in.o
+  LD      sound/drivers/pcsp/built-in.o
+  CC      kernel/power/userwakelock.o
+  LD      sound/drivers/vx/built-in.o
+  LD      sound/drivers/built-in.o
+  CC      kernel/irq/devres.o
+  CC      drivers/char/misc.o
+  CC      fs/ext4/bitmap.o
+  LD      sound/i2c/other/built-in.o
+  CC      arch/arm/oprofile/../../../drivers/oprofile/oprofile_stats.o
+  LD      sound/i2c/built-in.o
+  LD      sound/isa/ad1816a/built-in.o
+  CC      kernel/power/earlysuspend.o
+  LD      sound/isa/ad1848/built-in.o
+  LD      sound/isa/cs423x/built-in.o
+  LD      sound/isa/es1688/built-in.o
+  LD      sound/isa/galaxy/built-in.o
+  CC      kernel/irq/autoprobe.o
+  LD      sound/isa/gus/built-in.o
+  CC      arch/arm/oprofile/../../../drivers/oprofile/timer_int.o
+  CC      fs/ext4/dir.o
+  CC      fs/ext3/super.o
+  LD      sound/isa/msnd/built-in.o
+  CC      drivers/char/hw_random/core.o
+  LD      sound/isa/opti9xx/built-in.o
+  LD      sound/isa/sb/built-in.o
+  CC      arch/arm/oprofile/common.o
+  CC      kernel/irq/proc.o
+  LD      sound/isa/wavefront/built-in.o
+  LD      net/802/built-in.o
+  LD      sound/isa/wss/built-in.o
+  CC      net/bluetooth/af_bluetooth.o
+  LD      sound/isa/built-in.o
+  CC      kernel/power/fbearlysuspend.o
+  LD      sound/mips/built-in.o
+  CC      fs/ext4/file.o
+  LD      sound/parisc/built-in.o
+kernel/power/fbearlysuspend.c: In function 'stop_drawing_early_suspend':
+kernel/power/fbearlysuspend.c:33:6: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+  LD      arch/arm/oprofile/oprofile.o
+  LD      sound/pci/ac97/built-in.o
+  LD      arch/arm/oprofile/built-in.o
+  LD      sound/pci/ali5451/built-in.o
+  CC      kernel/irq/pm.o
+  CC      kernel/power/poweroff.o
+  LD      arch/arm/lib/built-in.o
+  LD      sound/pci/asihpi/built-in.o
+  AS      arch/arm/lib/ashldi3.o
+  LD      drivers/char/hw_random/rng-core.o
+  LD      sound/pci/au88x0/built-in.o
+  LD      drivers/char/hw_random/built-in.o
+  LD      drivers/char/built-in.o
+  AS      arch/arm/lib/ashrdi3.o
+  LD      sound/pci/aw2/built-in.o
+  LD      drivers/clocksource/built-in.o
+  LD      sound/pci/ca0106/built-in.o
+  LD      kernel/power/built-in.o
+  CC      drivers/cpufreq/cpufreq.o
+  AS      arch/arm/lib/backtrace.o
+  LD      sound/pci/cs46xx/built-in.o
+  CC      kernel/time/timekeeping.o
+  LD      sound/pci/cs5535audio/built-in.o
+  CC      fs/ext4/fsync.o
+  AS      arch/arm/lib/changebit.o
+  LD      kernel/irq/built-in.o
+  LD      sound/pci/ctxfi/built-in.o
+  CC      kernel/trace/trace_clock.o
+  LD      sound/pci/echoaudio/built-in.o
+  LD      sound/pci/emu10k1/built-in.o
+  AS      arch/arm/lib/clear_user.o
+  LD      sound/pci/hda/built-in.o
+  CC      net/bluetooth/hci_core.o
+  LD      sound/pci/ice1712/built-in.o
+  AS      arch/arm/lib/clearbit.o
+  LD      sound/pci/korg1212/built-in.o
+  CC      kernel/trace/ring_buffer.o
+  CC      fs/ext4/ialloc.o
+  CC      fs/ext3/symlink.o
+  LD      sound/pci/lx6464es/built-in.o
+  LD      sound/pci/mixart/built-in.o
+  LD      sound/pci/nm256/built-in.o
+  AS      arch/arm/lib/copy_from_user.o
+  AS      arch/arm/lib/copy_page.o
+  LD      sound/pci/oxygen/built-in.o
+  CC      kernel/time/ntp.o
+  LD      sound/pci/pcxhr/built-in.o
+  AS      arch/arm/lib/copy_to_user.o
+  LD      sound/pci/riptide/built-in.o
+  LD      sound/pci/rme9652/built-in.o
+  LD      sound/pci/trident/built-in.o
+  AS      arch/arm/lib/csumipv6.o
+  CC      fs/ext3/hash.o
+  LD      sound/pci/vx222/built-in.o
+  LD      sound/pci/ymfpci/built-in.o
+  AS      arch/arm/lib/csumpartial.o
+  CC      drivers/cpufreq/cpufreq_stats.o
+  LD      sound/pci/built-in.o
+  LD      sound/pcmcia/pdaudiocf/built-in.o
+  AS      arch/arm/lib/csumpartialcopy.o
+  LD      sound/pcmcia/vx/built-in.o
+  LD      sound/pcmcia/built-in.o
+  CC      kernel/time/clocksource.o
+  LD      sound/ppc/built-in.o
+  LD      sound/sh/built-in.o
+  AS      arch/arm/lib/csumpartialcopyuser.o
+  CC      sound/soc/soc-core.o
+  CC      fs/ext3/resize.o
+  CC      fs/ext4/inode.o
+  CC      drivers/cpufreq/cpufreq_performance.o
+  AS      arch/arm/lib/delay.o
+  AS      arch/arm/lib/div64.o
+  CC      kernel/trace/trace.o
+  CC      net/bluetooth/hci_conn.o
+  AS      arch/arm/lib/findbit.o
+  CC      drivers/cpufreq/cpufreq_userspace.o
+  AS      arch/arm/lib/getuser.o
+kernel/trace/trace.c: In function 'ftrace_trace_userstack':
+kernel/trace/trace.c:1294:21: warning: variable 'trace' set but not used [-Wunused-but-set-variable]
+  CC      kernel/time/jiffies.o
+  AS      arch/arm/lib/io-readsb.o
+  CC      fs/ext3/ext3_jbd.o
+  CC      drivers/cpufreq/cpufreq_ondemand.o
+  CC      kernel/time/timer_list.o
+  AS      arch/arm/lib/io-readsl.o
+  AS      arch/arm/lib/io-readsw-armv4.o
+  AS      arch/arm/lib/io-writesb.o
+  LD      fs/ext3/ext3.o
+  LD      fs/ext3/built-in.o
+  AS      arch/arm/lib/io-writesl.o
+  CC      fs/fat/cache.o
+  CC      kernel/time/timecompare.o
+  AS      arch/arm/lib/io-writesw-armv4.o
+  CC      drivers/cpufreq/freq_table.o
+  AS      arch/arm/lib/lib1funcs.o
+  CC      sound/soc/soc-dapm.o
+  AS      arch/arm/lib/lshrdi3.o
+  CC      net/bluetooth/hci_event.o
+  AS      arch/arm/lib/memchr.o
+  CC      kernel/time/timeconv.o
+  CC      fs/fat/dir.o
+  LD      drivers/cpufreq/built-in.o
+  AS      arch/arm/lib/memcpy.o
+  CC      drivers/cpuidle/cpuidle.o
+  AS      arch/arm/lib/memmove.o
+  CC      kernel/time/clockevents.o
+  AS      arch/arm/lib/memset.o
+  AS      arch/arm/lib/memzero.o
+  CC      drivers/cpuidle/driver.o
+  AS      arch/arm/lib/muldi3.o
+  AS      arch/arm/lib/putuser.o
+  CC      kernel/time/tick-common.o
+  AS      arch/arm/lib/setbit.o
+  CC      kernel/trace/trace_output.o
+  AS      arch/arm/lib/sha1.o
+  CC      drivers/cpuidle/governor.o
+  CC      sound/soc/soc-jack.o
+  AS      arch/arm/lib/strchr.o
+  CC      fs/ext4/page-io.o
+  CC      kernel/time/tick-oneshot.o
+  AS      arch/arm/lib/strncpy_from_user.o
+  CC      net/bluetooth/hci_sock.o
+  CC      drivers/cpuidle/sysfs.o
+  AS      arch/arm/lib/strnlen_user.o
+  AS      arch/arm/lib/strrchr.o
+  CC      fs/fat/fatent.o
+  CC      kernel/time/tick-sched.o
+  AS      arch/arm/lib/testchangebit.o
+  CC      fs/ext4/ioctl.o
+  AS      arch/arm/lib/testclearbit.o
+  CC      sound/soc/soc-cache.o
+  AS      arch/arm/lib/testsetbit.o
+  CC      kernel/trace/trace_stat.o
+  AS      arch/arm/lib/ucmpdi2.o
+  CC      drivers/cpuidle/governors/ladder.o
+  CC      net/bluetooth/hci_sysfs.o
+  AR      arch/arm/lib/lib.a
+  CC      lib/bcd.o
+  CC      fs/ext4/namei.o
+  CC      fs/fat/file.o
+  CC      drivers/cpuidle/governors/menu.o
+  LD      kernel/time/built-in.o
+  CC      kernel/futex.o
+  CC      kernel/trace/trace_printk.o
+  CC      lib/div64.o
+  LD      drivers/cpuidle/governors/built-in.o
+  LD      drivers/cpuidle/built-in.o
+  CC      sound/soc/soc-utils.o
+  LD      drivers/crypto/built-in.o
+  LD      drivers/firewire/built-in.o
+  LD      drivers/firmware/built-in.o
+  CC      drivers/gpio/gpiolib.o
+  CC      net/bluetooth/lib.o
+  CC      lib/sort.o
+  CC      kernel/trace/trace_sched_switch.o
+  CC      fs/fat/inode.o
+  LD      sound/soc/atmel/built-in.o
+  CC      lib/parser.o
+  LD      sound/soc/au1x/built-in.o
+  LD      sound/soc/blackfin/built-in.o
+  CC      kernel/trace/trace_nop.o
+  CC      fs/ext4/super.o
+  CC      sound/soc/codecs/twl4030.o
+  CC      kernel/rtmutex.o
+  CC      net/bluetooth/l2cap.o
+  CC      lib/halfmd4.o
+  CC      kernel/trace/blktrace.o
+  CC      lib/debug_locks.o
+  CC      kernel/up.o
+  CC      fs/fat/misc.o
+  CC      kernel/trace/trace_events.o
+  CC      drivers/gpio/twl4030-gpio.o
+  CC      lib/random32.o
+  CC      kernel/uid16.o
+drivers/gpio/twl4030-gpio.c: In function 'twl4030_led_set_value':
+drivers/gpio/twl4030-gpio.c:134:6: warning: variable 'status' set but not used [-Wunused-but-set-variable]
+  LD      sound/soc/codecs/snd-soc-twl4030.o
+  LD      sound/soc/codecs/built-in.o
+  LD      sound/soc/davinci/built-in.o
+  LD      sound/soc/ep93xx/built-in.o
+  CC      fs/fat/namei_msdos.o
+  LD      sound/soc/fsl/built-in.o
+  LD      drivers/gpio/built-in.o
+  CC      lib/bust_spinlocks.o
+  LD      sound/soc/imx/built-in.o
+  LD      drivers/gpu/drm/i2c/built-in.o
+  LD      sound/soc/jz4740/built-in.o
+  LD      drivers/gpu/drm/built-in.o
+  LD      drivers/gpu/stub/built-in.o
+  LD      sound/soc/nuc900/built-in.o
+  LD      sound/soc/kirkwood/built-in.o
+  CC      sound/soc/omap/omap-mcbsp.o
+  LD      drivers/gpu/vga/built-in.o
+  LD      sound/soc/pxa/built-in.o
+  LD      drivers/gpu/built-in.o
+  LD      sound/soc/s3c24xx/built-in.o
+  CC      drivers/hid/hid-core.o
+  LD      sound/soc/s6000/built-in.o
+  CC      fs/fat/namei_vfat.o
+  CC      drivers/hid/hid-input.o
+  CC      lib/hexdump.o
+  CC      kernel/trace/trace_export.o
+  CC      lib/kasprintf.o
+  CC      kernel/trace/trace_event_perf.o
+  CC      sound/soc/omap/omap-pcm.o
+  CC      lib/bitmap.o
+  CC      net/bluetooth/sco.o
+  LD      fs/fat/fat.o
+  LD      fs/fat/vfat.o
+  LD      fs/fat/msdos.o
+  LD      fs/fat/built-in.o
+  CC      lib/scatterlist.o
+  CC      kernel/trace/trace_events_filter.o
+  CC      sound/soc/omap/omap3beagle.o
+net/bluetooth/sco.c: In function 'sco_sock_getsockopt':
+net/bluetooth/sco.c:741:6: warning: variable 'len' set but not used [-Wunused-but-set-variable]
+  CC      drivers/hid/hid-debug.o
+  CC      drivers/hid/usbhid/hid-core.o
+  CC      lib/string_helpers.o
+  CC      lib/gcd.o
+  CC      net/bluetooth/bnep/core.o
+  LD      sound/soc/omap/snd-soc-omap.o
+  LD      sound/soc/omap/snd-soc-omap-mcbsp.o
+  LD      sound/soc/omap/snd-soc-omap3beagle.o
+  LD      sound/soc/omap/built-in.o
+  LD      sound/soc/sh/built-in.o
+  CC      lib/lcm.o
+  LD      sound/soc/txx9/built-in.o
+  CC      fs/ext4/symlink.o
+  LD      drivers/hid/hid.o
+  CC      net/bluetooth/bnep/sock.o
+  LD      sound/soc/snd-soc-core.o
+  CC      kernel/trace/trace_kprobe.o
+  LD      sound/soc/built-in.o
+  CC      lib/list_sort.o
+  LD      sound/sparc/built-in.o
+  LD      sound/spi/built-in.o
+  LD      sound/synth/built-in.o
+  CC      fs/ext4/hash.o
+  CC      sound/usb/card.o
+  CC      drivers/hwmon/hwmon.o
+  CC      net/bluetooth/bnep/netdev.o
+  CC      lib/uuid.o
+  CC      drivers/hid/usbhid/hid-quirks.o
+  CC      fs/ext4/resize.o
+  LD      drivers/hwmon/built-in.o
+  LD      net/bluetooth/bnep/bnep.o
+  CC      net/bluetooth/hidp/core.o
+  CC      drivers/i2c/i2c-boardinfo.o
+  LD      net/bluetooth/bnep/built-in.o
+  CC      net/bluetooth/rfcomm/core.o
+  CC      lib/iomap_copy.o
+  CC      sound/usb/mixer.o
+  LD      drivers/hid/usbhid/usbhid.o
+  LD      drivers/hid/usbhid/built-in.o
+  LD      drivers/hid/built-in.o
+  CC      drivers/i2c/i2c-core.o
+  CC      kernel/trace/power-traces.o
+sound/usb/mixer.c: In function 'parse_audio_feature_unit':
+sound/usb/mixer.c:1155:28: warning: variable 'first_ch_bits' set but not used [-Wunused-but-set-variable]
+  LD      drivers/idle/built-in.o
+  LD      drivers/ieee802154/built-in.o
+  CC      lib/devres.o
+  CC      drivers/input/input.o
+  CC      fs/ext4/extents.o
+  CC      net/bluetooth/hidp/sock.o
+  CC      lib/find_last_bit.o
+  CC      net/bluetooth/rfcomm/sock.o
+fs/ext4/extents.c: In function 'check_eofblocks_fl':
+fs/ext4/extents.c:3091:22: warning: variable 'ex' set but not used [-Wunused-but-set-variable]
+fs/ext4/extents.c: In function 'ext4_ext_map_blocks':
+fs/ext4/extents.c:3276:29: warning: variable 'eh' set but not used [-Wunused-but-set-variable]
+  LD      kernel/trace/built-in.o
+  CC      kernel/module.o
+  CC      lib/hweight.o
+  CC      sound/usb/mixer_quirks.o
+  LD      net/bluetooth/hidp/hidp.o
+  LD      net/bluetooth/hidp/built-in.o
+  CC      sound/usb/proc.o
+  CC      drivers/i2c/i2c-dev.o
+kernel/module.c: In function 'add_usage_links':
+kernel/module.c:1351:6: warning: variable 'nowarn' set but not used [-Wunused-but-set-variable]
+  CC      lib/bitrev.o
+  CC      sound/usb/quirks.o
+  CC      lib/crc-ccitt.o
+  CC      sound/usb/format.o
+  CC      net/bluetooth/rfcomm/tty.o
+  LD      drivers/i2c/algos/built-in.o
+  CC      drivers/i2c/busses/i2c-omap.o
+  LD      drivers/i2c/muxes/built-in.o
+  CC      lib/crc16.o
+  CC      drivers/input/input-compat.o
+sound/usb/format.c: In function 'parse_audio_format_ii':
+sound/usb/format.c:416:6: warning: variable 'brate' set but not used [-Wunused-but-set-variable]
+  HOSTCC  lib/gen_crc32table
+drivers/i2c/busses/i2c-omap.c: In function 'omap_i2c_unidle':
+drivers/i2c/busses/i2c-omap.c:270:37: warning: variable 'pdata' set but not used [-Wunused-but-set-variable]
+drivers/i2c/busses/i2c-omap.c: In function 'omap_i2c_idle':
+drivers/i2c/busses/i2c-omap.c:303:6: warning: variable 'iv' set but not used [-Wunused-but-set-variable]
+drivers/i2c/busses/i2c-omap.c:302:37: warning: variable 'pdata' set but not used [-Wunused-but-set-variable]
+  CC      sound/usb/endpoint.o
+  CC      lib/crc7.o
+  CC      lib/libcrc32c.o
+  LD      drivers/i2c/busses/built-in.o
+  CC      drivers/input/ff-core.o
+  LD      drivers/i2c/built-in.o
+  CC      fs/ext4/ext4_jbd2.o
+  CC      drivers/input/serio/serio.o
+  CC      drivers/input/serio/serport.o
+  LD      net/bluetooth/rfcomm/rfcomm.o
+  LD      net/bluetooth/rfcomm/built-in.o
+  CC      lib/lzo/lzo1x_compress.o
+  LD      net/bluetooth/bluetooth.o
+  LD      net/bluetooth/built-in.o
+  CC      kernel/kallsyms.o
+  CC      net/core/sock.o
+  CC      sound/usb/urb.o
+  CC      fs/ext4/migrate.o
+  CC      drivers/input/mousedev.o
+  CC      lib/lzo/lzo1x_decompress.o
+  CC      fs/ext4/mballoc.o
+  CC      kernel/acct.o
+  CC      drivers/input/serio/libps2.o
+  LD      lib/lzo/lzo_compress.o
+  LD      lib/lzo/lzo_decompress.o
+fs/ext4/mballoc.c: In function 'ext4_mb_normalize_request':
+fs/ext4/mballoc.c:2902:15: warning: variable 'orig_size' set but not used [-Wunused-but-set-variable]
+  LD      lib/lzo/built-in.o
+  CC      lib/reed_solomon/reed_solomon.o
+  CC      fs/ext4/block_validity.o
+  CC      sound/usb/pcm.o
+sound/usb/pcm.c: In function 'init_pitch_v2':  CC      drivers/input/joydev.o
+
+sound/usb/pcm.c:143:15: warning: variable 'ep' set but not used [-Wunused-but-set-variable]
+  CC      kernel/kexec.o
+  CC      fs/ext4/move_extent.o
+  LD      drivers/input/serio/built-in.o
+  LD      drivers/lguest/built-in.o
+  LD      drivers/macintosh/built-in.o
+  CC      drivers/md/dm-uevent.o
+  CC      net/core/request_sock.o
+  LD      lib/reed_solomon/built-in.o
+  CC      lib/zlib_deflate/deflate.o
+  GZIP    kernel/config_data.gz
+  CC      sound/usb/helper.o
+  CC      kernel/kprobes.o
+  CC      net/core/skbuff.o
+  CC      sound/usb/clock.o
+  CC      drivers/input/evdev.o
+  CC      fs/ext4/xattr.o
+  CC      lib/zlib_deflate/deftree.o
+  CC      drivers/md/dm.o
+  CC      fs/ext4/xattr_user.o
+  CC      sound/usb/midi.o
+drivers/md/dm.c: In function 'split_bvec':
+drivers/md/dm.c:1054:3: warning: statement with no effect [-Wunused-value]
+drivers/md/dm.c: In function 'clone_bio':
+drivers/md/dm.c:1081:3: warning: statement with no effect [-Wunused-value]
+drivers/md/dm.c: In function '_dm_request':
+drivers/md/dm.c:1390:6: warning: variable 'cpu' set but not used [-Wunused-but-set-variable]
+  CC      drivers/input/keyboard/atkbd.o
+  CC      fs/ext4/xattr_trusted.o
+  CC      sound/last.o
+  LD      sound/soundcore.o
+  CC      drivers/md/dm-table.o
+  CC      kernel/rcutiny.o
+  LD      fs/ext4/ext4.o
+  CC      lib/zlib_deflate/deflate_syms.o
+  LD      fs/ext4/built-in.o
+  CC      drivers/input/keyboard/gpio_keys.o
+  CC      fs/jbd/transaction.o
+drivers/md/dm-table.c: In function 'dm_table_set_integrity':
+drivers/md/dm-table.c:1114:2: warning: statement with no effect [-Wunused-value]
+drivers/md/dm-table.c:1120:2: warning: statement with no effect [-Wunused-value]
+  LD      lib/zlib_deflate/zlib_deflate.o
+  CC      drivers/md/dm-target.o
+  CC      kernel/utsname_sysctl.o
+  LD      lib/zlib_deflate/built-in.o
+  CC      lib/zlib_inflate/inffast.o
+  LD      sound/usb/caiaq/built-in.o
+  LD      sound/usb/misc/built-in.o
+  CC      drivers/input/keyboard/twl4030_keypad.o
+  CC      kernel/tracepoint.o
+  LD      sound/usb/usx2y/built-in.o
+  LD      sound/usb/snd-usb-audio.o
+  CC      net/core/iovec.o
+  LD      sound/usb/snd-usbmidi-lib.o
+  CC      lib/zlib_inflate/inflate.o
+  LD      sound/usb/built-in.o
+  LD      sound/built-in.o
+  CC      drivers/md/dm-linear.o
+  CC      drivers/md/dm-stripe.o
+  CC      fs/jbd/commit.o
+  CC      drivers/md/dm-ioctl.o
+  LD      drivers/input/keyboard/built-in.o
+  CC      drivers/input/misc/twl4030-pwrbutton.o
+  CC      drivers/md/dm-io.o
+  CC      kernel/elfcore.o
+  CC      net/core/datagram.o
+  CC      lib/zlib_inflate/infutil.o
+  LD      drivers/input/misc/built-in.o
+  CC      drivers/input/mouse/psmouse-base.o
+  CC      kernel/irq_work.o
+  CC      net/core/stream.o
+  CC      fs/jbd/recovery.o
+  CC      lib/zlib_inflate/inftrees.o
+  CC      kernel/perf_event.o
+  CC      lib/zlib_inflate/inflate_syms.o
+  CC      drivers/md/dm-kcopyd.o
+  CC      drivers/md/dm-sysfs.o
+  CC      fs/jbd/checkpoint.o
+  LD      lib/zlib_inflate/zlib_inflate.o
+  CC      net/core/scm.o
+  LD      lib/zlib_inflate/built-in.o
+  CC      lib/nlattr.o
+  CC      drivers/input/mouse/synaptics.o
+  CC      net/core/gen_stats.o
+  CC      fs/jbd/revoke.o
+  CC      drivers/input/mouse/alps.o
+  CC      drivers/md/dm-crypt.o
+  CC      fs/jbd/journal.o
+  CC      net/core/gen_estimator.o
+  CC      lib/argv_split.o
+  CC      drivers/input/mouse/logips2pp.o
+  CC      drivers/input/mouse/trackpoint.o
+  CC      net/core/net_namespace.o
+  CC      lib/cmdline.o
+  LD      drivers/md/dm-mod.o
+  LD      drivers/md/built-in.o
+  CC      lib/ctype.o
+  CC      drivers/media/media-device.o
+  LD      drivers/input/mouse/psmouse.o
+  LD      drivers/input/mouse/built-in.o
+  CC      drivers/input/touchscreen/ft5x06_ts.o
+  CC      lib/dec_and_lock.o
+  CC      net/core/sysctl_net_core.o
+  CC      lib/decompress.o
+  LD      fs/jbd/jbd.o
+  CC      net/core/dev.o
+  LD      fs/jbd/built-in.o
+  CC      fs/jbd2/transaction.o
+  CC      kernel/hw_breakpoint.o
+  CC      drivers/media/media-devnode.o
+  CC      lib/decompress_inflate.o
+  LD      drivers/input/touchscreen/built-in.o
+  LD      drivers/input/input-core.o
+  CC      lib/dump_stack.o
+  LD      drivers/input/built-in.o
+  CC      drivers/mfd/twl-core.o
+  CC      lib/extable.o
+  CC      net/core/ethtool.o
+  CC      lib/flex_array.o
+  CC      drivers/media/media-entity.o
+  CC      lib/idr.o
+  CC      lib/int_sqrt.o
+  CC      kernel/time.o
+  CC      drivers/mfd/twl4030-irq.o
+  CC      fs/jbd2/commit.o
+  CC      lib/ioremap.o
+  CC      lib/irq_regs.o
+  LD      drivers/media/IR/keymaps/built-in.o
+  LD      drivers/media/IR/built-in.o
+  CC      drivers/media/common/tuners/tuner-xc2028.o
+  CC      drivers/media/common/tuners/tuner-simple.o
+  CC      lib/is_single_threaded.o
+  IKCFG   kernel/config_data.h
+  CC      drivers/mfd/twl6030-irq.o
+  CC      kernel/configs.o
+  CC      fs/jbd2/recovery.o
+  CC      lib/klist.o
+drivers/mfd/twl6030-irq.c: In function 'twl6030_init_irq':
+drivers/mfd/twl6030-irq.c:307:6: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+  LD      kernel/built-in.o
+  CC      lib/kobject.o
+  CC      net/core/dev_addr_lists.o
+  CC      drivers/media/common/tuners/tuner-types.o
+  CC      drivers/mfd/twl4030-power.o
+  CC      lib/kobject_uevent.o
+net/core/dev_addr_lists.c: In function '__hw_addr_del_multiple':
+net/core/dev_addr_lists.c:143:16: warning: variable 'type' set but not used [-Wunused-but-set-variable]
+  CC      fs/jbd2/checkpoint.o
+  CC      drivers/media/common/tuners/mt20xx.o
+  CC      drivers/media/common/tuners/tda8290.o
+  CC      lib/kref.o
+drivers/media/common/tuners/mt20xx.c: In function 'mt2050_set_antenna':
+drivers/media/common/tuners/mt20xx.c:433:6: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+drivers/media/common/tuners/mt20xx.c: In function 'mt2050_init':
+drivers/media/common/tuners/mt20xx.c:577:6: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+  CC      fs/jbd2/revoke.o
+  CC      net/core/dst.o
+  CC      net/core/netevent.o
+  CC      lib/plist.o
+  CC      drivers/mfd/twl4030-codec.o
+  CC      lib/prio_heap.o
+  CC      lib/prio_tree.o
+  CC      lib/proportions.o
+  CC      drivers/media/common/tuners/tea5767.o
+  CC      fs/jbd2/journal.o
+  CC      net/core/neighbour.o
+  CC      lib/radix-tree.o
+  CC      net/core/rtnetlink.o
+  CC      net/core/utils.o
+  CC      drivers/mfd/twl4030-script-omap.o
+  CC      drivers/media/common/tuners/tea5761.o
+lib/radix-tree.c: In function 'radix_tree_tag_get':
+lib/radix-tree.c:579:6: warning: variable 'saw_unset_tag' set but not used [-Wunused-but-set-variable]
+drivers/mfd/twl4030-script-omap.c:505:19: warning: 'twl4030_script_init' defined but not used [-Wunused-function]
+  CC      drivers/mfd/mfd-core.o
+  CC      drivers/media/common/tuners/tda9887.o
+  CC      lib/ratelimit.o
+  CC      drivers/media/common/tuners/tda827x.o
+  CC      net/core/link_watch.o
+  LD      drivers/mfd/built-in.o
+  CC      lib/rbtree.o
+  CC      drivers/misc/pmem.o
+  CC      drivers/media/common/tuners/tda18271-maps.o
+drivers/misc/pmem.c: In function 'pmem_unmap_pfn_range':
+drivers/misc/pmem.c:497:6: warning: variable 'garbage_pages' set but not used [-Wunused-but-set-variable]
+  CC      net/core/filter.o
+  CC      drivers/media/common/tuners/tda18271-common.o
+  CC      drivers/media/common/tuners/tda18271-fe.o
+  CC      lib/reciprocal_div.o
+  CC      net/core/flow.o
+  LD      drivers/misc/cb710/built-in.o
+  LD      drivers/misc/eeprom/built-in.o
+  CC      net/core/net-sysfs.o
+  CC      lib/rwsem-spinlock.o
+  CC      drivers/misc/ti-st/st_core.o
+  LD      fs/jbd2/jbd2.o
+  LD      fs/jbd2/built-in.o
+  CC      fs/jffs2/compr.o
+  CC      drivers/media/common/tuners/xc5000.o
+  CC      fs/jffs2/dir.o
+  CC      net/core/fib_rules.o
+  CC      lib/sha1.o
+  CC      lib/show_mem.o
+fs/jffs2/dir.c: In function 'jffs2_lookup':
+fs/jffs2/dir.c:78:24: warning: variable 'c' set but not used [-Wunused-but-set-variable]
+fs/jffs2/dir.c: In function 'jffs2_readdir':
+fs/jffs2/dir.c:122:24: warning: variable 'c' set but not used [-Wunused-but-set-variable]
+  CC      lib/string.o
+  CC      drivers/misc/ti-st/st_kim.o
+  CC      fs/jffs2/file.o
+  CC      net/core/net-traces.o
+  CC      fs/jffs2/ioctl.o
+  CC      drivers/media/common/tuners/mc44s803.o
+drivers/misc/ti-st/st_kim.c: In function 'kim_int_recv':
+drivers/misc/ti-st/st_kim.c:125:15: warning: variable 'type' set but not used [-Wunused-but-set-variable]
+  CC      lib/vsprintf.o
+  LD      drivers/media/common/tuners/tda18271.o
+  CC      fs/jffs2/nodelist.o
+  CC      fs/jffs2/malloc.o
+  CC      fs/jffs2/read.o
+  CC      fs/jffs2/nodemgmt.o
+lib/vsprintf.c: In function 'vbin_printf':
+lib/vsprintf.c:1669:10: warning: variable 'skip_arg' set but not used [-Wunused-but-set-variable]
+  CC      drivers/misc/ti-st/st_ll.o
+  CC      fs/jffs2/readinode.o
+  LD      drivers/media/common/tuners/built-in.o
+  LD      drivers/media/common/built-in.o
+  CC      fs/jffs2/write.o
+  LD      drivers/misc/ti-st/st_drv.o
+  LD      drivers/media/radio/built-in.o
+  LD      drivers/misc/ti-st/built-in.o
+  LD      drivers/misc/built-in.o
+  CC      drivers/media/video/v4l2-dev.o
+  LD      net/core/built-in.o
+  CC      drivers/mmc/card/block.o
+  CC      net/dns_resolver/dns_key.o
+  CC      fs/jffs2/scan.o
+  CC      fs/jffs2/gc.o
+  CC      net/dns_resolver/dns_query.o
+  CC      fs/jffs2/symlink.o
+  CC      drivers/mmc/card/queue.o
+  GEN     lib/crc32table.h
+  AR      lib/lib.a
+  CC      lib/crc32.o
+  CC      fs/jffs2/build.o
+  CC      drivers/media/video/v4l2-ioctl.o
+  CC      fs/jffs2/erase.o
+  LD      net/dns_resolver/dns_resolver.o
+  LD      net/dns_resolver/built-in.o
+  CC      fs/jffs2/background.o
+  CC      fs/jffs2/fs.o
+  CC      net/ethernet/eth.o
+  CC      net/ipv4/route.o
+  LD      lib/built-in.o
+  CC      net/ipv4/inetpeer.o
+  CC      drivers/mmc/card/sdio_uart.o
+  CC      fs/jffs2/writev.o
+  CC      fs/jffs2/super.o
+  CC      fs/jffs2/debug.o
+net/ipv4/route.c: In function 'ip_rt_send_redirect':  LD      net/ethernet/built-in.o
+
+net/ipv4/route.c:1541:6: warning: variable 'log_martians' set but not used [-Wunused-but-set-variable]
+  CC      net/ipv6/af_inet6.o
+  CC      net/ipv6/anycast.o
+  CC      net/ipv4/protocol.o
+  CC      fs/jffs2/wbuf.o
+  CC      fs/jffs2/xattr.o
+  LD      drivers/mmc/card/mmc_block.o
+  LD      drivers/mmc/card/built-in.o
+  CC      drivers/mmc/core/core.o
+  CC      drivers/media/video/v4l2-device.o
+fs/jffs2/xattr.c: In function 'jffs2_garbage_collect_xattr_datum':
+fs/jffs2/xattr.c:1204:27: warning: variable 'old_ofs' set but not used [-Wunused-but-set-variable]
+fs/jffs2/xattr.c: In function 'jffs2_garbage_collect_xattr_ref':
+fs/jffs2/xattr.c:1240:27: warning: variable 'old_ofs' set but not used [-Wunused-but-set-variable]
+  CC      net/ipv6/ip6_output.o
+  CC      net/ipv4/ip_input.o
+  CC      net/ipv6/ip6_input.o
+  CC      fs/jffs2/xattr_trusted.o
+net/ipv6/ip6_output.c: In function 'ip6_nd_hdr':
+net/ipv6/ip6_output.c:277:6: warning: variable 'totlen' set but not used [-Wunused-but-set-variable]
+  CC      net/ipv4/ip_fragment.o
+  CC      drivers/media/video/v4l2-fh.o
+  CC      fs/jffs2/xattr_user.o
+  CC      net/ipv4/ip_forward.o
+  CC      drivers/mtd/mtdcore.o
+  CC      net/ipv6/addrconf.o
+  CC      drivers/media/video/v4l2-event.o
+  CC      fs/jffs2/security.o
+  CC      drivers/mmc/core/bus.o
+net/ipv6/addrconf.c: In function 'ipv6_del_addr':
+net/ipv6/addrconf.c:724:6: warning: variable 'hash' set but not used [-Wunused-but-set-variable]
+  CC      drivers/mtd/mtdsuper.o
+  CC      fs/jffs2/acl.o
+  CC      net/ipv4/ip_options.o
+  CC      drivers/media/video/v4l2-ctrls.o
+  CC      drivers/mtd/mtdpart.o
+  CC      drivers/mmc/core/host.o
+  CC      net/ipv6/addrlabel.o
+  CC      drivers/mtd/mtdconcat.o
+  CC      fs/jffs2/compr_rubin.o
+  CC      net/ipv4/ip_output.o
+  CC      drivers/mmc/core/mmc.o
+  CC      net/ipv6/route.o
+  CC      drivers/mtd/cmdlinepart.o
+  CC      fs/jffs2/compr_rtime.o
+  CC      drivers/mtd/mtdchar.o
+  CC      drivers/mtd/mtd_blkdevs.o
+net/ipv6/route.c: In function 'icmp6_dst_gc':
+net/ipv6/route.c:1008:26: warning: variable 'next' set but not used [-Wunused-but-set-variable]
+  CC      drivers/media/video/v4l2-subdev.o
+  CC      fs/jffs2/compr_zlib.o
+  CC      drivers/mmc/core/mmc_ops.o
+  CC      drivers/mtd/mtdblock.o
+  CC      fs/jffs2/compr_lzo.o
+  CC      drivers/media/video/v4l2-int-device.o
+  CC      net/ipv6/ip6_fib.o
+  CC      drivers/mtd/mtdoops.o
+  CC      drivers/mmc/core/sd.o
+  CC      fs/jffs2/summary.o
+  CC      net/ipv4/ip_sockglue.o
+  CC      drivers/mtd/chips/chipreg.o
+  CC      drivers/media/video/v4l2-common.o
+  CC      net/ipv6/ipv6_sockglue.o
+  CC      drivers/mtd/chips/cfi_probe.o
+  CC      drivers/media/video/v4l1-compat.o
+  LD      drivers/mtd/devices/built-in.o
+  CC      drivers/mmc/core/sd_ops.o
+  LD      drivers/mtd/lpddr/built-in.o
+  LD      drivers/mtd/maps/built-in.o
+  CC      drivers/mtd/nand/nand_base.o
+  LD      fs/jffs2/jffs2.o
+  LD      fs/jffs2/built-in.o
+  CC      fs/lockd/clntlock.o
+  CC      drivers/mtd/chips/cfi_util.o
+  CC      net/ipv4/inet_hashtables.o
+  CC      drivers/mmc/core/sdio.o
+  CC      net/ipv4/inet_timewait_sock.o
+  CC      net/ipv6/ndisc.o
+  CC      drivers/media/video/mt9v011.o
+  CC      drivers/mtd/chips/cfi_cmdset_0001.o
+  CC      fs/lockd/clntproc.o
+  CC      drivers/mtd/nand/nand_bbt.o
+drivers/media/video/mt9v011.c: In function 'set_balance':
+drivers/media/video/mt9v011.c:162:19: warning: variable 'green2_gain' set but not used [-Wunused-but-set-variable]
+  CC      net/ipv4/inet_connection_sock.o
+  CC      net/ipv4/tcp.o
+drivers/mtd/nand/nand_bbt.c: In function 'search_bbt':
+drivers/mtd/nand/nand_bbt.c:600:6: warning: variable 'bits' set but not used [-Wunused-but-set-variable]
+  CC      drivers/mmc/core/sdio_ops.o
+  CC      drivers/media/video/mt9v113.o
+  CC      drivers/mmc/core/sdio_bus.o
+  CC      drivers/mtd/nand/nand_ecc.o
+  CC      net/ipv6/udp.o
+  CC      fs/lockd/host.o
+  CC      drivers/media/video/videobuf-core.o
+  CC      drivers/mmc/core/sdio_cis.o
+  CC      drivers/mtd/nand/nand_ids.o
+  CC      drivers/media/video/videobuf-dma-contig.o
+  CC      fs/lockd/svc.o
+  CC      drivers/mtd/nand/omap2.o
+  CC      drivers/mmc/core/sdio_io.o
+drivers/mtd/chips/cfi_cmdset_0001.c: In function 'cfi_intelext_write_words':
+include/linux/mtd/map.h:330:11: warning: 'r.x[0]' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  CC      net/ipv4/tcp_input.o
+  LD      drivers/media/video/davinci/built-in.o
+  CC      drivers/media/video/isp/isp.o
+  CC      drivers/mtd/chips/gen_probe.o
+  CC      drivers/mmc/core/sdio_irq.o
+  CC      drivers/mtd/nand/omap_bch_decoder.o
+  CC      drivers/media/video/isp/ispqueue.o
+  CC      fs/lockd/svclock.o
+  CC      net/ipv6/udplite.o
+  CC      drivers/mmc/core/debugfs.o
+drivers/media/video/isp/ispqueue.c: In function 'isp_video_queue_qbuf':
+drivers/media/video/isp/ispqueue.c:395:18: warning: 'pa' may be used uninitialized in this function [-Wmaybe-uninitialized]
+drivers/media/video/isp/ispqueue.c:365:13: note: 'pa' was declared here
+  LD      drivers/mtd/nand/nand.o
+  LD      drivers/mtd/chips/built-in.o
+  LD      drivers/mtd/nand/built-in.o
+  CC      drivers/mtd/onenand/onenand_base.o
+  LD      drivers/mtd/tests/built-in.o
+  CC      net/ipv6/raw.o
+  CC      drivers/mtd/ubi/vtbl.o
+  CC      drivers/media/video/isp/ispvideo.o
+  LD      drivers/mmc/core/mmc_core.o
+  LD      drivers/mmc/core/built-in.o
+  CC      drivers/mmc/host/omap.o
+  CC      drivers/media/video/isp/ispcsiphy.o
+drivers/mtd/onenand/onenand_base.c: In function 'flexonenand_get_boundary':
+drivers/mtd/onenand/onenand_base.c:3485:6: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+drivers/mtd/onenand/onenand_base.c: In function 'onenand_probe':
+drivers/mtd/onenand/onenand_base.c:3791:6: warning: variable 'maf_id' set but not used [-Wunused-but-set-variable]
+  CC      fs/lockd/svcshare.o
+drivers/mtd/ubi/vtbl.c: In function 'create_vtbl':
+drivers/mtd/ubi/vtbl.c:311:33: warning: variable 'old_seb' set but not used [-Wunused-but-set-variable]
+  CC      drivers/media/video/isp/ispccp2.o
+  CC      drivers/mtd/ubi/vmt.o
+  CC      fs/lockd/svcproc.o
+  CC      drivers/media/video/isp/ispcsi2.o
+  CC      drivers/mmc/host/omap_hsmmc.o
+  CC      drivers/media/video/isp/ispccdc.o
+  CC      net/ipv6/protocol.o
+  CC      drivers/mtd/ubi/upd.o
+  CC      fs/lockd/svcsubs.o
+  CC      drivers/mtd/onenand/onenand_bbt.o
+  CC      drivers/media/video/isp/isppreview.o
+drivers/mmc/host/omap_hsmmc.c: In function 'omap_hsmmc_1_set_power':
+drivers/mmc/host/omap_hsmmc.c:330:12: warning: 'ret' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  CC      drivers/media/video/isp/ispresizer.o
+  CC      drivers/mtd/ubi/build.o
+  CC      net/ipv6/icmp.o
+  CC      drivers/mtd/onenand/omap2.o
+  LD      drivers/mmc/host/built-in.o
+  CC      net/ipv4/tcp_output.o
+  LD      drivers/mmc/built-in.o
+  CC      net/ipv6/mcast.o
+net/ipv6/mcast.c: In function 'ip6_mc_source':
+net/ipv6/mcast.c:305:21: warning: variable 'dev' set but not used [-Wunused-but-set-variable]
+net/ipv6/mcast.c: In function 'ip6_mc_msfilter':
+net/ipv6/mcast.c:443:21: warning: variable 'dev' set but not used [-Wunused-but-set-variable]
+  CC      fs/lockd/mon.o
+net/ipv6/mcast.c: In function 'ip6_mc_msfget':
+net/ipv6/mcast.c:539:21: warning: variable 'dev' set but not used [-Wunused-but-set-variable]
+  CC      drivers/mtd/ubi/cdev.o
+  CC      fs/lockd/xdr.o
+  CC      drivers/media/video/isp/ispstat.o
+  LD      drivers/mtd/onenand/onenand.o
+  LD      drivers/mtd/onenand/built-in.o
+  LD      drivers/mtd/mtd.o
+  CC      drivers/net/mii.o
+  CC      net/ipv6/reassembly.o
+  CC      fs/lockd/grace.o
+  CC      fs/lockd/xdr4.o
+  CC      drivers/mtd/ubi/kapi.o
+  CC      drivers/media/video/isp/isph3a_aewb.o
+  LD      drivers/net/arm/built-in.o
+  CC      drivers/net/phy/phy.o
+  CC      net/ipv6/tcp_ipv6.o
+  CC      fs/lockd/svc4proc.o
+  CC      drivers/net/phy/phy_device.o
+  CC      net/ipv6/exthdrs.o
+  CC      drivers/mtd/ubi/eba.o
+  CC      drivers/media/video/isp/isph3a_af.o
+  CC      net/ipv4/tcp_timer.o
+  CC      drivers/media/video/isp/isphist.o
+  LD      fs/lockd/lockd.o
+  LD      fs/lockd/built-in.o
+  CC      drivers/mtd/ubi/io.o
+  CC      fs/nfs/client.o
+  CC      drivers/net/phy/mdio_bus.o
+  CC      drivers/mtd/ubi/wl.o
+  LD      drivers/media/video/isp/omap3-isp.o
+  LD      drivers/media/video/isp/built-in.o
+  CC      drivers/media/video/omap/omap_vout.o
+  CC      drivers/mtd/ubi/scan.o
+  CC      net/ipv6/datagram.o
+  CC      net/ipv6/ip6_flowlabel.o
+drivers/media/video/omap/omap_vout.c: In function 'omap_vout_calculate_offset':
+drivers/media/video/omap/omap_vout.c:513:26: warning: variable 'cur_display' set but not used [-Wunused-but-set-variable]
+drivers/media/video/omap/omap_vout.c: In function 'omapvid_setup_overlay':
+drivers/media/video/omap/omap_vout.c:673:29: warning: variable 'pixheight' set but not used [-Wunused-but-set-variable]
+drivers/media/video/omap/omap_vout.c: In function 'vidioc_s_ctrl':
+drivers/media/video/omap/omap_vout.c:1778:24: warning: variable 'ovl' set but not used [-Wunused-but-set-variable]
+  CC      net/ipv4/tcp_ipv4.o
+  CC      drivers/net/phy/smsc.o
+drivers/media/video/omap/omap_vout.c: In function 'omapvid_setup_overlay':
+drivers/media/video/omap/omap_vout.c:681:17: warning: 'mode' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  CC      drivers/mtd/ubi/misc.o
+  LD      drivers/net/phy/libphy.o
+  LD      drivers/net/phy/built-in.o
+  CC      net/ipv6/inet6_connection_sock.o
+  CC      drivers/net/usb/asix.o
+  CC      drivers/net/wireless/wl12xx/wl12xx_platform_data.o
+  CC      net/ipv6/sysctl_net_ipv6.o
+  LD      drivers/mtd/ubi/ubi.o
+  LD      drivers/mtd/ubi/built-in.o
+  LD      drivers/mtd/built-in.o
+  CC      fs/nfs/dir.o
+  LD      drivers/platform/built-in.o
+  CC      drivers/net/davinci_emac.o
+  CC      drivers/media/video/omap/omap_voutlib.o
+  LD      drivers/net/wireless/wl12xx/built-in.o
+  LD      drivers/net/wireless/built-in.o
+  CC      drivers/net/davinci_mdio.o
+  CC      net/ipv6/xfrm6_policy.o
+drivers/net/davinci_emac.c: In function 'emac_poll':
+drivers/net/davinci_emac.c:1369:6: warning: variable 'num_tx_pkts' set but not used [-Wunused-but-set-variable]
+drivers/net/davinci_emac.c: In function 'emac_dev_open':
+drivers/net/davinci_emac.c:1537:6: warning: variable 'q' set but not used [-Wunused-but-set-variable]
+  CC      net/ipv6/xfrm6_state.o
+  LD      drivers/media/video/omap/omap-vout.o
+  LD      drivers/media/video/omap/built-in.o
+  CC      drivers/net/usb/cdc_ether.o
+  CC      drivers/media/video/uvc/uvc_driver.o
+  CC      drivers/media/video/uvc/uvc_queue.o
+  CC      net/ipv6/xfrm6_input.o
+  CC      net/ipv4/tcp_minisocks.o
+  CC      net/ipv6/xfrm6_output.o
+  CC      drivers/net/usb/smsc95xx.o
+  CC      drivers/net/davinci_cpdma.o
+  CC      drivers/media/video/uvc/uvc_v4l2.o
+  CC      fs/nfs/file.o
+  CC      net/ipv6/fib6_rules.o
+  CC      drivers/media/video/uvc/uvc_video.o
+  CC      fs/nfs/getroot.o
+  CC      net/ipv4/tcp_cong.o
+  CC      drivers/net/usb/net1080.o
+  CC      drivers/net/Space.o
+  CC      drivers/media/video/uvc/uvc_ctrl.o
+  CC      net/ipv6/proc.o
+  CC      fs/nfs/inode.o
+  CC      fs/nfs/super.o
+  CC      drivers/net/usb/cdc_subset.o
+  CC      drivers/net/usb/zaurus.o
+  CC      net/ipv4/datagram.o
+  CC      drivers/media/video/uvc/uvc_status.o
+  CC      net/ipv6/ah6.o
+  CC      drivers/net/usb/usbnet.o
+  CC      net/ipv4/raw.o
+  CC      drivers/media/video/uvc/uvc_isight.o
+  CC      net/key/af_key.o
+  CC      net/ipv4/udp.o
+  LD      drivers/media/video/uvc/uvcvideo.o
+  CC      net/ipv6/esp6.o
+  LD      drivers/media/video/uvc/built-in.o
+  LD      drivers/media/video/videodev.o
+  LD      drivers/media/video/built-in.o
+  LD      drivers/media/media.o
+  CC      fs/nfs/nfs2xdr.o
+  LD      drivers/media/built-in.o
+  CC      fs/nfs/direct.o
+  CC      drivers/power/power_supply_core.o
+  LD      drivers/net/usb/built-in.o
+  CC      drivers/net/loopback.o
+fs/nfs/nfs2xdr.c: In function 'nfs_xdr_readdirres':
+fs/nfs/nfs2xdr.c:423:16: warning: variable 'page' set but not used [-Wunused-but-set-variable]
+  CC      net/ipv4/udplite.o
+  CC      drivers/net/smc911x.o
+  CC      drivers/power/power_supply_sysfs.o
+  CC      net/ipv6/ipcomp6.o
+  CC      fs/nfs/pagelist.o
+drivers/net/smc911x.c: In function 'smc911x_phy_configure':
+drivers/net/smc911x.c:891:6: warning: variable 'status' set but not used [-Wunused-but-set-variable]
+drivers/net/smc911x.c: In function 'smc911x_phy_interrupt':
+drivers/net/smc911x.c:985:6: warning: variable 'status' set but not used [-Wunused-but-set-variable]
+  LD      drivers/power/power_supply.o
+drivers/net/smc911x.c: In function 'smc911x_timeout':
+drivers/net/smc911x.c:1268:6: warning: variable 'status' set but not used [-Wunused-but-set-variable]
+  LD      drivers/power/built-in.o
+  CC      drivers/regulator/core.o
+  CC      fs/nfs/proc.o
+  CC      net/ipv4/arp.o
+  CC      net/ipv4/icmp.o
+  CC      net/ipv6/xfrm6_tunnel.o
+  LD      net/key/built-in.o
+  CC      net/ipv6/tunnel6.o
+  CC      fs/nfs/read.o
+net/ipv6/xfrm6_tunnel.c: In function 'xfrm6_tunnel_rcv':
+net/ipv6/xfrm6_tunnel.c:244:53: warning: the omitted middle operand in ?: will always be 'true', suggest explicit middle operand [-Wparentheses]
+  CC      drivers/net/smsc911x.o
+  CC      fs/nfs/symlink.o
+  CC      net/ipv6/xfrm6_mode_transport.o
+drivers/net/smsc911x.c: In function 'smsc911x_rx_fastforward':
+drivers/net/smsc911x.c:983:16: warning: variable 'temp' set but not used [-Wunused-but-set-variable]
+drivers/net/smsc911x.c: In function 'smsc911x_eeprom_write_location':
+drivers/net/smsc911x.c:1697:6: warning: variable 'temp' set but not used [-Wunused-but-set-variable]
+  CC      fs/nfs/unlink.o
+  CC      net/ipv6/xfrm6_mode_tunnel.o
+  CC      fs/nfs/write.o
+  CC      net/ipv4/devinet.o
+  CC      net/ipv6/xfrm6_mode_beet.o
+  CC      drivers/regulator/dummy.o
+  CC      net/ipv4/af_inet.o
+net/ipv6/xfrm6_mode_beet.c: In function 'xfrm6_beet_output':
+net/ipv6/xfrm6_mode_beet.c:44:16: warning: variable 'iphv4' set but not used [-Wunused-but-set-variable]
+  CC      net/ipv6/mip6.o
+  CC      net/ipv6/sit.o
+  CC      fs/nfs/namespace.o
+  CC      drivers/regulator/fixed.o
+  CC      fs/nfs/mount_clnt.o
+  CC      drivers/regulator/twl-regulator.o
+  LD      drivers/net/built-in.o
+  CC      drivers/rtc/rtc-lib.o
+  CC      net/ipv6/ip6_tunnel.o
+  CC      fs/nfs/dns_resolve.o
+  LD      drivers/regulator/built-in.o
+  CC      net/ipv4/igmp.o
+  CC      drivers/scsi/scsi.o
+  CC      net/ipv6/addrconf_core.o
+  CC      net/ipv4/fib_frontend.o
+  CC      fs/nfs/cache_lib.o
+  CC      drivers/rtc/hctosys.o
+  CC      fs/nfs/nfsroot.o
+  CC      fs/nfs/nfs3proc.o
+  CC      drivers/rtc/class.o
+  CC      net/ipv6/exthdrs_core.o
+  CC      net/ipv6/inet6_hashtables.o
+  CC      fs/nfs/nfs3xdr.o
+  CC      net/ipv4/fib_semantics.o
+  CC      drivers/rtc/interface.o
+  CC      fs/nfs/nfs3acl.o
+  CC      fs/nfs/nfs4proc.o
+fs/nfs/nfs3xdr.c: In function 'nfs3_xdr_readdirres':
+fs/nfs/nfs3xdr.c:555:16: warning: variable 'page' set but not used [-Wunused-but-set-variable]
+  CC      net/ipv4/inet_fragment.o
+  CC      drivers/scsi/hosts.o
+  CC      net/ipv4/sysctl_net_ipv4.o
+  CC      drivers/rtc/rtc-dev.o
+  CC      fs/nfs/nfs4xdr.o
+  LD      net/ipv6/ipv6.o
+  LD      net/ipv6/built-in.o
+  CC      drivers/rtc/rtc-proc.o
+  LD      net/mac80211/built-in.o
+  CC      net/ipv4/sysfs_net_ipv4.o
+  CC      net/netlink/af_netlink.o
+  CC      drivers/rtc/rtc-sysfs.o
+  CC      net/ipv4/fib_hash.o
+  CC      drivers/scsi/scsi_ioctl.o
+  CC      net/ipv4/proc.o
+  CC      drivers/rtc/alarm.o
+  CC      net/ipv4/xfrm4_mode_beet.o
+  CC      drivers/scsi/constants.o
+  CC      net/ipv4/tunnel4.o
+  CC      drivers/rtc/alarm-dev.o
+  CC      net/ipv4/xfrm4_mode_transport.o
+  CC      net/ipv4/xfrm4_mode_tunnel.o
+  CC      fs/nfs/nfs4state.o
+  CC      net/netlink/genetlink.o
+  CC      net/ipv4/ipconfig.o
+  CC      drivers/rtc/rtc-cbc34803.o
+  CC      drivers/scsi/scsicam.o
+net/ipv4/ipconfig.c: In function 'ic_rarp_recv':
+net/ipv4/ipconfig.c:467:17: warning: variable 'sha' set but not used [-Wunused-but-set-variable]
+  CC      net/ipv4/inet_diag.o
+drivers/rtc/rtc-cbc34803.c: In function 'cbc34803_read':
+drivers/rtc/rtc-cbc34803.c:37:2: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+drivers/rtc/rtc-cbc34803.c: In function 'cbc34803_write':
+drivers/rtc/rtc-cbc34803.c:61:2: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+drivers/rtc/rtc-cbc34803.c: In function 'cbc34803_probe':
+drivers/rtc/rtc-cbc34803.c:119:2: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+drivers/rtc/rtc-cbc34803.c:122:6: warning: unused variable 'error' [-Wunused-variable]
+drivers/rtc/rtc-cbc34803.c:121:10: warning: unused variable 'reg' [-Wunused-variable]
+drivers/rtc/rtc-cbc34803.c:119:17: warning: unused variable 'dev' [-Wunused-variable]
+drivers/rtc/rtc-cbc34803.c: In function 'cbc34803_remove':
+drivers/rtc/rtc-cbc34803.c:139:2: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+  CC      net/ipv4/tcp_diag.o
+  LD      drivers/rtc/rtc-core.o
+  LD      drivers/rtc/built-in.o
+  CC      net/ipv4/tcp_cubic.o
+  CC      drivers/serial/serial_core.o
+  CC      drivers/scsi/scsi_error.o
+drivers/serial/serial_core.c: In function 'uart_suspend_port':
+drivers/serial/serial_core.c:1982:21: warning: variable 'tty' set but not used [-Wunused-but-set-variable]
+  CC      drivers/scsi/scsi_lib.o
+  CC      net/ipv4/xfrm4_policy.o
+  CC      fs/nfs/nfs4renewd.o
+  LD      net/netlink/built-in.o
+  CC      net/packet/af_packet.o
+  CC      net/ipv4/xfrm4_state.o
+  CC      fs/nfs/delegation.o
+  CC      net/ipv4/xfrm4_input.o
+  CC      net/ipv4/xfrm4_output.o
+  CC      fs/nfs/idmap.o
+net/packet/af_packet.c: In function 'tpacket_snd':
+net/packet/af_packet.c:945:17: warning: variable 'sock' set but not used [-Wunused-but-set-variable]
+  CC      drivers/scsi/scsi_lib_dma.o
+  CC      drivers/scsi/scsi_scan.o
+  CC      drivers/serial/8250.o
+  CC      fs/nfs/callback.o
+  CC      fs/nfs/callback_xdr.o
+drivers/serial/8250.c: In function 'serial8250_interrupt':
+drivers/serial/8250.c:1590:17: warning: variable 'status' set but not used [-Wunused-but-set-variable]
+  CC      drivers/scsi/scsi_sysfs.o
+  CC      drivers/scsi/scsi_devinfo.o
+  LD      net/ipv4/built-in.o
+  CC      net/rfkill/core.o
+  LD      net/packet/built-in.o
+  CC      net/sched/sch_generic.o
+  CC      fs/nfs/callback_proc.o
+  CC      fs/nfs/nfs4namespace.o
+  CC      drivers/scsi/scsi_sysctl.o
+net/sched/sch_generic.c: In function 'dev_graft_qdisc':
+net/sched/sch_generic.c:671:2: warning: the comparison will always evaluate as 'true' for the address of 'noop_qdisc' will never be NULL [-Waddress]
+  CC      drivers/scsi/scsi_proc.o
+  CC      drivers/scsi/scsi_trace.o
+  CC      drivers/scsi/scsi_pm.o
+  CC      drivers/serial/8250_early.o
+  CC      fs/nfs/sysctl.o
+  CC      drivers/scsi/sd.o
+  CC      net/sched/sch_mq.o
+  LD      drivers/scsi/arm/built-in.o
+  CC      drivers/spi/spi.o
+  CC      drivers/serial/omap-serial.o
+  LD      net/rfkill/rfkill.o
+  CC      drivers/staging/staging.o
+  LD      net/rfkill/built-in.o
+  CC      net/sunrpc/clnt.o
+drivers/scsi/sd.c: In function 'sd_probe_async':
+drivers/scsi/sd.c:2317:17: warning: variable 'dev' set but not used [-Wunused-but-set-variable]
+  CC      drivers/spi/omap2_mcspi.o
+drivers/spi/spi.c: In function 'spi_unregister_master':
+drivers/spi/spi.c:581:6: warning: variable 'dummy' set but not used [-Wunused-but-set-variable]
+drivers/spi/omap2_mcspi.c: In function 'omap2_mcspi_txrx_dma':
+drivers/spi/omap2_mcspi.c:322:23: warning: variable 'c' set but not used [-Wunused-but-set-variable]
+drivers/spi/omap2_mcspi.c: In function 'omap2_mcspi_txrx_pio':
+drivers/spi/omap2_mcspi.c:471:22: warning: variable 'mcspi' set but not used [-Wunused-but-set-variable]
+drivers/spi/omap2_mcspi.c: In function 'omap2_mcspi_setup_transfer':
+drivers/spi/omap2_mcspi.c:664:21: warning: variable 'spi_cntrl' set but not used [-Wunused-but-set-variable]
+  CC      drivers/staging/android/binder.o
+drivers/serial/omap-serial.c: In function 'serial_omap_irq':
+drivers/serial/omap-serial.c:151:16: warning: 'ch' may be used uninitialized in this function [-Wmaybe-uninitialized]
+drivers/serial/omap-serial.c:151:16: warning: 'ch' may be used uninitialized in this function [-Wmaybe-uninitialized]
+drivers/spi/omap2_mcspi.c: In function 'omap2_mcspi_work':
+drivers/spi/omap2_mcspi.c:434:36: warning: 'elements' may be used uninitialized in this function [-Wmaybe-uninitialized]
+drivers/spi/omap2_mcspi.c:325:8: note: 'elements' was declared here
+  LD      fs/nfs/nfs.o
+  LD      fs/nfs/built-in.o
+  LD      net/sched/built-in.o
+  CC      fs/nfs_common/nfsacl.o
+  CC      net/unix/af_unix.o
+  CC      net/sunrpc/xprt.o
+net/unix/af_unix.c: In function 'unix_stream_sendmsg':
+net/unix/af_unix.c:1563:22: warning: variable 'sunaddr' set but not used [-Wunused-but-set-variable]
+  LD      drivers/spi/built-in.o
+  CC      drivers/switch/switch_class.o
+  LD      drivers/serial/built-in.o
+  CC      drivers/tty/tty_io.o
+  LD      fs/nfs_common/nfs_acl.o
+  LD      fs/nfs_common/built-in.o
+  CC      net/sunrpc/socklib.o
+  CC      fs/nls/nls_base.o
+  LD      drivers/switch/built-in.o
+  CC      drivers/usb/core/usb.o
+  LD      drivers/scsi/scsi_mod.o
+  CC      fs/nls/nls_cp437.o
+  LD      drivers/scsi/sd_mod.o
+  LD      drivers/scsi/built-in.o
+  CC      drivers/usb/gadget/android.o
+  CC      net/sunrpc/xprtsock.o
+  CC      fs/nls/nls_iso8859-1.o
+  CC      net/sunrpc/sched.o
+drivers/usb/gadget/android.c: In function 'update_dev_desc':
+drivers/usb/gadget/android.c:355:23: warning: variable 'last_enabled_f' set but not used [-Wunused-but-set-variable]
+  LD      fs/nls/built-in.o
+  CC      net/unix/garbage.o
+  CC      fs/notify/fsnotify.o
+net/sunrpc/xprtsock.c: In function 'bc_send_request':
+net/sunrpc/xprtsock.c:2040:27: warning: variable 'svsk' set but not used [-Wunused-but-set-variable]
+  CC      drivers/usb/core/hub.o
+  CC      drivers/tty/n_tty.o
+  CC      drivers/staging/android/logger.o
+  CC      fs/notify/notification.o
+  CC      net/sunrpc/auth.o
+  CC      net/unix/sysctl_net_unix.o
+  CC      drivers/staging/android/ram_console.o
+  CC      net/sunrpc/auth_null.o
+  CC      fs/notify/group.o
+  CC      drivers/usb/gadget/f_adb.o
+  LD      net/unix/unix.o
+  LD      net/unix/built-in.o
+  CC      net/wireless/wext-core.o
+  CC      fs/notify/inode_mark.o
+  CC      drivers/staging/android/timed_output.o
+  CC      drivers/usb/core/hcd.o
+  CC      drivers/staging/android/timed_gpio.o
+  CC      drivers/usb/gadget/f_mass_storage.o
+  CC      net/sunrpc/auth_unix.o
+  CC      drivers/tty/tty_ioctl.o
+  CC      fs/notify/mark.o
+drivers/usb/gadget/f_mass_storage.c: In function 'invalidate_sub':
+drivers/usb/gadget/f_mass_storage.c:1081:16: warning: variable 'rc' set but not used [-Wunused-but-set-variable]
+  CC      drivers/staging/android/lowmemorykiller.o
+drivers/usb/gadget/f_mass_storage.c: In function 'mass_storage_bind_config':
+drivers/usb/gadget/f_mass_storage.c:3228:2: warning: 'fsg_add' is deprecated (declared at drivers/usb/gadget/f_mass_storage.c:3085) [-Wdeprecated-declarations]
+  CC      drivers/usb/core/urb.o
+  CC      fs/notify/vfsmount_mark.o
+  CC      net/sunrpc/auth_generic.o
+  LD      drivers/staging/android/built-in.o
+  CC      net/wireless/wext-proc.o
+  CC      drivers/usb/core/message.o
+  LD      drivers/staging/ti-st/built-in.o
+  CC      drivers/tty/tty_ldisc.o
+  LD      drivers/staging/built-in.o
+  CC      drivers/usb/musb/musb_core.o
+  CC      fs/notify/dnotify/dnotify.o
+  CC      drivers/usb/core/driver.o
+fs/notify/dnotify/dnotify.c: In function 'dnotify_handle_event':
+fs/notify/dnotify/dnotify.c:91:16: warning: variable 'to_tell' set but not used [-Wunused-but-set-variable]
+drivers/usb/musb/musb_core.c: In function 'musb_generic_disable':
+drivers/usb/musb/musb_core.c:1015:6: warning: variable 'temp' set but not used [-Wunused-but-set-variable]
+  LD      net/wireless/built-in.o
+  CC      net/xfrm/xfrm_policy.o
+  LD      fs/notify/dnotify/built-in.o
+  CC      net/sunrpc/svc.o
+  LD      fs/notify/fanotify/built-in.o
+  CC      fs/notify/inotify/inotify_fsnotify.o
+  LD      drivers/usb/gadget/built-in.o
+  CC      net/sunrpc/svcsock.o
+fs/notify/inotify/inotify_fsnotify.c: In function 'inotify_handle_event':
+fs/notify/inotify/inotify_fsnotify.c:98:16: warning: variable 'to_tell' set but not used [-Wunused-but-set-variable]
+  CC      fs/notify/inotify/inotify_user.o
+  CC      drivers/tty/tty_buffer.o
+  CC      drivers/usb/core/config.o
+fs/notify/inotify/inotify_user.c: In function 'inotify_ignored_and_remove_idr':
+fs/notify/inotify/inotify_user.c:523:6: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+  CC      drivers/usb/musb/musb_gadget_ep0.o
+  CC      drivers/usb/core/file.o
+  LD      fs/notify/inotify/built-in.o
+  LD      fs/notify/built-in.o
+  CC      net/sunrpc/svcauth.o
+  CC      drivers/tty/tty_port.o
+  CC      fs/partitions/check.o
+fs/partitions/check.c: In function 'rescan_partitions':
+fs/partitions/check.c:666:31: warning: variable 'info' set but not used [-Wunused-but-set-variable]
+  CC      drivers/usb/musb/musb_gadget.o
+  CC      drivers/usb/core/buffer.o
+  CC      drivers/usb/core/sysfs.o
+  CC      net/sunrpc/svcauth_unix.o
+drivers/usb/core/sysfs.c: In function 'usb_create_sysfs_intf_files':
+drivers/usb/core/sysfs.c:889:6: warning: variable 'retval' set but not used [-Wunused-but-set-variable]
+  CC      drivers/tty/tty_mutex.o
+  CC      net/sunrpc/addr.o
+  CC      net/xfrm/xfrm_state.o
+  CC      drivers/usb/core/endpoint.o
+  CC      drivers/usb/core/devio.o
+  CC      fs/partitions/msdos.o
+  CC      drivers/usb/musb/musb_virthub.o
+  CC      drivers/tty/pty.o
+  CC      drivers/usb/core/notify.o
+  CC      net/sunrpc/rpcb_clnt.o
+  CC      net/sunrpc/timer.o
+  CC      drivers/usb/musb/musb_host.o
+  LD      fs/partitions/built-in.o
+  CC      drivers/tty/sysrq.o
+  CC      drivers/usb/core/generic.o
+  CC      fs/proc/mmu.o
+drivers/usb/musb/musb_host.c: In function 'musb_host_rx':
+drivers/usb/musb/musb_host.c:1676:17: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+  CC      fs/proc/task_mmu.o
+  CC      drivers/usb/core/quirks.o
+  CC      drivers/usb/core/devices.o
+  CC      net/sunrpc/xdr.o
+  CC      net/sunrpc/sunrpc_syms.o
+  CC      net/sunrpc/cache.o
+  CC      net/xfrm/xfrm_hash.o
+  CC      drivers/tty/vt/vt_ioctl.o
+  LD      drivers/usb/core/usbcore.o
+  LD      drivers/usb/core/built-in.o
+  CC      drivers/usb/host/ehci-hcd.o
+  CC      drivers/usb/musb/musb_debugfs.o
+  CC      net/xfrm/xfrm_input.o
+  CC      fs/proc/inode.o
+  CC      fs/proc/root.o
+In file included from drivers/usb/host/ehci-hcd.c:335:0:
+drivers/usb/host/ehci-hub.c: In function 'create_companion_file':
+drivers/usb/host/ehci-hub.c:543:6: warning: variable 'i' set but not used [-Wunused-but-set-variable]
+In file included from drivers/usb/host/ehci-hcd.c:338:0:
+drivers/usb/host/ehci-q.c: In function 'submit_async':
+drivers/usb/host/ehci-q.c:1110:20: warning: variable 'qtd' set but not used [-Wunused-but-set-variable]
+In file included from drivers/usb/host/ehci-hcd.c:339:0:
+drivers/usb/host/ehci-sched.c: In function 'iso_stream_put':
+drivers/usb/host/ehci-sched.c:1051:8: warning: variable 'is_in' set but not used [-Wunused-but-set-variable]
+drivers/usb/host/ehci-sched.c: In function 'itd_complete':
+drivers/usb/host/ehci-sched.c:1686:23: warning: variable 'dev' set but not used [-Wunused-but-set-variable]
+drivers/usb/host/ehci-sched.c: In function 'sitd_complete':
+drivers/usb/host/ehci-sched.c:2087:23: warning: variable 'dev' set but not used [-Wunused-but-set-variable]
+  CC      net/sunrpc/rpc_pipe.o
+drivers/usb/host/ehci-hcd.c: At top level:
+drivers/usb/host/ehci-hub.c:109:13: warning: 'ehci_adjust_port_wakeup_flags' defined but not used [-Wunused-function]
+drivers/usb/host/ehci-lpm.c:20:12: warning: 'ehci_lpm_set_da' defined but not used [-Wunused-function]
+drivers/usb/host/ehci-lpm.c:40:12: warning: 'ehci_lpm_check' defined but not used [-Wunused-function]
+  CC      fs/proc/base.o
+  CC      fs/proc/generic.o
+  CC      net/xfrm/xfrm_output.o
+  CC      drivers/tty/vt/vc_screen.o
+  CC      net/sunrpc/svc_xprt.o
+  CC      drivers/usb/musb/omap2430.o
+  CC      fs/proc/array.o
+  CC      drivers/usb/musb/musbhsdma.o
+  CC      drivers/tty/vt/selection.o
+  CC      net/sunrpc/stats.o
+  CC      net/xfrm/xfrm_algo.o
+  CC      fs/proc/proc_tty.o
+  CC      net/sunrpc/sysctl.o
+  CC      drivers/tty/vt/keyboard.o
+  CC      fs/proc/cmdline.o
+  LD      drivers/usb/musb/musb_hdrc.o
+  LD      drivers/usb/musb/built-in.o
+  CC      drivers/tty/vt/consolemap.o
+  CC      fs/proc/cpuinfo.o
+  CONMK   drivers/tty/vt/consolemap_deftbl.c
+  CC      drivers/tty/vt/vt.o
+  SHIPPED drivers/tty/vt/defkeymap.c
+  CC      net/sunrpc/auth_gss/auth_gss.o
+  LD      drivers/usb/host/built-in.o
+drivers/tty/vt/vt.c: In function 'vc_do_resize':
+drivers/tty/vt/vt.c:852:49: warning: variable 'old_screen_size' set but not used [-Wunused-but-set-variable]
+drivers/tty/vt/vt.c:852:15: warning: variable 'old_cols' set but not used [-Wunused-but-set-variable]
+  LD      drivers/usb/misc/built-in.o
+  LD      net/sunrpc/sunrpc.o
+  CC      drivers/usb/mon/mon_main.o
+  CC      fs/proc/devices.o
+  CC      drivers/usb/mon/mon_stat.o
+  CC      net/xfrm/xfrm_sysctl.o
+  CC      fs/proc/interrupts.o
+  CC      fs/proc/loadavg.o
+  CC      drivers/usb/mon/mon_text.o
+  CC      drivers/tty/vt/consolemap_deftbl.o
+  CC      net/xfrm/xfrm_user.o
+  CC      drivers/usb/mon/mon_bin.o
+  CC      drivers/tty/vt/defkeymap.o
+  CC      fs/proc/meminfo.o
+  CC      net/xfrm/xfrm_ipcomp.o
+drivers/usb/mon/mon_bin.c: In function 'mon_bin_ioctl':
+drivers/usb/mon/mon_bin.c:1067:16: warning: variable 'ndropped' set but not used [-Wunused-but-set-variable]
+  CC      fs/proc/stat.o
+  CC      fs/proc/uptime.o
+  CC      fs/proc/version.o
+  CC      fs/proc/softirqs.o
+  CC      net/sunrpc/auth_gss/gss_generic_token.o
+  LD      drivers/usb/mon/usbmon.o
+  LD      drivers/usb/mon/built-in.o
+  CC      drivers/usb/storage/scsiglue.o
+  CC      fs/proc/proc_sysctl.o
+  CC      fs/proc/proc_net.o
+  CC      fs/proc/kmsg.o
+  CC      fs/proc/page.o
+  CC      net/sunrpc/auth_gss/gss_mech_switch.o
+  CC      net/sysctl_net.o
+  CC      net/activity_stats.o
+  CC      net/sunrpc/auth_gss/svcauth_gss.o
+  LD      fs/proc/proc.o
+  LD      net/xfrm/built-in.o
+  LD      fs/proc/built-in.o
+  CC      fs/quota/dquot.o
+  CC      fs/quota/quota_v2.o
+  CC      drivers/usb/storage/protocol.o
+  CC      drivers/usb/storage/transport.o
+fs/quota/dquot.c: In function 'remove_dquot_ref':
+fs/quota/dquot.c:1004:6: warning: variable 'reserved' set but not used [-Wunused-but-set-variable]
+  CC      drivers/usb/storage/usb.o
+  LD      drivers/tty/vt/built-in.o
+  CC      net/sunrpc/auth_gss/gss_krb5_mech.o
+  LD      drivers/tty/built-in.o
+  CC      drivers/usb/otg/otg.o
+  CC      fs/quota/quota_tree.o
+  CC      drivers/usb/storage/initializers.o
+  CC      drivers/usb/otg/twl4030-usb.o
+drivers/usb/storage/initializers.c: In function 'usb_stor_euscsi_init':
+drivers/usb/storage/initializers.c:49:6: warning: variable 'result' set but not used [-Wunused-but-set-variable]
+drivers/usb/storage/initializers.c: In function 'usb_stor_huawei_e220_init':
+drivers/usb/storage/initializers.c:98:6: warning: variable 'result' set but not used [-Wunused-but-set-variable]
+  CC      net/sunrpc/auth_gss/gss_krb5_seal.o
+  CC      drivers/usb/storage/sierra_ms.o
+  CC      drivers/usb/storage/option_ms.o
+  CC      net/sunrpc/auth_gss/gss_krb5_unseal.o
+  CC      fs/quota/quota.o
+  CC      drivers/usb/storage/usual-tables.o
+  CC      drivers/video/fb_notify.o
+drivers/usb/storage/sierra_ms.c: In function 'sierra_ms_init':
+drivers/usb/storage/sierra_ms.c:133:22: warning: variable 'sd' set but not used [-Wunused-but-set-variable]
+drivers/usb/storage/sierra_ms.c:129:14: warning: variable 'delay_t' set but not used [-Wunused-but-set-variable]
+  LD      drivers/usb/otg/built-in.o
+  CC      net/sunrpc/auth_gss/gss_krb5_seqnum.o
+net/sunrpc/auth_gss/gss_krb5_unseal.c: In function 'gss_verify_mic_v2':
+net/sunrpc/auth_gss/gss_krb5_unseal.c:153:6: warning: variable 'seqnum' set but not used [-Wunused-but-set-variable]
+  CC      drivers/watchdog/omap_wdt.o
+  CC      net/sunrpc/auth_gss/gss_krb5_wrap.o
+  CC      net/sunrpc/auth_gss/gss_krb5_crypto.o
+  CC      net/sunrpc/auth_gss/gss_krb5_keys.o
+net/sunrpc/auth_gss/gss_krb5_crypto.c: In function 'make_checksum_v2':
+net/sunrpc/auth_gss/gss_krb5_crypto.c:330:15: warning: variable 'checksumlen' set but not used [-Wunused-but-set-variable]
+  CC      fs/ramfs/inode.o
+net/sunrpc/auth_gss/gss_krb5_wrap.c: In function 'gss_wrap_kerberos_v2':
+net/sunrpc/auth_gss/gss_krb5_wrap.c:405:7: warning: variable 'blocksize' set but not used [-Wunused-but-set-variable]
+net/sunrpc/auth_gss/gss_krb5_wrap.c: In function 'gss_unwrap_kerberos_v2':
+net/sunrpc/auth_gss/gss_krb5_wrap.c:463:7: warning: variable 'ec' set but not used [-Wunused-but-set-variable]
+net/sunrpc/auth_gss/gss_krb5_wrap.c:460:7: warning: variable 'seqnum' set but not used [-Wunused-but-set-variable]
+  CC      drivers/video/fbmem.o
+  LD      fs/quota/built-in.o
+  CC      drivers/video/fbmon.o
+  LD      drivers/usb/storage/usb-storage.o
+  LD      drivers/usb/storage/built-in.o
+  LD      drivers/usb/built-in.o
+  CC      drivers/watchdog/twl4030_wdt.o
+  CC      drivers/video/fbcmap.o
+  CC      fs/ramfs/file-mmu.o
+  CC      drivers/video/fbsysfs.o
+  CC      drivers/video/modedb.o
+  LD      drivers/watchdog/built-in.o
+  LD      net/sunrpc/auth_gss/auth_rpcgss.o
+  CC      drivers/video/fbcvt.o
+  LD      net/sunrpc/auth_gss/rpcsec_gss_krb5.o
+  LD      net/sunrpc/auth_gss/built-in.o
+  LD      net/sunrpc/built-in.o
+  LD      fs/ramfs/ramfs.o
+  LD      net/built-in.o
+  LD      fs/ramfs/built-in.o
+  CC      fs/sysfs/inode.o
+  CC      drivers/video/backlight/lcd.o
+  CC      drivers/video/console/dummycon.o
+  CC      drivers/video/display/display-sysfs.o
+  CC      drivers/video/logo/logo.o
+  CC      fs/sysfs/file.o
+  LD      drivers/video/console/built-in.o
+  CC      drivers/video/omap2/vram.o
+  LD      drivers/video/ti81xx/ti81xxfb/built-in.o
+  LOGO    drivers/video/logo/logo_linux_mono.c
+  CC      drivers/video/cfbfillrect.o
+  LD      drivers/video/ti81xx/vpss/built-in.o
+  LOGO    drivers/video/logo/logo_linux_vga16.c
+  LD      drivers/video/ti81xx/built-in.o
+  LOGO    drivers/video/logo/logo_linux_clut224.c
+  LD      drivers/video/display/display.o
+  CC      drivers/video/cfbcopyarea.o
+  CC      drivers/video/backlight/platform_lcd.o
+  LD      drivers/video/display/built-in.o
+  CC      drivers/video/backlight/backlight.o
+  CC      drivers/video/cfbimgblt.o
+  LOGO    drivers/video/logo/logo_superh_mono.c
+  LOGO    drivers/video/logo/clut_vga16.c
+  LOGO    drivers/video/logo/logo_blackfin_vga16.c
+  LOGO    drivers/video/logo/logo_superh_vga16.c
+  LOGO    drivers/video/logo/logo_blackfin_clut224.c
+  LOGO    drivers/video/logo/logo_dec_clut224.c
+  CC      fs/sysfs/dir.o
+  LOGO    drivers/video/logo/logo_m32r_clut224.c
+  LOGO    drivers/video/logo/logo_mac_clut224.c
+  LOGO    drivers/video/logo/logo_parisc_clut224.c
+  LOGO    drivers/video/logo/logo_sgi_clut224.c
+  CC      fs/sysfs/symlink.o
+  LD      drivers/video/fb.o
+  LOGO    drivers/video/logo/logo_spe_clut224.c
+  LOGO    drivers/video/logo/logo_sun_clut224.c
+  LOGO    drivers/video/logo/logo_superh_clut224.c
+  CC      fs/sysfs/mount.o
+  CC      fs/sysfs/bin.o
+  CC      drivers/video/omap2/vrfb.o
+  CC      drivers/video/logo/logo_linux_mono.o
+  CC      fs/sysfs/group.o
+  LD      drivers/video/backlight/built-in.o
+  CC      drivers/video/logo/logo_linux_vga16.o
+  CC      drivers/video/logo/logo_linux_clut224.o
+  CC      drivers/video/omap2/displays/panel-generic.o
+  CC      drivers/video/omap2/displays/panel-sharp-ls037v7dw01.o
+  LD      drivers/video/logo/built-in.o
+  CC      fs/ubifs/shrinker.o
+  CC      fs/eventpoll.o
+  CC      fs/anon_inodes.o
+  CC      fs/signalfd.o
+  CC      fs/timerfd.o
+  LD      drivers/video/omap2/displays/built-in.o
+  CC      fs/eventfd.o
+  LD      fs/sysfs/built-in.o
+  CC      drivers/video/omap2/dss/core.o
+  CC      drivers/video/omap2/omapfb/omapfb-main.o
+  CC      fs/ubifs/journal.o
+  CC      fs/ubifs/file.o
+fs/eventpoll.c: In function 'sys_epoll_wait':
+fs/eventpoll.c:1162:33: warning: 'slack' may be used uninitialized in this function [-Wmaybe-uninitialized]
+fs/eventpoll.c:1119:7: note: 'slack' was declared here
+  CC      fs/aio.o
+  CC      fs/locks.o
+  CC      fs/binfmt_misc.o
+  CC      fs/binfmt_script.o
+drivers/video/omap2/omapfb/omapfb-main.c: In function 'omapfb_setup_overlay':
+drivers/video/omap2/omapfb/omapfb-main.c:876:15: warning: 'data_start_v' may be used uninitialized in this function [-Wmaybe-uninitialized]
+drivers/video/omap2/omapfb/omapfb-main.c:859:16: note: 'data_start_v' was declared here
+  CC      fs/ubifs/dir.o
+  CC      drivers/video/omap2/dss/dss.o
+  CC      fs/binfmt_elf.o
+fs/binfmt_elf.c: In function 'load_elf_binary':
+fs/binfmt_elf.c:578:16: warning: variable 'reloc_func_desc' set but not used [-Wunused-but-set-variable]
+  CC      drivers/video/omap2/omapfb/omapfb-sysfs.o
+  CC      fs/ubifs/super.o
+  CC      fs/mbcache.o
+  CC      drivers/video/omap2/dss/dss_features.o
+fs/ubifs/super.c: In function 'ubifs_umount':
+fs/ubifs/super.c:1491:2: warning: statement with no effect [-Wunused-value]
+  CC      fs/ubifs/sb.o
+  CC      drivers/video/omap2/dss/dispc.o
+  CC      drivers/video/omap2/omapfb/omapfb-ioctl.o
+  CC      drivers/video/omap2/dss/display.o
+  CC      fs/posix_acl.o
+  CC      fs/xattr_acl.o
+  CC      fs/ubifs/io.o
+  CC      fs/dcookies.o
+  CC      fs/ubifs/tnc.o
+  CC      fs/ubifs/master.o
+  CC      drivers/video/omap2/dss/manager.o
+  CC      drivers/video/omap2/dss/overlay.o
+drivers/video/omap2/dss/manager.c: In function 'dss_mgr_wait_for_go':
+drivers/video/omap2/dss/manager.c:527:20: warning: variable 'channel' set but not used [-Wunused-but-set-variable]
+drivers/video/omap2/dss/manager.c: In function 'dss_mgr_wait_for_go_ovl':
+drivers/video/omap2/dss/manager.c:597:20: warning: variable 'channel' set but not used [-Wunused-but-set-variable]
+drivers/video/omap2/dss/manager.c: In function 'configure_overlay':
+drivers/video/omap2/dss/manager.c:729:14: warning: variable 'orig_h' set but not used [-Wunused-but-set-variable]
+  LD      drivers/video/omap2/omapfb/omapfb.o
+  CC      fs/ubifs/scan.o
+  LD      drivers/video/omap2/omapfb/built-in.o
+  CC      fs/ubifs/replay.o
+  CC      fs/ubifs/log.o
+  CC      drivers/video/omap2/dss/dpi.o
+  CC      fs/ubifs/commit.o
+  CC      fs/ubifs/gc.o
+  CC      fs/ubifs/orphan.o
+  CC      drivers/video/omap2/dss/venc.o
+  CC      drivers/video/omap2/dss/dsi.o
+  CC      fs/ubifs/budget.o
+  CC      fs/ubifs/find.o
+drivers/video/omap2/dss/dsi.c: In function 'dsi_proto_timings':
+drivers/video/omap2/dss/dsi.c:2460:42: warning: variable 'tclk_trail' set but not used [-Wunused-but-set-variable]
+  CC      fs/ubifs/tnc_commit.o
+  CC      fs/ubifs/compress.o
+  CC      fs/ubifs/lpt.o
+fs/ubifs/tnc_commit.c: In function 'write_index':  CC      fs/ubifs/lprops.o
+
+fs/ubifs/tnc_commit.c:834:15: warning: variable 'offs' set but not used [-Wunused-but-set-variable]
+  CC      fs/ubifs/recovery.o
+  CC      fs/ubifs/ioctl.o
+  CC      fs/ubifs/lpt_commit.o
+  CC      fs/ubifs/tnc_misc.o
+fs/ubifs/lpt_commit.c: In function 'layout_cnodes':
+fs/ubifs/lpt_commit.c:211:3: warning: statement with no effect [-Wunused-value]
+fs/ubifs/lpt_commit.c:219:3: warning: statement with no effect [-Wunused-value]
+fs/ubifs/lpt_commit.c:233:4: warning: statement with no effect [-Wunused-value]
+fs/ubifs/lpt_commit.c:246:5: warning: statement with no effect [-Wunused-value]
+fs/ubifs/lpt_commit.c:254:5: warning: statement with no effect [-Wunused-value]
+fs/ubifs/lpt_commit.c:267:3: warning: statement with no effect [-Wunused-value]
+fs/ubifs/lpt_commit.c:276:4: warning: statement with no effect [-Wunused-value]
+fs/ubifs/lpt_commit.c:288:3: warning: statement with no effect [-Wunused-value]
+fs/ubifs/lpt_commit.c:296:4: warning: statement with no effect [-Wunused-value]
+fs/ubifs/lpt_commit.c:308:3: warning: statement with no effect [-Wunused-value]
+fs/ubifs/lpt_commit.c:313:2: warning: statement with no effect [-Wunused-value]
+fs/ubifs/lpt_commit.c: In function 'write_cnodes':
+fs/ubifs/lpt_commit.c:395:3: warning: statement with no effect [-Wunused-value]
+fs/ubifs/lpt_commit.c:402:3: warning: statement with no effect [-Wunused-value]
+fs/ubifs/lpt_commit.c:421:4: warning: statement with no effect [-Wunused-value]
+fs/ubifs/lpt_commit.c:436:5: warning: statement with no effect [-Wunused-value]
+fs/ubifs/lpt_commit.c:443:5: warning: statement with no effect [-Wunused-value]
+fs/ubifs/lpt_commit.c:465:3: warning: statement with no effect [-Wunused-value]
+fs/ubifs/lpt_commit.c:479:4: warning: statement with no effect [-Wunused-value]
+fs/ubifs/lpt_commit.c:493:3: warning: statement with no effect [-Wunused-value]
+fs/ubifs/lpt_commit.c:506:4: warning: statement with no effect [-Wunused-value]
+fs/ubifs/lpt_commit.c:520:3: warning: statement with no effect [-Wunused-value]
+fs/ubifs/lpt_commit.c:531:2: warning: statement with no effect [-Wunused-value]
+  LD      fs/ubifs/ubifs.o
+  LD      fs/ubifs/built-in.o
+  LD      drivers/video/omap2/dss/omapdss.o
+  LD      fs/built-in.o
+  LD      drivers/video/omap2/dss/built-in.o
+  LD      drivers/video/omap2/built-in.o
+  LD      drivers/video/built-in.o
+  LD      drivers/built-in.o
+  LD      vmlinux.o
+  MODPOST vmlinux.o
+WARNING: modpost: Found 3 section mismatch(es).
+To see full details build your kernel with:
+'make CONFIG_DEBUG_SECTION_MISMATCH=y'
+  GEN     .version
+  CHK     include/generated/compile.h
+  UPD     include/generated/compile.h
+  CC      init/version.o
+  LD      init/built-in.o
+  LD      .tmp_vmlinux1
+  KSYM    .tmp_kallsyms1.S
+  AS      .tmp_kallsyms1.o
+  LD      .tmp_vmlinux2
+  KSYM    .tmp_kallsyms2.S
+  AS      .tmp_kallsyms2.o
+  LD      .tmp_vmlinux3
+  KSYM    .tmp_kallsyms3.S
+  AS      .tmp_kallsyms3.o
+  LD      vmlinux
+  SYSMAP  System.map
+  SYSMAP  .tmp_System.map
+  OBJCOPY arch/arm/boot/Image
+  Kernel: arch/arm/boot/Image is ready
+  AS      arch/arm/boot/compressed/head.o
+  GZIP    arch/arm/boot/compressed/piggy.gzip
+  CC      arch/arm/boot/compressed/misc.o
+  CC      arch/arm/boot/compressed/decompress.o
+  SHIPPED arch/arm/boot/compressed/lib1funcs.S
+  AS      arch/arm/boot/compressed/lib1funcs.o
+  AS      arch/arm/boot/compressed/piggy.gzip.o
+  LD      arch/arm/boot/compressed/vmlinux
+  OBJCOPY arch/arm/boot/zImage
+  Kernel: arch/arm/boot/zImage is ready
+  UIMAGE  arch/arm/boot/uImage
+Image Name:   Linux-2.6.37
+Created:      Sat Jun  4 17:25:07 2016
+Image Type:   ARM Linux Kernel Image (uncompressed)
+Data Size:    3405504 Bytes = 3325.69 kB = 3.25 MB
+Load Address: 80008000
+Entry Point:  80008000
+  Image arch/arm/boot/uImage is ready

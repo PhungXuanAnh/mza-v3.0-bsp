@@ -1,0 +1,705 @@
+Generating include/autoconf.mk
+Generating include/autoconf.mk.dep
+fatal: No names found, cannot describe anything.
+for dir in tools examples/standalone examples/api arch/arm/cpu/arm_cortexa8 /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/arch/arm/cpu/arm_cortexa8/ ; do \
+			make -C $dir _depend ; done
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/tools'
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/tools'
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/tools'
+make[1]: Nothing to be done for `_depend'.
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/tools'
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/examples/standalone'
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/examples/standalone'
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/examples/standalone'
+make[1]: Nothing to be done for `_depend'.
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/examples/standalone'
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/examples/api'
+make[1]: Nothing to be done for `_depend'.
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/examples/api'
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/arch/arm/cpu/arm_cortexa8'
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/arch/arm/cpu/arm_cortexa8'
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/arch/arm/cpu/arm_cortexa8'
+make[1]: Nothing to be done for `_depend'.
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/arch/arm/cpu/arm_cortexa8'
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/arch/arm/cpu/arm_cortexa8'
+make[1]: Nothing to be done for `_depend'.
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/arch/arm/cpu/arm_cortexa8'
+make -C tools all
+make -C examples/standalone all
+make -C examples/api all
+make -C arch/arm/cpu/arm_cortexa8 start.o
+make -C /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/arch/arm/cpu/arm_cortexa8/ u-boot.lds
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/tools'
+gcc -g -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include2 -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -I /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/lib/libfdt -I /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/tools -DTEXT_BASE=0x80e80000 -DUSE_HOSTCC -D__KERNEL_STRICT_NAMES -pedantic -c -o crc32.o /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/lib/crc32.c
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/examples/standalone'
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o hello_world.o hello_world.c -c
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/examples/api'
+gcc -g -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include2 -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -I /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/lib/libfdt -I /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/tools -DTEXT_BASE=0x80e80000 -DUSE_HOSTCC -D__KERNEL_STRICT_NAMES -c -o env_embedded.o /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/common/env_embedded.c
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o stubs.o stubs.c -c
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/arch/arm/cpu/arm_cortexa8'
+arm-eabi-gcc   -D__ASSEMBLY__ -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5   \
+		-o start.o start.S -c
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/examples/api'
+gcc -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include2 -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -I /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/lib/libfdt -I /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/tools -DTEXT_BASE=0x80e80000 -DUSE_HOSTCC -D__KERNEL_STRICT_NAMES -pedantic   -o envcrc.o envcrc.c -c
+arm-eabi-ar crv libstubs.a stubs.o
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/arch/arm/cpu/arm_cortexa8'
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/arch/arm/cpu/arm_cortexa8'
+make[1]: Nothing to be done for `u-boot.lds'.
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/arch/arm/cpu/arm_cortexa8'
+arm-eabi-gcc -E -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -include /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include/u-boot/u-boot.lds.h  -ansi -D__ASSEMBLY__ -P - </media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/arch/arm/cpu/arm_cortexa8/u-boot.lds >u-boot.lds
+gcc -g -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include2 -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -I /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/lib/libfdt -I /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/tools -DTEXT_BASE=0x80e80000 -DUSE_HOSTCC -D__KERNEL_STRICT_NAMES -pedantic -c -o sha1.o /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/lib/sha1.c
+a - stubs.o
+arm-eabi-ld -g -Ttext 0x80300000 \
+			-o hello_world -e hello_world hello_world.o libstubs.a \
+			-L/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google -lgcc
+arm-eabi-objcopy -O srec hello_world hello_world.srec 2>/dev/null
+gcc -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include2 -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -I /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/lib/libfdt -I /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/tools -DTEXT_BASE=0x80e80000 -DUSE_HOSTCC -D__KERNEL_STRICT_NAMES -pedantic   -o img2srec.o img2srec.c -c
+arm-eabi-objcopy -O binary hello_world hello_world.bin 2>/dev/null
+gcc -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include2 -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -I /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/lib/libfdt -I /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/tools -DTEXT_BASE=0x80e80000 -DUSE_HOSTCC -D__KERNEL_STRICT_NAMES   -o default_image.o default_image.c -c
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/examples/standalone'
+gcc -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include2 -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -I /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/lib/libfdt -I /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/tools -DTEXT_BASE=0x80e80000 -DUSE_HOSTCC -D__KERNEL_STRICT_NAMES   -o fit_image.o fit_image.c -c
+gcc -g -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include2 -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -I /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/lib/libfdt -I /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/tools -DTEXT_BASE=0x80e80000 -DUSE_HOSTCC -D__KERNEL_STRICT_NAMES -c -o image.o /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/common/image.c
+gcc -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include2 -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -I /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/lib/libfdt -I /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/tools -DTEXT_BASE=0x80e80000 -DUSE_HOSTCC -D__KERNEL_STRICT_NAMES   -o imximage.o imximage.c -c
+gcc -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include2 -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -I /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/lib/libfdt -I /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/tools -DTEXT_BASE=0x80e80000 -DUSE_HOSTCC -D__KERNEL_STRICT_NAMES   -o kwbimage.o kwbimage.c -c
+gcc -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include2 -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -I /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/lib/libfdt -I /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/tools -DTEXT_BASE=0x80e80000 -DUSE_HOSTCC -D__KERNEL_STRICT_NAMES   -o tiimage.o tiimage.c -c
+kwbimage.c: In function ‘kwbimage_verify_header’:
+kwbimage.c:350:10: warning: variable ‘calc_exthdrcsum’ set but not used [-Wunused-but-set-variable]
+  uint8_t calc_exthdrcsum;
+          ^
+gcc -g -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include2 -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -I /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/lib/libfdt -I /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/tools -DTEXT_BASE=0x80e80000 -DUSE_HOSTCC -D__KERNEL_STRICT_NAMES -pedantic -c -o md5.o /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/lib/md5.c
+gcc -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include2 -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -I /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/lib/libfdt -I /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/tools -DTEXT_BASE=0x80e80000 -DUSE_HOSTCC -D__KERNEL_STRICT_NAMES   -o mkimage.o mkimage.c -c
+/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/lib/md5.c: In function ‘MD5Final’:
+/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/lib/md5.c:156:2: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+  ((__u32 *) ctx->in)[14] = ctx->bits[0];
+  ^
+/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/lib/md5.c:157:2: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+  ((__u32 *) ctx->in)[15] = ctx->bits[1];
+  ^
+gcc -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include2 -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -I /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/lib/libfdt -I /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/tools -DTEXT_BASE=0x80e80000 -DUSE_HOSTCC -D__KERNEL_STRICT_NAMES   -o os_support.o os_support.c -c
+gcc -g -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include2 -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -I /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/lib/libfdt -I /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/tools -DTEXT_BASE=0x80e80000 -DUSE_HOSTCC -D__KERNEL_STRICT_NAMES -c -o fdt.o /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/lib/libfdt/fdt.c
+gcc -g -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include2 -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -I /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/lib/libfdt -I /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/tools -DTEXT_BASE=0x80e80000 -DUSE_HOSTCC -D__KERNEL_STRICT_NAMES -c -o fdt_ro.o /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/lib/libfdt/fdt_ro.c
+gcc -g -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include2 -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -I /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/lib/libfdt -I /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/tools -DTEXT_BASE=0x80e80000 -DUSE_HOSTCC -D__KERNEL_STRICT_NAMES -c -o fdt_rw.o /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/lib/libfdt/fdt_rw.c
+gcc -g -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include2 -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -I /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/lib/libfdt -I /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/tools -DTEXT_BASE=0x80e80000 -DUSE_HOSTCC -D__KERNEL_STRICT_NAMES -c -o fdt_strerror.o /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/lib/libfdt/fdt_strerror.c
+gcc -g -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include2 -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -I /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/lib/libfdt -I /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/tools -DTEXT_BASE=0x80e80000 -DUSE_HOSTCC -D__KERNEL_STRICT_NAMES -c -o fdt_wip.o /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/lib/libfdt/fdt_wip.c
+gcc -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include2 -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -I /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/lib/libfdt -I /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/tools -DTEXT_BASE=0x80e80000 -DUSE_HOSTCC -D__KERNEL_STRICT_NAMES -pedantic  -o envcrc crc32.o env_embedded.o envcrc.o sha1.o
+gcc -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include2 -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -I /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/lib/libfdt -I /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/tools -DTEXT_BASE=0x80e80000 -DUSE_HOSTCC -D__KERNEL_STRICT_NAMES -pedantic  -o img2srec img2srec.o
+gcc -Wall -Wstrict-prototypes -O2 -fomit-frame-pointer -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include2 -idirafter /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -I /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/lib/libfdt -I /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/tools -DTEXT_BASE=0x80e80000 -DUSE_HOSTCC -D__KERNEL_STRICT_NAMES -pedantic  -o mkimage crc32.o default_image.o fit_image.o image.o imximage.o kwbimage.o tiimage.o md5.o mkimage.o os_support.o sha1.o fdt.o fdt_ro.o fdt_rw.o fdt_strerror.o fdt_wip.o
+strip img2srec
+strip mkimage
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/tools'
+make -C lib/
+make -C lib/lzma/
+make -C lib/lzo/
+make -C arch/arm/cpu/arm_cortexa8/
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/lib'
+make -C arch/arm/cpu/arm_cortexa8/omap3/
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/lib/lzma'
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/lib/lzo'
+make -C arch/arm/lib/
+arm-eabi-ar crv liblzma.a 
+arm-eabi-ar crv liblzo.a 
+make -C fs/cramfs/
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/lib/lzma'
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/arch/arm/cpu/arm_cortexa8'
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o cpu.o cpu.c -c
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/lib/lzo'
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/arch/arm/cpu/arm_cortexa8/omap3'
+make -C fs/fat/
+arm-eabi-ar crv libarm_cortexa8.a cpu.o
+make -C fs/fdos/
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/arch/arm/lib'
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/lib'
+a - cpu.o
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/arch/arm/cpu/arm_cortexa8'
+make -C fs/jffs2/
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/fs/cramfs'
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/fs/fat'
+make -C fs/reiserfs/
+arm-eabi-ar crv libcramfs.a 
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/fs/fdos'
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/lib'
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o crc16.o crc16.c -c
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/fs/fat'
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/fs/cramfs'
+make -C fs/ext2/
+arm-eabi-ar crv libfdos.a 
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/fs/jffs2'
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/arch/arm/cpu/arm_cortexa8/omap3'
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/fs/fdos'
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o crc32.o crc32.c -c
+make -C fs/yaffs2/
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/arch/arm/lib'
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/fs/reiserfs'
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/fs/fat'
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o fat.o fat.c -c
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/arch/arm/cpu/arm_cortexa8/omap3'
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o board.o board.c -c
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o ctype.o ctype.c -c
+arm-eabi-ar crv libreiserfs.a 
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/fs/jffs2'
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/fs/ext2'
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/fs/reiserfs'
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o file.o file.c -c
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o display_options.o display_options.c -c
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o clock.o clock.c -c
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/arch/arm/lib'
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o board.o board.c -c
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/fs/yaffs2'
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o div64.o div64.c -c
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/fs/jffs2'
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o compr_rtime.o compr_rtime.c -c
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o gpio.o gpio.c -c
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/fs/ext2'
+arm-eabi-ar crv libfat.a fat.o file.o
+arm-eabi-ar crv libyaffs2.a 
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o gunzip.o gunzip.c -c
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o compr_rubin.o compr_rubin.c -c
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o mem.o mem.c -c
+a - fat.o
+a - file.o
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/fs/fat'
+make -C fs/ubifs/
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/fs/yaffs2'
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o bootm.o bootm.c -c
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o ldiv.o ldiv.c -c
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/fs/ext2'
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o ext2fs.o ext2fs.c -c
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o compr_zlib.o compr_zlib.c -c
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o cache.o cache.c -c
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o syslib.o syslib.c -c
+make -C net/
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o net_utils.o net_utils.c -c
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o cache-cp15.o cache-cp15.c -c
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o jffs2_1pass.o jffs2_1pass.c -c
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o string.o string.c -c
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o interrupts.o interrupts.c -c
+make -C disk/
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o sys_info.o sys_info.c -c
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o dev.o dev.c -c
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/fs/ubifs'
+jffs2_1pass.c: In function 'jffs2_1pass_read_inode':
+jffs2_1pass.c:699:7: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+jffs2_1pass.c: In function 'jffs2_1pass_build_lists':
+jffs2_1pass.c:1578:14: warning: variable 'empty_start' set but not used [-Wunused-but-set-variable]
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/net'
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o reset.o reset.c -c
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o strmhz.o strmhz.c -c
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o timer.o timer.c -c
+arm-eabi-ar crv libubifs.a 
+arm-eabi-ar crv libext2fs.a ext2fs.o dev.o
+arm-eabi-ar crv libnet.a 
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/fs/ubifs'
+make -C drivers/bios_emulator/
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/disk'
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o time.o time.c -c
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o eabi_compat.o eabi_compat.c -c
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o sdrc.o sdrc.c -c
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/net'
+a - ext2fs.o
+a - dev.o
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/fs/ext2'
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o mini_inflate.o mini_inflate.c -c
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o vsprintf.o vsprintf.c -c
+make -C drivers/block/
+arm-eabi-gcc   -D__ASSEMBLY__ -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5   \
+		-o lowlevel_init.o lowlevel_init.S -c
+arm-eabi-ar crv libarm.a board.o bootm.o cache.o cache-cp15.o interrupts.o reset.o
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/disk'
+arm-eabi-ar crv libjffs2.a compr_rtime.o compr_rubin.o compr_zlib.o jffs2_1pass.o mini_inflate.o
+make -C drivers/dma/
+arm-eabi-gcc   -D__ASSEMBLY__ -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5   \
+		-o cache.o cache.S -c
+a - board.o
+a - bootm.o
+a - cache.o
+a - cache-cp15.o
+a - interrupts.o
+a - reset.o
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/arch/arm/lib'
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o zlib.o zlib.c -c
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/bios_emulator'
+a - compr_rtime.o
+a - compr_rubin.o
+a - compr_zlib.o
+a - jffs2_1pass.o
+a - mini_inflate.o
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/fs/jffs2'
+make -C drivers/fpga/
+arm-eabi-ar crv libatibiosemu.a 
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/disk'
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o part.o part.c -c
+arm-eabi-gcc   -D__ASSEMBLY__ -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5   \
+		-o reset.o reset.S -c
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/block'
+make -C drivers/gpio/
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/bios_emulator'
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o part_dos.o part_dos.c -c
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/dma'
+arm-eabi-ar crv libblock.a 
+arm-eabi-ar crv libomap3.a board.o clock.o gpio.o mem.o syslib.o sys_info.o timer.o sdrc.o lowlevel_init.o cache.o reset.o
+make -C drivers/hwmon/
+arm-eabi-ar crv libdma.a 
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/block'
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/fpga'
+a - board.o
+a - clock.o
+a - gpio.o
+a - mem.o
+a - syslib.o
+a - sys_info.o
+a - timer.o
+a - sdrc.o
+a - lowlevel_init.o
+a - cache.o
+a - reset.o
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/arch/arm/cpu/arm_cortexa8/omap3'
+make -C drivers/i2c/
+arm-eabi-ar crv libdisk.a part.o part_dos.o
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/dma'
+arm-eabi-ar crv libfpga.a 
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/gpio'
+a - part.o
+a - part_dos.o
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/disk'
+make -C drivers/input/
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/fpga'
+arm-eabi-ar crv libgpio.a 
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/hwmon'
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/gpio'
+arm-eabi-ar crv libgeneric.a crc16.o crc32.o ctype.o display_options.o div64.o gunzip.o ldiv.o net_utils.o string.o strmhz.o time.o vsprintf.o zlib.o
+make -C drivers/misc/
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/i2c'
+arm-eabi-ar crv libhwmon.a 
+a - crc16.o
+a - crc32.o
+a - ctype.o
+a - display_options.o
+a - div64.o
+a - gunzip.o
+a - ldiv.o
+a - net_utils.o
+a - string.o
+a - strmhz.o
+a - time.o
+a - vsprintf.o
+a - zlib.o
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/lib'
+make -C drivers/mmc/
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/hwmon'
+make -C drivers/mtd/
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/i2c'
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/input'
+make -C drivers/mtd/nand/
+arm-eabi-ar crv libinput.a 
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/misc'
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/mmc'
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/i2c'
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o omap24xx_i2c.o omap24xx_i2c.c -c
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/input'
+make -C drivers/mtd/onenand/
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/mtd'
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/misc'
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/mmc'
+make -C drivers/mtd/ubi/
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/mtd/nand'
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/mtd'
+make -C drivers/mtd/spi/
+arm-eabi-ar crv libi2c.a omap24xx_i2c.o
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/misc'
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o twl4030_led.o twl4030_led.c -c
+a - omap24xx_i2c.o
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/i2c'
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/mmc'
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o omap3_mmc.o omap3_mmc.c -c
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/mtd/onenand'
+make -C drivers/net/
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/mtd'
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o mtdcore.o mtdcore.c -c
+arm-eabi-ar crv libmisc.a twl4030_led.o
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/mtd/ubi'
+arm-eabi-ar crv libonenand.a 
+a - twl4030_led.o
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/misc'
+make -C drivers/net/phy/
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/mtd/onenand'
+arm-eabi-ar crv libmmc.a omap3_mmc.o
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/mtd/spi'
+arm-eabi-ar crv libmtd.a mtdcore.o
+arm-eabi-ar crv libubi.a 
+a - mtdcore.o
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/mtd'
+a - omap3_mmc.o
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/mmc'
+make -C drivers/pci/
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/mtd/ubi'
+arm-eabi-ar crv libspi_flash.a 
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/mtd/nand'
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/net'
+make -C drivers/pcmcia/
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/mtd/spi'
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/net/phy'
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/mtd/nand'
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o nand.o nand.c -c
+arm-eabi-ar crv libnet.a 
+make -C drivers/power/
+arm-eabi-ar crv libphy.a 
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/pci'
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/net'
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o nand_base.o nand_base.c -c
+make -C drivers/spi/
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/pcmcia'
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/net/phy'
+arm-eabi-ar crv libpci.a 
+make -C drivers/rtc/
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o nand_bbt.o nand_bbt.c -c
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/power'
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o nand_ecc.o nand_ecc.c -c
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/pci'
+nand_bbt.c: In function 'search_bbt':
+nand_bbt.c:478:6: warning: variable 'bits' set but not used [-Wunused-but-set-variable]
+make -C drivers/serial/
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/pcmcia'
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/power'
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/spi'
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o nand_ids.o nand_ids.c -c
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/pcmcia'
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o rpx_pcmcia.o rpx_pcmcia.c -c
+arm-eabi-ar crv libspi.a 
+make -C drivers/twserial/
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/rtc'
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o nand_util.o nand_util.c -c
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o tqm8xx_pcmcia.o tqm8xx_pcmcia.c -c
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/power'
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o twl4030.o twl4030.c -c
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/spi'
+make -C drivers/usb/gadget/
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/serial'
+arm-eabi-ar crv libpower.a twl4030.o
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o omap_bch_decoder.o omap_bch_decoder.c -c
+arm-eabi-ar crv libpcmcia.a rpx_pcmcia.o tqm8xx_pcmcia.o
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/rtc'
+make -C drivers/usb/host/
+a - twl4030.o
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/power'
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o omap_gpmc.o omap_gpmc.c -c
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/serial'
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/twserial'
+a - rpx_pcmcia.o
+a - tqm8xx_pcmcia.o
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/pcmcia'
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/usb/gadget'
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o omap_bch_soft.o omap_bch_soft.c -c
+make -C drivers/usb/musb/
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/rtc'
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o date.o date.c -c
+arm-eabi-ar crv libtws.a 
+make -C drivers/usb/phy/
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/serial'
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o ns16550.o ns16550.c -c
+arm-eabi-ar crv libnand.a nand.o nand_base.o nand_bbt.o nand_ecc.o nand_ids.o nand_util.o omap_bch_decoder.o omap_gpmc.o omap_bch_soft.o
+arm-eabi-ar crv librtc.a date.o
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/twserial'
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/usb/host'
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/usb/gadget'
+a - nand.o
+a - nand_base.o
+a - nand_bbt.o
+a - nand_ecc.o
+a - nand_ids.o
+a - nand_util.o
+a - omap_bch_decoder.o
+a - omap_gpmc.o
+a - omap_bch_soft.o
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/mtd/nand'
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o serial.o serial.c -c
+make -C drivers/video/
+a - date.o
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/rtc'
+arm-eabi-ar crv libusb_host.a 
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/usb/musb'
+make -C drivers/watchdog/
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/usb/gadget'
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o core.o core.c -c
+arm-eabi-ar crv libserial.a ns16550.o serial.o
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/usb/host'
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/usb/phy'
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o ep0.o ep0.c -c
+make -C common/
+a - ns16550.o
+a - serial.o
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/serial'
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/video'
+core.c: In function 'usbd_device_event_irq':
+core.c:596:21: warning: variable 'state' set but not used [-Wunused-but-set-variable]
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/usb/musb'
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/usb/phy'
+ep0.c: In function 'ep0_get_descriptor':
+ep0.c:187:8: warning: variable 'cp' set but not used [-Wunused-but-set-variable]
+make -C lib/libfdt/
+arm-eabi-ar crv libusb_gadget.a core.o ep0.o
+arm-eabi-ar crv libvideo.a 
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/watchdog'
+make -C api/
+a - core.o
+a - ep0.o
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/usb/gadget'
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/video'
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/usb/phy'
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o twl4030.o twl4030.c -c
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/usb/musb'
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o musb_udc.o musb_udc.c -c
+arm-eabi-ar crv libwatchdog.a 
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/common'
+make -C post/
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o musb_core.o musb_core.c -c
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/watchdog'
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/lib/libfdt'
+arm-eabi-ar crv libusb_phy.a twl4030.o
+musb_udc.c: In function 'musb_peri_softconnect':
+musb_udc.c:170:14: warning: variable 'intrtx' set but not used [-Wunused-but-set-variable]
+musb_udc.c:170:6: warning: variable 'intrrx' set but not used [-Wunused-but-set-variable]
+musb_udc.c:169:5: warning: variable 'intrusb' set but not used [-Wunused-but-set-variable]
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o omap3.o omap3.c -c
+a - twl4030.o
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/usb/phy'
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/api'
+arm-eabi-ar crv libfdt.a 
+arm-eabi-ar crv libapi.a 
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/post'
+arm-eabi-ar crv libusb_musb.a musb_udc.o musb_core.o omap3.o
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/lib/libfdt'
+(echo create libpost.a; for lib in   ; \
+	 do echo addlib $lib; done; echo save) \
+	| arm-eabi-ar -M
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/api'
+a - musb_udc.o
+a - musb_core.o
+a - omap3.o
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/drivers/usb/musb'
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/post'
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/common'
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/common'
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o cmd_bdinfo.o cmd_bdinfo.c -c
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o cmd_boot.o cmd_boot.c -c
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o cmd_bootm.o cmd_bootm.c -c
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o cmd_console.o cmd_console.c -c
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o cmd_echo.o cmd_echo.c -c
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o cmd_exit.o cmd_exit.c -c
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o cmd_ext2.o cmd_ext2.c -c
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o cmd_fastboot.o cmd_fastboot.c -c
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o cmd_fat.o cmd_fat.c -c
+cmd_fastboot.c:241:9: warning: initialization makes pointer from integer without a cast [enabled by default]
+cmd_fastboot.c:241:9: warning: (near initialization for 'priv.transfer_buffer') [enabled by default]
+cmd_fastboot.c: In function 'save_block_values':
+cmd_fastboot.c:634:3: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+cmd_fastboot.c:638:3: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+cmd_fastboot.c: In function 'write_to_ptn':
+cmd_fastboot.c:988:7: warning: format '%x' expects argument of type 'unsigned int', but argument 3 has type 'unsigned char *' [-Wformat]
+cmd_fastboot.c:1050:7: warning: format '%x' expects argument of type 'unsigned int', but argument 3 has type 'unsigned char *' [-Wformat]
+cmd_fastboot.c:1083:4: warning: format '%x' expects argument of type 'unsigned int', but argument 3 has type 'unsigned char *' [-Wformat]
+cmd_fastboot.c: In function 'fbt_handle_boot':
+cmd_fastboot.c:1509:3: warning: format '%x' expects argument of type 'unsigned int', but argument 3 has type 'struct image_header_t *' [-Wformat]
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o cmd_help.o cmd_help.c -c
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o cmd_i2c.o cmd_i2c.c -c
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o cmd_itest.o cmd_itest.c -c
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o cmd_jffs2.o cmd_jffs2.c -c
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o cmd_load.o cmd_load.c -c
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o cmd_mem.o cmd_mem.c -c
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o cmd_misc.o cmd_misc.c -c
+cmd_mem.c: In function 'do_mem_loop':
+cmd_mem.c:481:25: warning: variable 'junk' set but not used [-Wunused-but-set-variable]
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o cmd_mmc.o cmd_mmc.c -c
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o cmd_mtdparts.o cmd_mtdparts.c -c
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o cmd_nand.o cmd_nand.c -c
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o cmd_nvedit.o cmd_nvedit.c -c
+cmd_mtdparts.c: In function 'device_parse':
+cmd_mtdparts.c:823:18: warning: variable 'pend' set but not used [-Wunused-but-set-variable]
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o cmd_pcmcia.o cmd_pcmcia.c -c
+cmd_nvedit.c: In function 'do_editenv':
+cmd_nvedit.c:518:6: warning: variable 'len' set but not used [-Wunused-but-set-variable]
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o cmd_source.o cmd_source.c -c
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o cmd_test.o cmd_test.c -c
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o cmd_version.o cmd_version.c -c
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o cmd_ximg.o cmd_ximg.c -c
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o command.o command.c -c
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o console.o console.c -c
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o dlmalloc.o dlmalloc.c -c
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o env_common.o env_common.c -c
+console.c: In function 'serial_printf':
+console.c:211:7: warning: variable 'i' set but not used [-Wunused-but-set-variable]
+console.c: In function 'fprintf':
+console.c:279:7: warning: variable 'i' set but not used [-Wunused-but-set-variable]
+console.c: In function 'printf':
+console.c:373:7: warning: variable 'i' set but not used [-Wunused-but-set-variable]
+console.c: In function 'vprintf':
+console.c:390:7: warning: variable 'i' set but not used [-Wunused-but-set-variable]
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o env_nand.o env_nand.c -c
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o exports.o exports.c -c
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o flash.o flash.c -c
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o hush.o hush.c -c
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o image.o image.c -c
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o main.o main.c -c
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o memsize.o memsize.c -c
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o s_record.o s_record.c -c
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o stdio.o stdio.c -c
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o xyzModem.o xyzModem.c -c
+arm-eabi-ar crv libcommon.a cmd_bdinfo.o cmd_boot.o cmd_bootm.o cmd_console.o cmd_echo.o cmd_exit.o cmd_ext2.o cmd_fastboot.o cmd_fat.o cmd_help.o cmd_i2c.o cmd_itest.o cmd_jffs2.o cmd_load.o cmd_mem.o cmd_misc.o cmd_mmc.o cmd_mtdparts.o cmd_nand.o cmd_nvedit.o cmd_pcmcia.o cmd_source.o cmd_test.o cmd_version.o cmd_ximg.o command.o console.o dlmalloc.o env_common.o env_nand.o exports.o flash.o hush.o image.o main.o memsize.o s_record.o stdio.o xyzModem.o
+a - cmd_bdinfo.o
+a - cmd_boot.o
+a - cmd_bootm.o
+a - cmd_console.o
+a - cmd_echo.o
+a - cmd_exit.o
+a - cmd_ext2.o
+a - cmd_fastboot.o
+a - cmd_fat.o
+a - cmd_help.o
+a - cmd_i2c.o
+a - cmd_itest.o
+a - cmd_jffs2.o
+a - cmd_load.o
+a - cmd_mem.o
+a - cmd_misc.o
+a - cmd_mmc.o
+a - cmd_mtdparts.o
+a - cmd_nand.o
+a - cmd_nvedit.o
+a - cmd_pcmcia.o
+a - cmd_source.o
+a - cmd_test.o
+a - cmd_version.o
+a - cmd_ximg.o
+a - command.o
+a - console.o
+a - dlmalloc.o
+a - env_common.o
+a - env_nand.o
+a - exports.o
+a - flash.o
+a - hush.o
+a - image.o
+a - main.o
+a - memsize.o
+a - s_record.o
+a - stdio.o
+a - xyzModem.o
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/common'
+make -C board/ti/beagle/
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/board/ti/beagle'
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/board/ti/beagle'
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/board/ti/beagle'
+arm-eabi-gcc  -g  -Os   -fno-common -ffixed-r8 -msoft-float   -D__KERNEL__ -DTEXT_BASE=0x80e80000 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -marm  -mabi=aapcs-linux -mno-thumb-interwork -march=armv5 -Wall -Wstrict-prototypes -fno-stack-protector   \
+		-o beagle.o beagle.c -c
+arm-eabi-ar crv libbeagle.a beagle.o
+a - beagle.o
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/board/ti/beagle'
+UNDEF_SYM=`arm-eabi-objdump -x board/ti/beagle/libbeagle.a lib/libgeneric.a lib/lzma/liblzma.a lib/lzo/liblzo.a arch/arm/cpu/arm_cortexa8/libarm_cortexa8.a arch/arm/cpu/arm_cortexa8/omap3/libomap3.a arch/arm/lib/libarm.a fs/cramfs/libcramfs.a fs/fat/libfat.a fs/fdos/libfdos.a fs/jffs2/libjffs2.a fs/reiserfs/libreiserfs.a fs/ext2/libext2fs.a fs/yaffs2/libyaffs2.a fs/ubifs/libubifs.a net/libnet.a disk/libdisk.a drivers/bios_emulator/libatibiosemu.a drivers/block/libblock.a drivers/dma/libdma.a drivers/fpga/libfpga.a drivers/gpio/libgpio.a drivers/hwmon/libhwmon.a drivers/i2c/libi2c.a drivers/input/libinput.a drivers/misc/libmisc.a drivers/mmc/libmmc.a drivers/mtd/libmtd.a drivers/mtd/nand/libnand.a drivers/mtd/onenand/libonenand.a drivers/mtd/ubi/libubi.a drivers/mtd/spi/libspi_flash.a drivers/net/libnet.a drivers/net/phy/libphy.a drivers/pci/libpci.a drivers/pcmcia/libpcmcia.a drivers/power/libpower.a drivers/spi/libspi.a drivers/rtc/librtc.a drivers/serial/libserial.a drivers/twserial/libtws.a drivers/usb/gadget/libusb_gadget.a drivers/usb/host/libusb_host.a drivers/usb/musb/libusb_musb.a drivers/usb/phy/libusb_phy.a drivers/video/libvideo.a drivers/watchdog/libwatchdog.a common/libcommon.a lib/libfdt/libfdt.a api/libapi.a post/libpost.a | sed  -n -e 's/.*\(__u_boot_cmd_.*\)/-u\1/p'|sort|uniq`; cd /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot && arm-eabi-ld -Bstatic -T u-boot.lds  -Ttext 0x80e80000 $UNDEF_SYM arch/arm/cpu/arm_cortexa8/start.o --start-group lib/libgeneric.a lib/lzma/liblzma.a lib/lzo/liblzo.a arch/arm/cpu/arm_cortexa8/libarm_cortexa8.a arch/arm/cpu/arm_cortexa8/omap3/libomap3.a arch/arm/lib/libarm.a fs/cramfs/libcramfs.a fs/fat/libfat.a fs/fdos/libfdos.a fs/jffs2/libjffs2.a fs/reiserfs/libreiserfs.a fs/ext2/libext2fs.a fs/yaffs2/libyaffs2.a fs/ubifs/libubifs.a net/libnet.a disk/libdisk.a drivers/bios_emulator/libatibiosemu.a drivers/block/libblock.a drivers/dma/libdma.a drivers/fpga/libfpga.a drivers/gpio/libgpio.a drivers/hwmon/libhwmon.a drivers/i2c/libi2c.a drivers/input/libinput.a drivers/misc/libmisc.a drivers/mmc/libmmc.a drivers/mtd/libmtd.a drivers/mtd/nand/libnand.a drivers/mtd/onenand/libonenand.a drivers/mtd/ubi/libubi.a drivers/mtd/spi/libspi_flash.a drivers/net/libnet.a drivers/net/phy/libphy.a drivers/pci/libpci.a drivers/pcmcia/libpcmcia.a drivers/power/libpower.a drivers/spi/libspi.a drivers/rtc/librtc.a drivers/serial/libserial.a drivers/twserial/libtws.a drivers/usb/gadget/libusb_gadget.a drivers/usb/host/libusb_host.a drivers/usb/musb/libusb_musb.a drivers/usb/phy/libusb_phy.a drivers/video/libvideo.a drivers/watchdog/libwatchdog.a common/libcommon.a lib/libfdt/libfdt.a api/libapi.a post/libpost.a board/ti/beagle/libbeagle.a --end-group /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/arch/arm/lib/eabi_compat.o -L /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google -lgcc -Map u-boot.map -o u-boot
+arm-eabi-objcopy -O srec u-boot u-boot.srec
+arm-eabi-objcopy --gap-fill=0xff -O binary u-boot u-boot.bin

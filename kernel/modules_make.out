@@ -1,0 +1,84 @@
+  CHK     include/linux/version.h
+  CHK     include/generated/utsrelease.h
+make[1]: `include/generated/mach-types.h' is up to date.
+  CALL    scripts/checksyscalls.sh
+  CC [M]  net/mac80211/main.o
+  CC [M]  net/mac80211/status.o
+  CC [M]  net/wireless/core.o
+  CC [M]  drivers/scsi/scsi_wait_scan.o
+  CC [M]  net/mac80211/sta_info.o
+  CC [M]  net/mac80211/wep.o
+  CC [M]  net/mac80211/wpa.o
+net/mac80211/sta_info.c: In function 'sta_info_cleanup_expire_buffered':
+net/mac80211/sta_info.c:581:32: warning: variable 'sdata' set but not used [-Wunused-but-set-variable]
+  CC [M]  drivers/video/backlight/generic_bl.o
+  CC [M]  net/mac80211/scan.o
+  CC [M]  net/mac80211/offchannel.o
+  CC [M]  net/mac80211/ht.o
+  CC [M]  net/mac80211/agg-tx.o
+  CC [M]  net/mac80211/agg-rx.o
+  CC [M]  net/wireless/sysfs.o
+  CC [M]  net/mac80211/ibss.o
+  CC [M]  net/mac80211/mlme.o
+  CC [M]  net/mac80211/work.o
+net/mac80211/ibss.c: In function 'ieee80211_rx_mgmt_auth_ibss':
+net/mac80211/ibss.c:44:34: warning: variable 'status_code' set but not used [-Wunused-but-set-variable]
+net/mac80211/ibss.c: In function 'ieee80211_sta_create_ibss':
+net/mac80211/ibss.c:535:35: warning: variable 'sband' set but not used [-Wunused-but-set-variable]
+  CC [M]  net/mac80211/iface.o
+  CC [M]  net/mac80211/rate.o
+net/mac80211/work.c: In function 'ieee80211_send_assoc':
+net/mac80211/work.c:210:9: warning: variable 'len' set but not used [-Wunused-but-set-variable]
+net/mac80211/work.c:208:12: warning: variable 'ies' set but not used [-Wunused-but-set-variable]
+  CC [M]  net/wireless/radiotap.o
+  CC [M]  net/mac80211/michael.o
+  CC [M]  net/mac80211/tkip.o
+  CC [M]  net/mac80211/aes_ccm.o
+  CC [M]  net/mac80211/aes_cmac.o
+  CC [M]  net/wireless/util.o
+net/mac80211/aes_ccm.c: In function 'ieee80211_aes_ccm_encrypt':
+net/mac80211/aes_ccm.c:57:39: warning: variable 'aad' set but not used [-Wunused-but-set-variable]
+net/mac80211/aes_ccm.c: In function 'ieee80211_aes_ccm_decrypt':
+net/mac80211/aes_ccm.c:97:39: warning: variable 'aad' set but not used [-Wunused-but-set-variable]
+  CC [M]  net/mac80211/cfg.o
+  CC [M]  net/wireless/reg.o
+  CC [M]  net/mac80211/rx.o
+  CC [M]  net/mac80211/spectmgmt.o
+  CC [M]  net/mac80211/tx.o
+  CC [M]  net/mac80211/key.o
+net/wireless/reg.c: In function 'freq_reg_info_regd':
+net/wireless/reg.c:670:38: warning: variable 'pr' set but not used [-Wunused-but-set-variable]
+  CC [M]  net/mac80211/util.o
+net/mac80211/rx.c: In function 'ieee80211_reassemble_add':
+net/mac80211/rx.c:1224:6: warning: variable 'idx' set but not used [-Wunused-but-set-variable]
+net/mac80211/tx.c: In function '__ieee80211_parse_tx_radiotap':
+net/mac80211/tx.c:1035:35: warning: variable 'sband' set but not used [-Wunused-but-set-variable]
+net/mac80211/tx.c: In function 'ieee80211_get_buffered_bc':
+net/mac80211/tx.c:2503:19: warning: variable 'sta' set but not used [-Wunused-but-set-variable]
+  CC [M]  net/mac80211/wme.o
+  CC [M]  net/mac80211/event.o
+  CC [M]  net/wireless/scan.o
+  CC [M]  net/mac80211/chan.o
+  CC [M]  net/mac80211/pm.o
+  CC [M]  net/mac80211/rc80211_minstrel.o
+  CC [M]  net/wireless/nl80211.o
+  CC [M]  net/mac80211/rc80211_minstrel_ht.o
+  CC [M]  net/wireless/mlme.o
+  CC [M]  net/wireless/ibss.o
+  CC [M]  net/wireless/sme.o
+  CC [M]  net/wireless/chan.o
+  CC [M]  net/wireless/ethtool.o
+  CC [M]  net/wireless/wext-compat.o
+  LD [M]  net/mac80211/mac80211.o
+  CC [M]  net/wireless/wext-sme.o
+  LD [M]  net/wireless/cfg80211.o
+  Building modules, stage 2.
+  MODPOST 4 modules
+  CC      drivers/scsi/scsi_wait_scan.mod.o
+  CC      drivers/video/backlight/generic_bl.mod.o
+  CC      net/mac80211/mac80211.mod.o
+  CC      net/wireless/cfg80211.mod.o
+  LD [M]  net/mac80211/mac80211.ko
+  LD [M]  drivers/video/backlight/generic_bl.ko
+  LD [M]  drivers/scsi/scsi_wait_scan.ko
+  LD [M]  net/wireless/cfg80211.ko

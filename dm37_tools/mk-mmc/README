@@ -1,0 +1,14 @@
+make mmc card
+=============
+
+This utility helps users create a MMC/SD Card with required Images to boot Android on any given TI platform.
+
+Execution:
+
+        #> ./mkmmc-android <device> <MLO> <u-boot.bin> <uImage> <boot.scr> <rootfs tar.bz2 >
+
+        Example: ./mkmmc-android /dev/sdc MLO u-boot.bin uImage boot.scr rootfs.tar.bz2
+
+NOTE: 
+ - A path can also be provided for Images. Like MLO can be referred to /home/user/devkit/MLO
+

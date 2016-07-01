@@ -1,0 +1,1316 @@
+============================================
+PLATFORM_VERSION_CODENAME=REL
+PLATFORM_VERSION=4.1.2
+TARGET_PRODUCT=beagleboard
+TARGET_BUILD_VARIANT=eng
+TARGET_BUILD_TYPE=release
+TARGET_BUILD_APPS=
+TARGET_ARCH=arm
+TARGET_ARCH_VARIANT=armv7-a-neon
+HOST_ARCH=x86
+HOST_OS=linux
+HOST_OS_EXTRA=Linux-3.16.0-71-generic-x86_64-with-Ubuntu-14.04-trusty
+HOST_BUILD_TYPE=release
+BUILD_ID=JZO54K
+OUT_DIR=out
+JORJIN_BOARD=PANTHER
+JORJIN_VERSION=JAJ-PT.1.0.DEV04
+============================================
+fatal: No names found, cannot describe anything.
+fatal: No names found, cannot describe anything.
+fatal: No names found, cannot describe anything.
+fatal: No names found, cannot describe anything.
+find: `src': No such file or directory
+PRODUCT_COPY_FILES frameworks/base/data/sounds/F1_MissedCall.ogg:system/media/audio/notifications/F1_MissedCall.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/F1_New_MMS.ogg:system/media/audio/notifications/F1_New_MMS.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/F1_New_SMS.ogg:system/media/audio/notifications/F1_New_SMS.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/Alarm_Buzzer.ogg:system/media/audio/alarms/Alarm_Buzzer.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/Alarm_Beep_01.ogg:system/media/audio/alarms/Alarm_Beep_01.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/Alarm_Beep_02.ogg:system/media/audio/alarms/Alarm_Beep_02.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/Alarm_Classic.ogg:system/media/audio/alarms/Alarm_Classic.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/Alarm_Beep_03.ogg:system/media/audio/alarms/Alarm_Beep_03.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/Alarm_Rooster_02.ogg:system/media/audio/alarms/Alarm_Rooster_02.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/Ring_Classic_02.ogg:system/media/audio/ringtones/Ring_Classic_02.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/Ring_Digital_02.ogg:system/media/audio/ringtones/Ring_Digital_02.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/Ring_Synth_04.ogg:system/media/audio/ringtones/Ring_Synth_04.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/Ring_Synth_02.ogg:system/media/audio/ringtones/Ring_Synth_02.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/notifications/Beat_Box_Android.ogg:system/media/audio/notifications/Beat_Box_Android.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/notifications/Heaven.ogg:system/media/audio/notifications/Heaven.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/notifications/TaDa.ogg:system/media/audio/notifications/TaDa.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/notifications/Tinkerbell.ogg:system/media/audio/notifications/Tinkerbell.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/Effect_Tick.ogg:system/media/audio/ui/Effect_Tick.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/KeypressStandard.ogg:system/media/audio/ui/KeypressStandard.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/KeypressSpacebar.ogg:system/media/audio/ui/KeypressSpacebar.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/KeypressDelete.ogg:system/media/audio/ui/KeypressDelete.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/KeypressReturn.ogg:system/media/audio/ui/KeypressReturn.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/VideoRecord.ogg:system/media/audio/ui/VideoRecord.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/camera_click.ogg:system/media/audio/ui/camera_click.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/BeatPlucker.ogg:system/media/audio/ringtones/BeatPlucker.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/CaffeineSnake.ogg:system/media/audio/notifications/CaffeineSnake.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/BentleyDubs.ogg:system/media/audio/ringtones/BentleyDubs.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/BirdLoop.ogg:system/media/audio/ringtones/BirdLoop.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/CaribbeanIce.ogg:system/media/audio/ringtones/CaribbeanIce.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/CurveBall.ogg:system/media/audio/ringtones/CurveBall.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/EtherShake.ogg:system/media/audio/ringtones/EtherShake.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/FriendlyGhost.ogg:system/media/audio/ringtones/FriendlyGhost.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/GameOverGuitar.ogg:system/media/audio/ringtones/GameOverGuitar.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/Growl.ogg:system/media/audio/ringtones/Growl.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/InsertCoin.ogg:system/media/audio/ringtones/InsertCoin.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/LoopyLounge.ogg:system/media/audio/ringtones/LoopyLounge.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/LoveFlute.ogg:system/media/audio/ringtones/LoveFlute.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/MidEvilJaunt.ogg:system/media/audio/ringtones/MidEvilJaunt.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/MildlyAlarming.ogg:system/media/audio/ringtones/MildlyAlarming.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/NewPlayer.ogg:system/media/audio/ringtones/NewPlayer.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/Noises1.ogg:system/media/audio/ringtones/Noises1.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/Noises2.ogg:system/media/audio/ringtones/Noises2.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/Noises3.ogg:system/media/audio/ringtones/Noises3.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/OrganDub.ogg:system/media/audio/ringtones/OrganDub.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/RomancingTheTone.ogg:system/media/audio/ringtones/RomancingTheTone.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/SitarVsSitar.ogg:system/media/audio/ringtones/SitarVsSitar.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/SpringyJalopy.ogg:system/media/audio/ringtones/SpringyJalopy.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/Terminated.ogg:system/media/audio/ringtones/Terminated.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/TwirlAway.ogg:system/media/audio/ringtones/TwirlAway.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/VeryAlarmed.ogg:system/media/audio/ringtones/VeryAlarmed.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/World.ogg:system/media/audio/ringtones/World.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/DearDeer.ogg:system/media/audio/notifications/DearDeer.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/DontPanic.ogg:system/media/audio/notifications/DontPanic.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/Highwire.ogg:system/media/audio/notifications/Highwire.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/KzurbSonar.ogg:system/media/audio/notifications/KzurbSonar.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/OnTheHunt.ogg:system/media/audio/notifications/OnTheHunt.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/Voila.ogg:system/media/audio/notifications/Voila.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/CrazyDream.ogg:system/media/audio/ringtones/CrazyDream.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/DreamTheme.ogg:system/media/audio/ringtones/DreamTheme.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/F1_MissedCall.ogg:system/media/audio/notifications/F1_MissedCall.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/F1_New_MMS.ogg:system/media/audio/notifications/F1_New_MMS.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/F1_New_SMS.ogg:system/media/audio/notifications/F1_New_SMS.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/Alarm_Buzzer.ogg:system/media/audio/alarms/Alarm_Buzzer.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/Alarm_Beep_01.ogg:system/media/audio/alarms/Alarm_Beep_01.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/Alarm_Beep_02.ogg:system/media/audio/alarms/Alarm_Beep_02.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/Alarm_Classic.ogg:system/media/audio/alarms/Alarm_Classic.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/Alarm_Beep_03.ogg:system/media/audio/alarms/Alarm_Beep_03.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/Alarm_Rooster_02.ogg:system/media/audio/alarms/Alarm_Rooster_02.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/Ring_Classic_02.ogg:system/media/audio/ringtones/Ring_Classic_02.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/Ring_Digital_02.ogg:system/media/audio/ringtones/Ring_Digital_02.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/Ring_Synth_04.ogg:system/media/audio/ringtones/Ring_Synth_04.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/Ring_Synth_02.ogg:system/media/audio/ringtones/Ring_Synth_02.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/notifications/Beat_Box_Android.ogg:system/media/audio/notifications/Beat_Box_Android.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/notifications/Heaven.ogg:system/media/audio/notifications/Heaven.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/notifications/TaDa.ogg:system/media/audio/notifications/TaDa.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/notifications/Tinkerbell.ogg:system/media/audio/notifications/Tinkerbell.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/Effect_Tick.ogg:system/media/audio/ui/Effect_Tick.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/KeypressStandard.ogg:system/media/audio/ui/KeypressStandard.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/KeypressSpacebar.ogg:system/media/audio/ui/KeypressSpacebar.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/KeypressDelete.ogg:system/media/audio/ui/KeypressDelete.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/KeypressReturn.ogg:system/media/audio/ui/KeypressReturn.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/VideoRecord.ogg:system/media/audio/ui/VideoRecord.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/camera_click.ogg:system/media/audio/ui/camera_click.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/LowBattery.ogg:system/media/audio/ui/LowBattery.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/Dock.ogg:system/media/audio/ui/Dock.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/Undock.ogg:system/media/audio/ui/Undock.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/Lock.ogg:system/media/audio/ui/Lock.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/Unlock.ogg:system/media/audio/ui/Unlock.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/notifications/moonbeam.ogg:system/media/audio/notifications/moonbeam.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/notifications/pixiedust.ogg:system/media/audio/notifications/pixiedust.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/notifications/pizzicato.ogg:system/media/audio/notifications/pizzicato.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/notifications/tweeters.ogg:system/media/audio/notifications/tweeters.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/BeatPlucker.ogg:system/media/audio/ringtones/BeatPlucker.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/CaffeineSnake.ogg:system/media/audio/notifications/CaffeineSnake.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/BentleyDubs.ogg:system/media/audio/ringtones/BentleyDubs.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/BirdLoop.ogg:system/media/audio/ringtones/BirdLoop.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/CurveBall.ogg:system/media/audio/ringtones/CurveBall.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/EtherShake.ogg:system/media/audio/ringtones/EtherShake.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/Growl.ogg:system/media/audio/ringtones/Growl.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/LoopyLounge.ogg:system/media/audio/ringtones/LoopyLounge.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/LoveFlute.ogg:system/media/audio/ringtones/LoveFlute.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/MidEvilJaunt.ogg:system/media/audio/ringtones/MidEvilJaunt.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/MildlyAlarming.ogg:system/media/audio/ringtones/MildlyAlarming.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/NewPlayer.ogg:system/media/audio/ringtones/NewPlayer.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/Noises1.ogg:system/media/audio/ringtones/Noises1.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/Noises2.ogg:system/media/audio/ringtones/Noises2.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/Noises3.ogg:system/media/audio/ringtones/Noises3.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/OrganDub.ogg:system/media/audio/ringtones/OrganDub.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/Terminated.ogg:system/media/audio/ringtones/Terminated.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/TwirlAway.ogg:system/media/audio/ringtones/TwirlAway.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/World.ogg:system/media/audio/ringtones/World.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/DearDeer.ogg:system/media/audio/notifications/DearDeer.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/DontPanic.ogg:system/media/audio/notifications/DontPanic.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/Highwire.ogg:system/media/audio/notifications/Highwire.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/KzurbSonar.ogg:system/media/audio/notifications/KzurbSonar.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/OnTheHunt.ogg:system/media/audio/notifications/OnTheHunt.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/Voila.ogg:system/media/audio/notifications/Voila.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/Big_Easy.ogg:system/media/audio/ringtones/Big_Easy.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/Bollywood.ogg:system/media/audio/ringtones/Bollywood.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/Cairo.ogg:system/media/audio/ringtones/Cairo.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/Calypso_Steel.ogg:system/media/audio/ringtones/Calypso_Steel.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/Champagne_Edition.ogg:system/media/audio/ringtones/Champagne_Edition.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/Club_Cubano.ogg:system/media/audio/ringtones/Club_Cubano.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/Eastern_Sky.ogg:system/media/audio/ringtones/Eastern_Sky.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/Funk_Yall.ogg:system/media/audio/ringtones/Funk_Yall.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/Savannah.ogg:system/media/audio/ringtones/Savannah.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/Gimme_Mo_Town.ogg:system/media/audio/ringtones/Gimme_Mo_Town.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/Glacial_Groove.ogg:system/media/audio/ringtones/Glacial_Groove.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/Seville.ogg:system/media/audio/ringtones/Seville.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/No_Limits.ogg:system/media/audio/ringtones/No_Limits.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/Paradise_Island.ogg:system/media/audio/ringtones/Paradise_Island.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/Road_Trip.ogg:system/media/audio/ringtones/Road_Trip.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/Shes_All_That.ogg:system/media/audio/ringtones/Shes_All_That.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/Steppin_Out.ogg:system/media/audio/ringtones/Steppin_Out.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/Third_Eye.ogg:system/media/audio/ringtones/Third_Eye.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/Thunderfoot.ogg:system/media/audio/ringtones/Thunderfoot.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/F1_MissedCall.ogg:system/media/audio/notifications/F1_MissedCall.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/F1_New_MMS.ogg:system/media/audio/notifications/F1_New_MMS.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/F1_New_SMS.ogg:system/media/audio/notifications/F1_New_SMS.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/Alarm_Buzzer.ogg:system/media/audio/alarms/Alarm_Buzzer.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/Alarm_Beep_01.ogg:system/media/audio/alarms/Alarm_Beep_01.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/Alarm_Beep_02.ogg:system/media/audio/alarms/Alarm_Beep_02.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/Alarm_Classic.ogg:system/media/audio/alarms/Alarm_Classic.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/Alarm_Beep_03.ogg:system/media/audio/alarms/Alarm_Beep_03.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/Alarm_Rooster_02.ogg:system/media/audio/alarms/Alarm_Rooster_02.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/notifications/Beat_Box_Android.ogg:system/media/audio/notifications/Beat_Box_Android.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/notifications/Heaven.ogg:system/media/audio/notifications/Heaven.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/notifications/TaDa.ogg:system/media/audio/notifications/TaDa.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/notifications/Tinkerbell.ogg:system/media/audio/notifications/Tinkerbell.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/notifications/moonbeam.ogg:system/media/audio/notifications/moonbeam.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/notifications/pixiedust.ogg:system/media/audio/notifications/pixiedust.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/notifications/pizzicato.ogg:system/media/audio/notifications/pizzicato.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/notifications/tweeters.ogg:system/media/audio/notifications/tweeters.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/Effect_Tick.ogg:system/media/audio/ui/Effect_Tick.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/KeypressStandard.ogg:system/media/audio/ui/KeypressStandard.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/KeypressSpacebar.ogg:system/media/audio/ui/KeypressSpacebar.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/KeypressDelete.ogg:system/media/audio/ui/KeypressDelete.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/KeypressReturn.ogg:system/media/audio/ui/KeypressReturn.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/VideoRecord.ogg:system/media/audio/ui/VideoRecord.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/camera_click.ogg:system/media/audio/ui/camera_click.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/LowBattery.ogg:system/media/audio/ui/LowBattery.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/Dock.ogg:system/media/audio/ui/Dock.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/Undock.ogg:system/media/audio/ui/Undock.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/Lock.ogg:system/media/audio/ui/Lock.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/Unlock.ogg:system/media/audio/ui/Unlock.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/Ring_Classic_02.ogg:system/media/audio/ringtones/Ring_Classic_02.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/Ring_Digital_02.ogg:system/media/audio/ringtones/Ring_Digital_02.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/Ring_Synth_04.ogg:system/media/audio/ringtones/Ring_Synth_04.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/Ring_Synth_02.ogg:system/media/audio/ringtones/Ring_Synth_02.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/CaffeineSnake.ogg:system/media/audio/notifications/CaffeineSnake.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/DearDeer.ogg:system/media/audio/notifications/DearDeer.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/DontPanic.ogg:system/media/audio/notifications/DontPanic.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/Highwire.ogg:system/media/audio/notifications/Highwire.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/KzurbSonar.ogg:system/media/audio/notifications/KzurbSonar.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/OnTheHunt.ogg:system/media/audio/notifications/OnTheHunt.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/Voila.ogg:system/media/audio/notifications/Voila.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/Big_Easy.ogg:system/media/audio/ringtones/Big_Easy.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/BirdLoop.ogg:system/media/audio/ringtones/BirdLoop.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/Bollywood.ogg:system/media/audio/ringtones/Bollywood.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/BussaMove.ogg:system/media/audio/ringtones/BussaMove.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/Cairo.ogg:system/media/audio/ringtones/Cairo.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/Calypso_Steel.ogg:system/media/audio/ringtones/Calypso_Steel.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/Champagne_Edition.ogg:system/media/audio/ringtones/Champagne_Edition.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/Club_Cubano.ogg:system/media/audio/ringtones/Club_Cubano.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/CrayonRock.ogg:system/media/audio/ringtones/CrayonRock.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/CurveBall.ogg:system/media/audio/ringtones/CurveBall.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/DancinFool.ogg:system/media/audio/ringtones/DancinFool.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/DonMessWivIt.ogg:system/media/audio/ringtones/DonMessWivIt.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/Eastern_Sky.ogg:system/media/audio/ringtones/Eastern_Sky.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/EtherShake.ogg:system/media/audio/ringtones/EtherShake.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/Funk_Yall.ogg:system/media/audio/ringtones/Funk_Yall.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/Gimme_Mo_Town.ogg:system/media/audio/ringtones/Gimme_Mo_Town.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/Glacial_Groove.ogg:system/media/audio/ringtones/Glacial_Groove.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/Growl.ogg:system/media/audio/ringtones/Growl.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/HalfwayHome.ogg:system/media/audio/ringtones/HalfwayHome.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/LoopyLounge.ogg:system/media/audio/ringtones/LoopyLounge.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/LoveFlute.ogg:system/media/audio/ringtones/LoveFlute.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/MidEvilJaunt.ogg:system/media/audio/ringtones/MidEvilJaunt.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/MildlyAlarming.ogg:system/media/audio/ringtones/MildlyAlarming.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/No_Limits.ogg:system/media/audio/ringtones/No_Limits.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/OrganDub.ogg:system/media/audio/ringtones/OrganDub.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/Paradise_Island.ogg:system/media/audio/ringtones/Paradise_Island.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/Playa.ogg:system/media/audio/ringtones/Playa.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/Road_Trip.ogg:system/media/audio/ringtones/Road_Trip.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/Seville.ogg:system/media/audio/ringtones/Seville.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/Shes_All_That.ogg:system/media/audio/ringtones/Shes_All_That.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/SilkyWay.ogg:system/media/audio/ringtones/SilkyWay.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/Steppin_Out.ogg:system/media/audio/ringtones/Steppin_Out.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/Terminated.ogg:system/media/audio/ringtones/Terminated.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/Third_Eye.ogg:system/media/audio/ringtones/Third_Eye.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/TwirlAway.ogg:system/media/audio/ringtones/TwirlAway.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/newwavelabs/World.ogg:system/media/audio/ringtones/World.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/Alarm_Buzzer.ogg:system/media/audio/alarms/Alarm_Buzzer.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/Alarm_Beep_01.ogg:system/media/audio/alarms/Alarm_Beep_01.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/Alarm_Beep_02.ogg:system/media/audio/alarms/Alarm_Beep_02.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/Alarm_Classic.ogg:system/media/audio/alarms/Alarm_Classic.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/Alarm_Beep_03.ogg:system/media/audio/alarms/Alarm_Beep_03.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/Effect_Tick.ogg:system/media/audio/ui/Effect_Tick.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/KeypressStandard.ogg:system/media/audio/ui/KeypressStandard.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/KeypressSpacebar.ogg:system/media/audio/ui/KeypressSpacebar.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/KeypressDelete.ogg:system/media/audio/ui/KeypressDelete.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/KeypressReturn.ogg:system/media/audio/ui/KeypressReturn.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/VideoRecord.ogg:system/media/audio/ui/VideoRecord.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/camera_click.ogg:system/media/audio/ui/camera_click.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/LowBattery.ogg:system/media/audio/ui/LowBattery.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/Dock.ogg:system/media/audio/ui/Dock.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/Undock.ogg:system/media/audio/ui/Undock.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/Lock.ogg:system/media/audio/ui/Lock.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/Unlock.ogg:system/media/audio/ui/Unlock.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/ogg/Effect_Tick.ogg:system/media/audio/ui/Effect_Tick.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/ogg/KeypressStandard.ogg:system/media/audio/ui/KeypressStandard.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/ogg/KeypressSpacebar.ogg:system/media/audio/ui/KeypressSpacebar.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/ogg/KeypressDelete.ogg:system/media/audio/ui/KeypressDelete.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/ogg/KeypressReturn.ogg:system/media/audio/ui/KeypressReturn.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/ogg/VideoRecord.ogg:system/media/audio/ui/VideoRecord.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/ogg/camera_click.ogg:system/media/audio/ui/camera_click.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/ogg/camera_focus.ogg:system/media/audio/ui/camera_focus.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/ogg/LowBattery.ogg:system/media/audio/ui/LowBattery.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/ogg/Dock.ogg:system/media/audio/ui/Dock.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/ogg/Undock.ogg:system/media/audio/ui/Undock.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/ogg/Lock.ogg:system/media/audio/ui/Lock.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/ogg/Unlock.ogg:system/media/audio/ui/Unlock.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/ringtones/ogg/Sceptrum.ogg:system/media/audio/ringtones/Sceptrum.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/alarms/ogg/Cesium.ogg:system/media/audio/alarms/Cesium.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/alarms/ogg/Plutonium.ogg:system/media/audio/alarms/Plutonium.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/ogg/Effect_Tick.ogg:system/media/audio/ui/Effect_Tick.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/ogg/KeypressStandard_120.ogg:system/media/audio/ui/KeypressStandard.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/ogg/KeypressSpacebar_120.ogg:system/media/audio/ui/KeypressSpacebar.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/ogg/KeypressDelete_120.ogg:system/media/audio/ui/KeypressDelete.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/ogg/KeypressReturn_120.ogg:system/media/audio/ui/KeypressReturn.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/ogg/VideoRecord.ogg:system/media/audio/ui/VideoRecord.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/ogg/camera_click.ogg:system/media/audio/ui/camera_click.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/ogg/camera_focus.ogg:system/media/audio/ui/camera_focus.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/ogg/LowBattery.ogg:system/media/audio/ui/LowBattery.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/ogg/Dock.ogg:system/media/audio/ui/Dock.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/ogg/Undock.ogg:system/media/audio/ui/Undock.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/ogg/Lock.ogg:system/media/audio/ui/Lock.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/ogg/Unlock.ogg:system/media/audio/ui/Unlock.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/notifications/ogg/Capella.ogg:system/media/audio/notifications/Capella.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/notifications/ogg/CetiAlpha.ogg:system/media/audio/notifications/CetiAlpha.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/notifications/ogg/Polaris.ogg:system/media/audio/notifications/Polaris.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/notifications/ogg/Pollux.ogg:system/media/audio/notifications/Pollux.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/notifications/ogg/Procyon.ogg:system/media/audio/notifications/Procyon.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/ringtones/ogg/Aquila.ogg:system/media/audio/ringtones/Aquila.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/ringtones/ogg/ArgoNavis.ogg:system/media/audio/ringtones/ArgoNavis.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/ringtones/ogg/Carina.ogg:system/media/audio/ringtones/Carina.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/ringtones/ogg/Centaurus.ogg:system/media/audio/ringtones/Centaurus.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/ringtones/ogg/Cygnus.ogg:system/media/audio/ringtones/Cygnus.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/ringtones/ogg/Draco.ogg:system/media/audio/ringtones/Draco.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/ringtones/ogg/Machina.ogg:system/media/audio/ringtones/Machina.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/ringtones/ogg/Orion.ogg:system/media/audio/ringtones/Orion.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/ringtones/ogg/Pegasus.ogg:system/media/audio/ringtones/Pegasus.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/ringtones/ogg/Pyxis.ogg:system/media/audio/ringtones/Pyxis.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/ringtones/ogg/Rigel.ogg:system/media/audio/ringtones/Rigel.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/ringtones/ogg/Scarabaeus.ogg:system/media/audio/ringtones/Scarabaeus.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/ringtones/ogg/Sceptrum.ogg:system/media/audio/ringtones/Sceptrum.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/ringtones/ogg/Solarium.ogg:system/media/audio/ringtones/Solarium.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/ogg/Effect_Tick.ogg:system/media/audio/ui/Effect_Tick.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/ogg/KeypressStandard_120.ogg:system/media/audio/ui/KeypressStandard.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/ogg/KeypressSpacebar_120.ogg:system/media/audio/ui/KeypressSpacebar.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/ogg/KeypressDelete_120.ogg:system/media/audio/ui/KeypressDelete.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/ogg/KeypressReturn_120.ogg:system/media/audio/ui/KeypressReturn.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/ogg/VideoRecord.ogg:system/media/audio/ui/VideoRecord.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/ogg/camera_click.ogg:system/media/audio/ui/camera_click.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/ogg/LowBattery.ogg:system/media/audio/ui/LowBattery.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/ogg/Dock.ogg:system/media/audio/ui/Dock.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/ogg/Undock.ogg:system/media/audio/ui/Undock.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/ogg/Lock.ogg:system/media/audio/ui/Lock.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/effects/ogg/Unlock.ogg:system/media/audio/ui/Unlock.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/notifications/ogg/Adara.ogg:system/media/audio/notifications/Adara.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/notifications/ogg/Arcturus.ogg:system/media/audio/notifications/Arcturus.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/notifications/ogg/Bellatrix.ogg:system/media/audio/notifications/Bellatrix.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/notifications/ogg/Capella.ogg:system/media/audio/notifications/Capella.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/notifications/ogg/CetiAlpha.ogg:system/media/audio/notifications/CetiAlpha.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/notifications/ogg/Hojus.ogg:system/media/audio/notifications/Hojus.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/notifications/ogg/Lalande.ogg:system/media/audio/notifications/Lalande.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/notifications/ogg/Mira.ogg:system/media/audio/notifications/Mira.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/notifications/ogg/Polaris.ogg:system/media/audio/notifications/Polaris.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/notifications/ogg/Pollux.ogg:system/media/audio/notifications/Pollux.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/notifications/ogg/Procyon.ogg:system/media/audio/notifications/Procyon.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/notifications/ogg/Proxima.ogg:system/media/audio/notifications/Proxima.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/notifications/ogg/Shaula.ogg:system/media/audio/notifications/Shaula.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/notifications/ogg/Spica.ogg:system/media/audio/notifications/Spica.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/notifications/ogg/Tejat.ogg:system/media/audio/notifications/Tejat.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/notifications/ogg/Upsilon.ogg:system/media/audio/notifications/Upsilon.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/notifications/ogg/Vega.ogg:system/media/audio/notifications/Vega.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/ringtones/ogg/Andromeda.ogg:system/media/audio/ringtones/Andromeda.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/ringtones/ogg/Aquila.ogg:system/media/audio/ringtones/Aquila.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/ringtones/ogg/ArgoNavis.ogg:system/media/audio/ringtones/ArgoNavis.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/ringtones/ogg/CanisMajor.ogg:system/media/audio/ringtones/CanisMajor.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/ringtones/ogg/Carina.ogg:system/media/audio/ringtones/Carina.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/ringtones/ogg/Centaurus.ogg:system/media/audio/ringtones/Centaurus.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/ringtones/ogg/Cygnus.ogg:system/media/audio/ringtones/Cygnus.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/ringtones/ogg/Draco.ogg:system/media/audio/ringtones/Draco.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/ringtones/ogg/Girtab.ogg:system/media/audio/ringtones/Girtab.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/ringtones/ogg/Hydra.ogg:system/media/audio/ringtones/Hydra.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/ringtones/ogg/Machina.ogg:system/media/audio/ringtones/Machina.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/ringtones/ogg/Orion.ogg:system/media/audio/ringtones/Orion.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/ringtones/ogg/Pegasus.ogg:system/media/audio/ringtones/Pegasus.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/ringtones/ogg/Perseus.ogg:system/media/audio/ringtones/Perseus.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/ringtones/ogg/Pyxis.ogg:system/media/audio/ringtones/Pyxis.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/ringtones/ogg/Rigel.ogg:system/media/audio/ringtones/Rigel.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/ringtones/ogg/Scarabaeus.ogg:system/media/audio/ringtones/Scarabaeus.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/ringtones/ogg/Sceptrum.ogg:system/media/audio/ringtones/Sceptrum.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/ringtones/ogg/Solarium.ogg:system/media/audio/ringtones/Solarium.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/ringtones/ogg/Themos.ogg:system/media/audio/ringtones/Themos.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/ringtones/ogg/UrsaMinor.ogg:system/media/audio/ringtones/UrsaMinor.ogg ignored.
+PRODUCT_COPY_FILES frameworks/base/data/sounds/ringtones/ogg/Zeta.ogg:system/media/audio/ringtones/Zeta.ogg ignored.
+Checking API: checkapi-current
+Copying: out/target/common/obj/APPS/Bluetooth_intermediates/emma_out/lib/classes-jarjar.jar
+Copying: out/target/common/obj/APPS/Bluetooth_intermediates/classes.jar
+Copying: out/target/common/obj/APPS/Bluetooth_intermediates/noproguard.classes.jar
+target Dex: Bluetooth
+Copying: out/target/common/obj/APPS/Bluetooth_intermediates/noproguard.classes.dex
+target Package: Bluetooth (out/target/product/beagleboard/obj/APPS/Bluetooth_intermediates/package.apk)
+ 'out/target/common/obj/APPS/Bluetooth_intermediates/classes.dex' as 'classes.dex'...
+Install: out/target/product/beagleboard/system/app/Bluetooth.apk
+Compiling SDK Stubs: out/target/common/obj/JAVA_LIBRARIES/android_stubs_current_intermediates/classes.jar
+out/target/common/obj/JAVA_LIBRARIES/android_stubs_current_intermediates/src/org/apache/http/impl/conn/tsccm/BasicPoolEntryRef.java:5: warning: [unchecked] unchecked conversion
+found   : java.lang.ref.ReferenceQueue
+required: java.lang.ref.ReferenceQueue<? super org.apache.http.impl.conn.tsccm.BasicPoolEntry>
+public  BasicPoolEntryRef(org.apache.http.impl.conn.tsccm.BasicPoolEntry entry, java.lang.ref.ReferenceQueue<java.lang.Object> queue) { super(null,(java.lang.ref.ReferenceQueue)null); throw new RuntimeException("Stub!"); }
+                                                                                                                                                   ^
+out/target/common/obj/JAVA_LIBRARIES/android_stubs_current_intermediates/src/java/security/cert/PKIXBuilderParameters.java:5: warning: [unchecked] unchecked conversion
+found   : java.util.Set
+required: java.util.Set<java.security.cert.TrustAnchor>
+public  PKIXBuilderParameters(java.util.Set<java.security.cert.TrustAnchor> trustAnchors, java.security.cert.CertSelector targetConstraints) throws java.security.InvalidAlgorithmParameterException { super((java.util.Set)null); throw new RuntimeException("Stub!"); }
+                                                                                                                                                                                                             ^
+out/target/common/obj/JAVA_LIBRARIES/android_stubs_current_intermediates/src/java/util/concurrent/ScheduledThreadPoolExecutor.java:6: warning: [unchecked] unchecked conversion
+found   : java.util.concurrent.BlockingQueue
+required: java.util.concurrent.BlockingQueue<java.lang.Runnable>
+public  ScheduledThreadPoolExecutor(int corePoolSize) { super(0,0,0,(java.util.concurrent.TimeUnit)null,(java.util.concurrent.BlockingQueue)null,(java.util.concurrent.ThreadFactory)null,(java.util.concurrent.RejectedExecutionHandler)null); throw new RuntimeException("Stub!"); }
+                                                                                                        ^
+out/target/common/obj/JAVA_LIBRARIES/android_stubs_current_intermediates/src/java/util/concurrent/ScheduledThreadPoolExecutor.java:7: warning: [unchecked] unchecked conversion
+found   : java.util.concurrent.BlockingQueue
+required: java.util.concurrent.BlockingQueue<java.lang.Runnable>
+public  ScheduledThreadPoolExecutor(int corePoolSize, java.util.concurrent.ThreadFactory threadFactory) { super(0,0,0,(java.util.concurrent.TimeUnit)null,(java.util.concurrent.BlockingQueue)null,(java.util.concurrent.ThreadFactory)null,(java.util.concurrent.RejectedExecutionHandler)null); throw new RuntimeException("Stub!"); }
+                                                                                                                                                          ^
+out/target/common/obj/JAVA_LIBRARIES/android_stubs_current_intermediates/src/java/util/concurrent/ScheduledThreadPoolExecutor.java:8: warning: [unchecked] unchecked conversion
+found   : java.util.concurrent.BlockingQueue
+required: java.util.concurrent.BlockingQueue<java.lang.Runnable>
+public  ScheduledThreadPoolExecutor(int corePoolSize, java.util.concurrent.RejectedExecutionHandler handler) { super(0,0,0,(java.util.concurrent.TimeUnit)null,(java.util.concurrent.BlockingQueue)null,(java.util.concurrent.ThreadFactory)null,(java.util.concurrent.RejectedExecutionHandler)null); throw new RuntimeException("Stub!"); }
+                                                                                                                                                               ^
+out/target/common/obj/JAVA_LIBRARIES/android_stubs_current_intermediates/src/java/util/concurrent/ScheduledThreadPoolExecutor.java:9: warning: [unchecked] unchecked conversion
+found   : java.util.concurrent.BlockingQueue
+required: java.util.concurrent.BlockingQueue<java.lang.Runnable>
+public  ScheduledThreadPoolExecutor(int corePoolSize, java.util.concurrent.ThreadFactory threadFactory, java.util.concurrent.RejectedExecutionHandler handler) { super(0,0,0,(java.util.concurrent.TimeUnit)null,(java.util.concurrent.BlockingQueue)null,(java.util.concurrent.ThreadFactory)null,(java.util.concurrent.RejectedExecutionHandler)null); throw new RuntimeException("Stub!"); }
+                                                                                                                                                                                                                 ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+6 warnings
+target Java: Calculator (out/target/common/obj/APPS/Calculator_intermediates/classes)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Copying: out/target/common/obj/APPS/Calculator_intermediates/classes-jarjar.jar
+Copying: out/target/common/obj/APPS/Calculator_intermediates/emma_out/lib/classes-jarjar.jar
+Copying: out/target/common/obj/APPS/Calculator_intermediates/classes.jar
+Copying: out/target/common/obj/APPS/Calculator_intermediates/noproguard.classes.jar
+target Dex: Calculator
+Copying: out/target/common/obj/APPS/Calculator_intermediates/noproguard.classes.dex
+target Package: Calculator (out/target/product/beagleboard/obj/APPS/Calculator_intermediates/package.apk)
+ 'out/target/common/obj/APPS/Calculator_intermediates/classes.dex' as 'classes.dex'...
+Install: out/target/product/beagleboard/system/app/Calculator.apk
+target Java: calendar-common (out/target/common/obj/JAVA_LIBRARIES/calendar-common_intermediates/classes)
+Copying: out/target/common/obj/JAVA_LIBRARIES/calendar-common_intermediates/classes-jarjar.jar
+Copying: out/target/common/obj/JAVA_LIBRARIES/calendar-common_intermediates/emma_out/lib/classes-jarjar.jar
+Copying: out/target/common/obj/JAVA_LIBRARIES/calendar-common_intermediates/classes.jar
+target Static Jar: calendar-common (out/target/common/obj/JAVA_LIBRARIES/calendar-common_intermediates/javalib.jar)
+target Java: Calendar (out/target/common/obj/APPS/Calendar_intermediates/classes)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Copying: out/target/common/obj/APPS/Calendar_intermediates/classes-jarjar.jar
+Copying: out/target/common/obj/APPS/Calendar_intermediates/emma_out/lib/classes-jarjar.jar
+Copying: out/target/common/obj/APPS/Calendar_intermediates/classes.jar
+Copying: out/target/common/obj/APPS/Calendar_intermediates/noproguard.classes.jar
+target Dex: Calendar
+Copying: out/target/common/obj/APPS/Calendar_intermediates/noproguard.classes.dex
+target Package: Calendar (out/target/product/beagleboard/obj/APPS/Calendar_intermediates/package.apk)
+Warning: AndroidManifest.xml already defines minSdkVersion (in http://schemas.android.com/apk/res/android); using existing value in manifest.
+nothing matches overlay file ic_contact_picture.png, for flavor ,,,,,,,,,,,hdpi,,,,,,,
+nothing matches overlay file ic_contact_picture.png, for flavor ,,,,,,,,,,,xhdpi,,,,,,,
+ 'out/target/common/obj/APPS/Calendar_intermediates/classes.dex' as 'classes.dex'...
+Install: out/target/product/beagleboard/system/app/Calendar.apk
+target Java: CalendarProvider (out/target/common/obj/APPS/CalendarProvider_intermediates/classes)
+Note: packages/providers/CalendarProvider/src/com/android/providers/calendar/CalendarProvider2.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Copying: out/target/common/obj/APPS/CalendarProvider_intermediates/classes-jarjar.jar
+Copying: out/target/common/obj/APPS/CalendarProvider_intermediates/emma_out/lib/classes-jarjar.jar
+Copying: out/target/common/obj/APPS/CalendarProvider_intermediates/classes.jar
+Copying: out/target/common/obj/APPS/CalendarProvider_intermediates/noproguard.classes.jar
+target Dex: CalendarProvider
+Copying: out/target/common/obj/APPS/CalendarProvider_intermediates/noproguard.classes.dex
+target Package: CalendarProvider (out/target/product/beagleboard/obj/APPS/CalendarProvider_intermediates/package.apk)
+ 'out/target/common/obj/APPS/CalendarProvider_intermediates/classes.dex' as 'classes.dex'...
+Install: out/target/product/beagleboard/system/app/CalendarProvider.apk
+target Java: android-ex-variablespeed (out/target/common/obj/JAVA_LIBRARIES/android-ex-variablespeed_intermediates/classes)
+Copying: out/target/common/obj/JAVA_LIBRARIES/android-ex-variablespeed_intermediates/classes-jarjar.jar
+Copying: out/target/common/obj/JAVA_LIBRARIES/android-ex-variablespeed_intermediates/emma_out/lib/classes-jarjar.jar
+Copying: out/target/common/obj/JAVA_LIBRARIES/android-ex-variablespeed_intermediates/classes.jar
+target Static Jar: android-ex-variablespeed (out/target/common/obj/JAVA_LIBRARIES/android-ex-variablespeed_intermediates/javalib.jar)
+target Java: Contacts (out/target/common/obj/APPS/Contacts_intermediates/classes)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Copying: out/target/common/obj/APPS/Contacts_intermediates/classes-jarjar.jar
+Copying: out/target/common/obj/APPS/Contacts_intermediates/emma_out/lib/classes-jarjar.jar
+Copying: out/target/common/obj/APPS/Contacts_intermediates/classes.jar
+Copying: out/target/common/obj/APPS/Contacts_intermediates/noproguard.classes.jar
+target Dex: Contacts
+Copying: out/target/common/obj/APPS/Contacts_intermediates/noproguard.classes.dex
+target Package: Contacts (out/target/product/beagleboard/obj/APPS/Contacts_intermediates/package.apk)
+ 'out/target/common/obj/APPS/Contacts_intermediates/classes.dex' as 'classes.dex'...
+Install: out/target/product/beagleboard/system/app/Contacts.apk
+target Java: DeskClock (out/target/common/obj/APPS/DeskClock_intermediates/classes)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Copying: out/target/common/obj/APPS/DeskClock_intermediates/classes-jarjar.jar
+Copying: out/target/common/obj/APPS/DeskClock_intermediates/emma_out/lib/classes-jarjar.jar
+Copying: out/target/common/obj/APPS/DeskClock_intermediates/classes.jar
+Copying: out/target/common/obj/APPS/DeskClock_intermediates/noproguard.classes.jar
+target Dex: DeskClock
+Copying: out/target/common/obj/APPS/DeskClock_intermediates/noproguard.classes.dex
+target Package: DeskClock (out/target/product/beagleboard/obj/APPS/DeskClock_intermediates/package.apk)
+Warning: AndroidManifest.xml already defines versionCode (in http://schemas.android.com/apk/res/android); using existing value in manifest.
+Warning: AndroidManifest.xml already defines versionName (in http://schemas.android.com/apk/res/android); using existing value in manifest.
+ 'out/target/common/obj/APPS/DeskClock_intermediates/classes.dex' as 'classes.dex'...
+Install: out/target/product/beagleboard/system/app/DeskClock.apk
+Copying: out/target/common/obj/APPS/Development_intermediates/emma_out/lib/classes-jarjar.jar
+Copying: out/target/common/obj/APPS/Development_intermediates/classes.jar
+Copying: out/target/common/obj/APPS/Development_intermediates/noproguard.classes.jar
+target Dex: Development
+Copying: out/target/common/obj/APPS/Development_intermediates/noproguard.classes.dex
+target Package: Development (out/target/product/beagleboard/obj/APPS/Development_intermediates/package.apk)
+Warning: AndroidManifest.xml already defines versionCode (in http://schemas.android.com/apk/res/android); using existing value in manifest.
+Warning: AndroidManifest.xml already defines versionName (in http://schemas.android.com/apk/res/android); using existing value in manifest.
+ 'out/target/common/obj/APPS/Development_intermediates/classes.dex' as 'classes.dex'...
+Install: out/target/product/beagleboard/system/app/Development.apk
+target Java: com.android.emailcommon (out/target/common/obj/JAVA_LIBRARIES/com.android.emailcommon_intermediates/classes)
+Copying: out/target/common/obj/JAVA_LIBRARIES/com.android.emailcommon_intermediates/classes-jarjar.jar
+Copying: out/target/common/obj/JAVA_LIBRARIES/com.android.emailcommon_intermediates/emma_out/lib/classes-jarjar.jar
+Copying: out/target/common/obj/JAVA_LIBRARIES/com.android.emailcommon_intermediates/classes.jar
+target Static Jar: com.android.emailcommon (out/target/common/obj/JAVA_LIBRARIES/com.android.emailcommon_intermediates/javalib.jar)
+target Java: Email (out/target/common/obj/APPS/Email_intermediates/classes)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Copying: out/target/common/obj/APPS/Email_intermediates/classes-jarjar.jar
+Copying: out/target/common/obj/APPS/Email_intermediates/emma_out/lib/classes-jarjar.jar
+Copying: out/target/common/obj/APPS/Email_intermediates/classes.jar
+Copying: out/target/common/obj/APPS/Email_intermediates/noproguard.classes.jar
+target Dex: Email
+Copying: out/target/common/obj/APPS/Email_intermediates/noproguard.classes.dex
+target Package: Email (out/target/product/beagleboard/obj/APPS/Email_intermediates/package.apk)
+Warning: AndroidManifest.xml already defines versionCode (in http://schemas.android.com/apk/res/android); using existing value in manifest.
+Warning: AndroidManifest.xml already defines versionName (in http://schemas.android.com/apk/res/android); using existing value in manifest.
+Warning: AndroidManifest.xml already defines minSdkVersion (in http://schemas.android.com/apk/res/android); using existing value in manifest.
+Warning: AndroidManifest.xml already defines targetSdkVersion (in http://schemas.android.com/apk/res/android); using existing value in manifest.
+nothing matches overlay file attachment_bg_holo.9.png, for flavor ,,,,,,,,,,,hdpi,,,,,,,
+nothing matches overlay file attachment_bg_holo.9.png, for flavor ,,,,,,,,,,,xhdpi,,,,,,,
+ 'out/target/common/obj/APPS/Email_intermediates/classes.dex' as 'classes.dex'...
+Install: out/target/product/beagleboard/system/app/Email.apk
+target Java: Exchange2 (out/target/common/obj/APPS/Exchange2_intermediates/classes)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Copying: out/target/common/obj/APPS/Exchange2_intermediates/classes-jarjar.jar
+Copying: out/target/common/obj/APPS/Exchange2_intermediates/emma_out/lib/classes-jarjar.jar
+Copying: out/target/common/obj/APPS/Exchange2_intermediates/classes.jar
+Copying: out/target/common/obj/APPS/Exchange2_intermediates/noproguard.classes.jar
+target Dex: Exchange2
+Copying: out/target/common/obj/APPS/Exchange2_intermediates/noproguard.classes.dex
+target Package: Exchange2 (out/target/product/beagleboard/obj/APPS/Exchange2_intermediates/package.apk)
+Warning: AndroidManifest.xml already defines versionCode (in http://schemas.android.com/apk/res/android); using existing value in manifest.
+Warning: AndroidManifest.xml already defines versionName (in http://schemas.android.com/apk/res/android); using existing value in manifest.
+ 'out/target/common/obj/APPS/Exchange2_intermediates/classes.dex' as 'classes.dex'...
+Install: out/target/product/beagleboard/system/app/Exchange2.apk
+target Java: LatinIME (out/target/common/obj/APPS/LatinIME_intermediates/classes)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Copying: out/target/common/obj/APPS/LatinIME_intermediates/classes-jarjar.jar
+Copying: out/target/common/obj/APPS/LatinIME_intermediates/emma_out/lib/classes-jarjar.jar
+Copying: out/target/common/obj/APPS/LatinIME_intermediates/classes.jar
+Copying: out/target/common/obj/APPS/LatinIME_intermediates/noproguard.classes.jar
+target Dex: LatinIME
+Copying: out/target/common/obj/APPS/LatinIME_intermediates/noproguard.classes.dex
+target Package: LatinIME (out/target/product/beagleboard/obj/APPS/LatinIME_intermediates/package.apk)
+  adding: lib/ (stored 0%)
+  adding: lib/armeabi-v7a/ (stored 0%)
+  adding: lib/armeabi-v7a/libjni_latinime.so (deflated 40%)
+ 'out/target/common/obj/APPS/LatinIME_intermediates/classes.dex' as 'classes.dex'...
+Install: out/target/product/beagleboard/system/app/LatinIME.apk
+target Java: Music (out/target/common/obj/APPS/Music_intermediates/classes)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: packages/apps/Music/src/com/android/music/SharedPreferencesCompat.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Copying: out/target/common/obj/APPS/Music_intermediates/classes-jarjar.jar
+Copying: out/target/common/obj/APPS/Music_intermediates/emma_out/lib/classes-jarjar.jar
+Copying: out/target/common/obj/APPS/Music_intermediates/classes.jar
+Copying: out/target/common/obj/APPS/Music_intermediates/noproguard.classes.jar
+target Dex: Music
+Copying: out/target/common/obj/APPS/Music_intermediates/noproguard.classes.dex
+target Package: Music (out/target/product/beagleboard/obj/APPS/Music_intermediates/package.apk)
+Warning: AndroidManifest.xml already defines minSdkVersion (in http://schemas.android.com/apk/res/android); using existing value in manifest.
+Warning: AndroidManifest.xml already defines targetSdkVersion (in http://schemas.android.com/apk/res/android); using existing value in manifest.
+ 'out/target/common/obj/APPS/Music_intermediates/classes.dex' as 'classes.dex'...
+Install: out/target/product/beagleboard/system/app/Music.apk
+Copying: out/target/common/obj/APPS/PinyinIME_intermediates/noproguard.classes.jar
+target Dex: PinyinIME
+Copying: out/target/common/obj/APPS/PinyinIME_intermediates/noproguard.classes.dex
+target Package: PinyinIME (out/target/product/beagleboard/obj/APPS/PinyinIME_intermediates/package.apk)
+  adding: lib/ (stored 0%)
+  adding: lib/armeabi-v7a/ (stored 0%)
+  adding: lib/armeabi-v7a/libjni_pinyinime.so (deflated 45%)
+ 'out/target/common/obj/APPS/PinyinIME_intermediates/classes.dex' as 'classes.dex'...
+Install: out/target/product/beagleboard/system/app/PinyinIME.apk
+target Java: QuickSearchBox (out/target/common/obj/APPS/QuickSearchBox_intermediates/classes)
+Note: packages/apps/QuickSearchBox/src/com/android/quicksearchbox/ui/SearchActivityView.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: packages/apps/QuickSearchBox/src/com/android/quicksearchbox/JsonBackedSuggestionExtras.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Copying: out/target/common/obj/APPS/QuickSearchBox_intermediates/classes-jarjar.jar
+Copying: out/target/common/obj/APPS/QuickSearchBox_intermediates/emma_out/lib/classes-jarjar.jar
+Copying: out/target/common/obj/APPS/QuickSearchBox_intermediates/classes.jar
+Copying: out/target/common/obj/APPS/QuickSearchBox_intermediates/noproguard.classes.jar
+target Dex: QuickSearchBox
+Copying: out/target/common/obj/APPS/QuickSearchBox_intermediates/noproguard.classes.dex
+target Package: QuickSearchBox (out/target/product/beagleboard/obj/APPS/QuickSearchBox_intermediates/package.apk)
+Warning: AndroidManifest.xml already defines minSdkVersion (in http://schemas.android.com/apk/res/android); using existing value in manifest.
+ 'out/target/common/obj/APPS/QuickSearchBox_intermediates/classes.dex' as 'classes.dex'...
+Install: out/target/product/beagleboard/system/app/QuickSearchBox.apk
+target Java: services (out/target/common/obj/JAVA_LIBRARIES/services_intermediates/classes)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Copying: out/target/common/obj/JAVA_LIBRARIES/services_intermediates/classes-jarjar.jar
+Copying: out/target/common/obj/JAVA_LIBRARIES/services_intermediates/emma_out/lib/classes-jarjar.jar
+Copying: out/target/common/obj/JAVA_LIBRARIES/services_intermediates/classes.jar
+Copying: out/target/common/obj/JAVA_LIBRARIES/services_intermediates/noproguard.classes.jar
+target Dex: services
+Copying: out/target/common/obj/JAVA_LIBRARIES/services_intermediates/noproguard.classes.dex
+target Jar: services (out/target/common/obj/JAVA_LIBRARIES/services_intermediates/javalib.jar)
+ 'out/target/common/obj/JAVA_LIBRARIES/services_intermediates/classes.dex' as 'classes.dex'...
+target Java: SystemUI (out/target/common/obj/APPS/SystemUI_intermediates/classes)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Copying: out/target/common/obj/APPS/SystemUI_intermediates/classes-jarjar.jar
+Copying: out/target/common/obj/APPS/SystemUI_intermediates/emma_out/lib/classes-jarjar.jar
+Copying: out/target/common/obj/APPS/SystemUI_intermediates/classes.jar
+Copying: out/target/common/obj/APPS/SystemUI_intermediates/noproguard.classes.jar
+target Dex: SystemUI
+Copying: out/target/common/obj/APPS/SystemUI_intermediates/noproguard.classes.dex
+target Package: SystemUI (out/target/product/beagleboard/obj/APPS/SystemUI_intermediates/package.apk)
+    (skipping file 'status_bar.xml~' due to ANDROID_AAPT_IGNORE pattern '*~')
+ 'out/target/common/obj/APPS/SystemUI_intermediates/classes.dex' as 'classes.dex'...
+Install: out/target/product/beagleboard/system/app/SystemUI.apk
+Symlink: out/target/product/beagleboard/system/bin/su -> /system/xbin/su
+Install: out/target/product/beagleboard/system/framework/am.jar
+Install: out/target/product/beagleboard/system/framework/bmgr.jar
+Install: out/target/product/beagleboard/system/framework/bu.jar
+Install: out/target/product/beagleboard/system/framework/com.android.future.usb.accessory.jar
+Install: out/target/product/beagleboard/system/framework/com.android.location.provider.jar
+Install: out/target/product/beagleboard/system/framework/content.jar
+Install: out/target/product/beagleboard/system/framework/ime.jar
+Install: out/target/product/beagleboard/system/framework/input.jar
+Install: out/target/product/beagleboard/system/framework/monkey.jar
+Install: out/target/product/beagleboard/system/framework/pm.jar
+Install: out/target/product/beagleboard/system/framework/requestsync.jar
+Install: out/target/product/beagleboard/system/framework/services.jar
+Install: out/target/product/beagleboard/system/framework/svc.jar
+Copying: out/target/common/obj/JAVA_LIBRARIES/uiautomator.core_intermediates/emma_out/lib/classes-jarjar.jar
+Copying: out/target/common/obj/JAVA_LIBRARIES/uiautomator.core_intermediates/classes.jar
+target Static Jar: uiautomator.core (out/target/common/obj/JAVA_LIBRARIES/uiautomator.core_intermediates/javalib.jar)
+target Java: uiautomator (out/target/common/obj/JAVA_LIBRARIES/uiautomator_intermediates/classes)
+Copying: out/target/common/obj/JAVA_LIBRARIES/uiautomator_intermediates/classes-jarjar.jar
+Copying: out/target/common/obj/JAVA_LIBRARIES/uiautomator_intermediates/emma_out/lib/classes-jarjar.jar
+Copying: out/target/common/obj/JAVA_LIBRARIES/uiautomator_intermediates/classes.jar
+Copying: out/target/common/obj/JAVA_LIBRARIES/uiautomator_intermediates/noproguard.classes.jar
+target Dex: uiautomator
+Copying: out/target/common/obj/JAVA_LIBRARIES/uiautomator_intermediates/noproguard.classes.dex
+target Jar: uiautomator (out/target/common/obj/JAVA_LIBRARIES/uiautomator_intermediates/javalib.jar)
+ 'out/target/common/obj/JAVA_LIBRARIES/uiautomator_intermediates/classes.dex' as 'classes.dex'...
+Install: out/target/product/beagleboard/system/framework/uiautomator.jar
+build/tools/generate-notice-files.py  out/target/product/beagleboard/obj/NOTICE.txt  out/target/product/beagleboard/obj/NOTICE.html "Notices for files contained in the filesystem images in this directory:" out/target/product/beagleboard/obj/NOTICE_FILES/src
+Combining NOTICE files into HTML
+Combining NOTICE files into text
+target Java: AccelerometerPlay (out/target/common/obj/APPS/AccelerometerPlay_intermediates/classes)
+development/samples/AccelerometerPlay/src/com/example/android/accelerometerplay/AccelerometerPlayActivity.java:168: warning: unmappable character for encoding UTF-8
+                 * �F = mA <=> A = �F / m We could simplify the code by
+                   ^
+development/samples/AccelerometerPlay/src/com/example/android/accelerometerplay/AccelerometerPlayActivity.java:168: warning: unmappable character for encoding UTF-8
+                 * �F = mA <=> A = �F / m We could simplify the code by
+                                   ^
+development/samples/AccelerometerPlay/src/com/example/android/accelerometerplay/AccelerometerPlayActivity.java:178: warning: unmappable character for encoding UTF-8
+                 * integrator is defined as x(t+�t) = x(t) + x(t) - x(t-�t) +
+                                                ^
+development/samples/AccelerometerPlay/src/com/example/android/accelerometerplay/AccelerometerPlayActivity.java:178: warning: unmappable character for encoding UTF-8
+                 * integrator is defined as x(t+�t) = x(t) + x(t) - x(t-�t) +
+                                                                        ^
+development/samples/AccelerometerPlay/src/com/example/android/accelerometerplay/AccelerometerPlayActivity.java:179: warning: unmappable character for encoding UTF-8
+                 * a(t)�t�2 However, the above equation doesn't handle variable
+                       ^
+development/samples/AccelerometerPlay/src/com/example/android/accelerometerplay/AccelerometerPlayActivity.java:179: warning: unmappable character for encoding UTF-8
+                 * a(t)�t�2 However, the above equation doesn't handle variable
+                         ^
+development/samples/AccelerometerPlay/src/com/example/android/accelerometerplay/AccelerometerPlayActivity.java:180: warning: unmappable character for encoding UTF-8
+                 * �t very well, a time-corrected version is needed: x(t+�t) =
+                   ^
+development/samples/AccelerometerPlay/src/com/example/android/accelerometerplay/AccelerometerPlayActivity.java:180: warning: unmappable character for encoding UTF-8
+                 * �t very well, a time-corrected version is needed: x(t+�t) =
+                                                                         ^
+development/samples/AccelerometerPlay/src/com/example/android/accelerometerplay/AccelerometerPlayActivity.java:181: warning: unmappable character for encoding UTF-8
+                 * x(t) + (x(t) - x(t-�t)) * (�t/�t_prev) + a(t)�t�2 We also add
+                                      ^
+development/samples/AccelerometerPlay/src/com/example/android/accelerometerplay/AccelerometerPlayActivity.java:181: warning: unmappable character for encoding UTF-8
+                 * x(t) + (x(t) - x(t-�t)) * (�t/�t_prev) + a(t)�t�2 We also add
+                                              ^
+development/samples/AccelerometerPlay/src/com/example/android/accelerometerplay/AccelerometerPlayActivity.java:181: warning: unmappable character for encoding UTF-8
+                 * x(t) + (x(t) - x(t-�t)) * (�t/�t_prev) + a(t)�t�2 We also add
+                                                 ^
+development/samples/AccelerometerPlay/src/com/example/android/accelerometerplay/AccelerometerPlayActivity.java:181: warning: unmappable character for encoding UTF-8
+                 * x(t) + (x(t) - x(t-�t)) * (�t/�t_prev) + a(t)�t�2 We also add
+                                                                ^
+development/samples/AccelerometerPlay/src/com/example/android/accelerometerplay/AccelerometerPlayActivity.java:181: warning: unmappable character for encoding UTF-8
+                 * x(t) + (x(t) - x(t-�t)) * (�t/�t_prev) + a(t)�t�2 We also add
+                                                                  ^
+development/samples/AccelerometerPlay/src/com/example/android/accelerometerplay/AccelerometerPlayActivity.java:182: warning: unmappable character for encoding UTF-8
+                 * a simple friction term (f) to the equation: x(t+�t) = x(t) +
+                                                                   ^
+development/samples/AccelerometerPlay/src/com/example/android/accelerometerplay/AccelerometerPlayActivity.java:183: warning: unmappable character for encoding UTF-8
+                 * (1-f) * (x(t) - x(t-�t)) * (�t/�t_prev) + a(t)�t�2
+                                       ^
+development/samples/AccelerometerPlay/src/com/example/android/accelerometerplay/AccelerometerPlayActivity.java:183: warning: unmappable character for encoding UTF-8
+                 * (1-f) * (x(t) - x(t-�t)) * (�t/�t_prev) + a(t)�t�2
+                                               ^
+development/samples/AccelerometerPlay/src/com/example/android/accelerometerplay/AccelerometerPlayActivity.java:183: warning: unmappable character for encoding UTF-8
+                 * (1-f) * (x(t) - x(t-�t)) * (�t/�t_prev) + a(t)�t�2
+                                                  ^
+development/samples/AccelerometerPlay/src/com/example/android/accelerometerplay/AccelerometerPlayActivity.java:183: warning: unmappable character for encoding UTF-8
+                 * (1-f) * (x(t) - x(t-�t)) * (�t/�t_prev) + a(t)�t�2
+                                                                 ^
+development/samples/AccelerometerPlay/src/com/example/android/accelerometerplay/AccelerometerPlayActivity.java:183: warning: unmappable character for encoding UTF-8
+                 * (1-f) * (x(t) - x(t-�t)) * (�t/�t_prev) + a(t)�t�2
+                                                                   ^
+Note: development/samples/AccelerometerPlay/src/com/example/android/accelerometerplay/AccelerometerPlayActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+19 warnings
+target Java: ActionBarCompat (out/target/common/obj/APPS/ActionBarCompat_intermediates/classes)
+Note: development/samples/ActionBarCompat/src/com/example/android/actionbarcompat/ActionBarHelperBase.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: AdbTest (out/target/common/obj/APPS/AdbTest_intermediates/classes)
+target Java: Amazed (out/target/common/obj/APPS/Amazed_intermediates/classes)
+Note: packages/apps/Amazed/src/com/example/amazed/AmazedView.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: AndroidBeamDemo (out/target/common/obj/APPS/AndroidBeamDemo_intermediates/classes)
+target Java: AndroidCommonTests (out/target/common/obj/APPS/AndroidCommonTests_intermediates/classes)
+Note: frameworks/ex/common/tests/src/com/android/common/Rfc822ValidatorTest.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: ApiDemos (out/target/common/obj/APPS/ApiDemos_intermediates/classes)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Copying: out/target/common/obj/APPS/ApiDemos_intermediates/classes-jarjar.jar
+Copying: out/target/common/obj/APPS/ApiDemos_intermediates/emma_out/lib/classes-jarjar.jar
+Copying: out/target/common/obj/APPS/ApiDemos_intermediates/classes.jar
+target Java: ApiDemosTests (out/target/common/obj/APPS/ApiDemosTests_intermediates/classes)
+target Java: AppNavigation (out/target/common/obj/APPS/AppNavigation_intermediates/classes)
+Note: development/samples/AppNavigation/src/com/example/android/appnavigation/app/NotificationsActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: AutoLocTestApp (out/target/common/obj/APPS/AutoLocTestApp_intermediates/classes)
+target Java: AutoLocVersionedTestApp_v1 (out/target/common/obj/APPS/AutoLocVersionedTestApp_v1_intermediates/classes)
+target Java: AutoLocVersionedTestApp_v2 (out/target/common/obj/APPS/AutoLocVersionedTestApp_v2_intermediates/classes)
+target Java: BackupRestore (out/target/common/obj/APPS/BackupRestore_intermediates/classes)
+target Java: BasicGLSurfaceView (out/target/common/obj/APPS/BasicGLSurfaceView_intermediates/classes)
+target Java: BluetoothChat (out/target/common/obj/APPS/BluetoothChat_intermediates/classes)
+target Java: BluetoothHDP (out/target/common/obj/APPS/BluetoothHDP_intermediates/classes)
+target Java: BuildWidget (out/target/common/obj/APPS/BuildWidget_intermediates/classes)
+Note: development/apps/BuildWidget/src/com/android/buildwidget/BuildWidget.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: BusinessCard (out/target/common/obj/APPS/BusinessCard_intermediates/classes)
+Note: development/samples/BusinessCard/src/com/example/android/businesscard/ContactAccessorSdk3_4.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: CalculatorTests (out/target/common/obj/APPS/CalculatorTests_intermediates/classes)
+Note: packages/apps/Calculator/tests/src/com/android/calculator2/CalculatorHitSomeButtons.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: CalendarCommonTests (out/target/common/obj/APPS/CalendarCommonTests_intermediates/classes)
+target Java: CalendarProviderTests (out/target/common/obj/APPS/CalendarProviderTests_intermediates/classes)
+Note: packages/providers/CalendarProvider/tests/src/com/android/providers/calendar/CalendarProvider2Test.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: CalendarTests (out/target/common/obj/APPS/CalendarTests_intermediates/classes)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: CameraBrowser (out/target/common/obj/APPS/CameraBrowser_intermediates/classes)
+target Java: Compass (out/target/common/obj/APPS/Compass_intermediates/classes)
+target Java: ContactManager (out/target/common/obj/APPS/ContactManager_intermediates/classes)
+Note: development/samples/ContactManager/src/com/example/android/contactmanager/ContactManager.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: ContactsTests (out/target/common/obj/APPS/ContactsTests_intermediates/classes)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Copying: out/target/common/obj/JAVA_LIBRARIES/ctstestrunner_intermediates/emma_out/lib/classes-jarjar.jar
+Copying: out/target/common/obj/JAVA_LIBRARIES/ctstestrunner_intermediates/classes.jar
+target Static Jar: ctstestrunner (out/target/common/obj/JAVA_LIBRARIES/ctstestrunner_intermediates/javalib.jar)
+target Java: CtsAccelerationTestStubs (out/target/common/obj/APPS/CtsAccelerationTestStubs_intermediates/classes)
+Copying: out/target/common/obj/APPS/CtsAccelerationTestStubs_intermediates/classes-jarjar.jar
+Copying: out/target/common/obj/APPS/CtsAccelerationTestStubs_intermediates/emma_out/lib/classes-jarjar.jar
+Copying: out/target/common/obj/APPS/CtsAccelerationTestStubs_intermediates/classes.jar
+target Java: CtsAccelerationTestCases (out/target/common/obj/APPS/CtsAccelerationTestCases_intermediates/classes)
+target Java: CtsAccessibilityServiceTestCases (out/target/common/obj/APPS/CtsAccessibilityServiceTestCases_intermediates/classes)
+target Java: CtsAccessibilityTestCases (out/target/common/obj/APPS/CtsAccessibilityTestCases_intermediates/classes)
+target Java: CtsAccountManagerTestCases (out/target/common/obj/APPS/CtsAccountManagerTestCases_intermediates/classes)
+Note: cts/tests/tests/accounts/src/android/accounts/cts/AccountManagerTest.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: CtsDeviceAdmin (out/target/common/obj/APPS/CtsDeviceAdmin_intermediates/classes)
+Copying: out/target/common/obj/APPS/CtsDeviceAdmin_intermediates/classes-jarjar.jar
+Copying: out/target/common/obj/APPS/CtsDeviceAdmin_intermediates/emma_out/lib/classes-jarjar.jar
+Copying: out/target/common/obj/APPS/CtsDeviceAdmin_intermediates/classes.jar
+target Java: CtsAdminTestCases (out/target/common/obj/APPS/CtsAdminTestCases_intermediates/classes)
+target Java: CtsAnimationTestCases (out/target/common/obj/APPS/CtsAnimationTestCases_intermediates/classes)
+Note: cts/tests/tests/animation/src/android/animation/cts/LayoutAnimationTest.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: cts/tests/tests/animation/src/android/animation/cts/PropertyValuesHolderTest.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+target Java: CtsAppAccessData (out/target/common/obj/APPS/CtsAppAccessData_intermediates/classes)
+target Java: CtsTestStubs (out/target/common/obj/APPS/CtsTestStubs_intermediates/classes)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Copying: out/target/common/obj/APPS/CtsTestStubs_intermediates/classes-jarjar.jar
+Copying: out/target/common/obj/APPS/CtsTestStubs_intermediates/emma_out/lib/classes-jarjar.jar
+Copying: out/target/common/obj/APPS/CtsTestStubs_intermediates/classes.jar
+target Java: CtsAppTestCases (out/target/common/obj/APPS/CtsAppTestCases_intermediates/classes)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: CtsAppWithData (out/target/common/obj/APPS/CtsAppWithData_intermediates/classes)
+target Java: CtsBluetoothTestCases (out/target/common/obj/APPS/CtsBluetoothTestCases_intermediates/classes)
+target Java: CtsContentTestCases (out/target/common/obj/APPS/CtsContentTestCases_intermediates/classes)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: CtsDatabaseTestCases (out/target/common/obj/APPS/CtsDatabaseTestCases_intermediates/classes)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: CtsDelegatingAccessibilityService (out/target/common/obj/APPS/CtsDelegatingAccessibilityService_intermediates/classes)
+Copying: out/target/common/obj/JAVA_LIBRARIES/android.cts.dpi_intermediates/emma_out/lib/classes-jarjar.jar
+Copying: out/target/common/obj/JAVA_LIBRARIES/android.cts.dpi_intermediates/classes.jar
+target Static Jar: android.cts.dpi (out/target/common/obj/JAVA_LIBRARIES/android.cts.dpi_intermediates/javalib.jar)
+target Java: CtsDpiTestCases2 (out/target/common/obj/APPS/CtsDpiTestCases2_intermediates/classes)
+target Java: CtsDpiTestCases (out/target/common/obj/APPS/CtsDpiTestCases_intermediates/classes)
+target Java: CtsDrmTestCases (out/target/common/obj/APPS/CtsDrmTestCases_intermediates/classes)
+Note: cts/tests/tests/drm/src/android/drm/cts/DrmSupportInfoTest.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: CtsEffectTestCases (out/target/common/obj/APPS/CtsEffectTestCases_intermediates/classes)
+target Java: CtsExampleTestCases (out/target/common/obj/APPS/CtsExampleTestCases_intermediates/classes)
+target Java: CtsGestureTestCases (out/target/common/obj/APPS/CtsGestureTestCases_intermediates/classes)
+target Java: CtsGraphics2TestCases (out/target/common/obj/APPS/CtsGraphics2TestCases_intermediates/classes)
+target Java: CtsGraphicsTestCases (out/target/common/obj/APPS/CtsGraphicsTestCases_intermediates/classes)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: CtsHardwareTestCases (out/target/common/obj/APPS/CtsHardwareTestCases_intermediates/classes)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: cts/tests/tests/hardware/src/android/hardware/cts/CameraTest.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+target Java: CtsHoloTestCases (out/target/common/obj/APPS/CtsHoloTestCases_intermediates/classes)
+Note: cts/tests/tests/holo/src/android/holo/cts/BitmapDeletionActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: CtsInstrumentationAppDiffCert (out/target/common/obj/APPS/CtsInstrumentationAppDiffCert_intermediates/classes)
+target Java: CtsJniTestCases (out/target/common/obj/APPS/CtsJniTestCases_intermediates/classes)
+target Java: CtsLocationTestCases (out/target/common/obj/APPS/CtsLocationTestCases_intermediates/classes)
+target Java: CtsMediaStressTestCases (out/target/common/obj/APPS/CtsMediaStressTestCases_intermediates/classes)
+target Java: CtsMediaTestCases (out/target/common/obj/APPS/CtsMediaTestCases_intermediates/classes)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: CtsMonkeyApp2 (out/target/common/obj/APPS/CtsMonkeyApp2_intermediates/classes)
+target Java: CtsMonkeyApp (out/target/common/obj/APPS/CtsMonkeyApp_intermediates/classes)
+target Java: CtsNdefTestCases (out/target/common/obj/APPS/CtsNdefTestCases_intermediates/classes)
+Note: cts/tests/tests/ndef/src/android/ndef/cts/NdefTest.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: CtsNetTestCases (out/target/common/obj/APPS/CtsNetTestCases_intermediates/classes)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: CtsOpenGLTestCases (out/target/common/obj/APPS/CtsOpenGLTestCases_intermediates/classes)
+target Java: com.replica.replicaisland (out/target/common/obj/APPS/com.replica.replicaisland_intermediates/classes)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Copying: out/target/common/obj/APPS/com.replica.replicaisland_intermediates/classes-jarjar.jar
+Copying: out/target/common/obj/APPS/com.replica.replicaisland_intermediates/emma_out/lib/classes-jarjar.jar
+Copying: out/target/common/obj/APPS/com.replica.replicaisland_intermediates/classes.jar
+target Java: CtsOpenGlPerfTestCases (out/target/common/obj/APPS/CtsOpenGlPerfTestCases_intermediates/classes)
+target Java: CtsOsTestCases (out/target/common/obj/APPS/CtsOsTestCases_intermediates/classes)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: CtsPermission2TestCases (out/target/common/obj/APPS/CtsPermission2TestCases_intermediates/classes)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: CtsPermissionDeclareApp (out/target/common/obj/APPS/CtsPermissionDeclareApp_intermediates/classes)
+target Java: CtsPermissionTestCases (out/target/common/obj/APPS/CtsPermissionTestCases_intermediates/classes)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: CtsPreference2TestCases (out/target/common/obj/APPS/CtsPreference2TestCases_intermediates/classes)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: CtsPreferenceTestCases (out/target/common/obj/APPS/CtsPreferenceTestCases_intermediates/classes)
+Note: cts/tests/tests/preference/src/android/preference/cts/PreferenceActivityTest.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: CtsProviderTestCases (out/target/common/obj/APPS/CtsProviderTestCases_intermediates/classes)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: CtsRenderscriptTestCases (out/target/common/obj/APPS/CtsRenderscriptTestCases_intermediates/classes)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: CtsSaxTestCases (out/target/common/obj/APPS/CtsSaxTestCases_intermediates/classes)
+target Java: CtsSecurityTestCases (out/target/common/obj/APPS/CtsSecurityTestCases_intermediates/classes)
+target Java: CtsSharedUidInstallDiffCert (out/target/common/obj/APPS/CtsSharedUidInstallDiffCert_intermediates/classes)
+target Java: CtsSharedUidInstall (out/target/common/obj/APPS/CtsSharedUidInstall_intermediates/classes)
+target Java: CtsSimpleAppInstallDiffCert (out/target/common/obj/APPS/CtsSimpleAppInstallDiffCert_intermediates/classes)
+target Java: CtsSimpleAppInstall (out/target/common/obj/APPS/CtsSimpleAppInstall_intermediates/classes)
+target Java: CtsSomeAccessibilityServices (out/target/common/obj/APPS/CtsSomeAccessibilityServices_intermediates/classes)
+target Java: CtsSpeechTestCases (out/target/common/obj/APPS/CtsSpeechTestCases_intermediates/classes)
+Note: cts/tests/tests/speech/src/android/speech/tts/cts/TextToSpeechWrapper.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: CtsTargetInstrumentationApp (out/target/common/obj/APPS/CtsTargetInstrumentationApp_intermediates/classes)
+target Java: CtsTelephonyTestCases (out/target/common/obj/APPS/CtsTelephonyTestCases_intermediates/classes)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: CtsTextTestCases (out/target/common/obj/APPS/CtsTextTestCases_intermediates/classes)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: CtsTextureViewTestCases (out/target/common/obj/APPS/CtsTextureViewTestCases_intermediates/classes)
+target Java: CtsThemeTestCases (out/target/common/obj/APPS/CtsThemeTestCases_intermediates/classes)
+target Java: CtsUsePermissionDiffCert (out/target/common/obj/APPS/CtsUsePermissionDiffCert_intermediates/classes)
+target Java: CtsUtilTestCases (out/target/common/obj/APPS/CtsUtilTestCases_intermediates/classes)
+Note: cts/tests/tests/util/src/android/util/cts/DisplayMetricsTest.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: CtsVerifier (out/target/common/obj/APPS/CtsVerifier_intermediates/classes)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: cts/apps/CtsVerifier/src/com/android/cts/verifier/camera/formats/CameraFormatsActivity.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+target Java: CtsViewTestCases (out/target/common/obj/APPS/CtsViewTestCases_intermediates/classes)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: CtsWebkitSecurityTestCases (out/target/common/obj/APPS/CtsWebkitSecurityTestCases_intermediates/classes)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: CtsWebkitTestCases (out/target/common/obj/APPS/CtsWebkitTestCases_intermediates/classes)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: CtsWidgetTestCases (out/target/common/obj/APPS/CtsWidgetTestCases_intermediates/classes)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: CubeLiveWallpapers (out/target/common/obj/APPS/CubeLiveWallpapers_intermediates/classes)
+Note: development/samples/CubeLiveWallpaper/src/com/example/android/livecubes/cube2/CubeWallpaper2Settings.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: DeskClockTests (out/target/common/obj/APPS/DeskClockTests_intermediates/classes)
+target Java: DownloadManagerTestApp (out/target/common/obj/APPS/DownloadManagerTestApp_intermediates/classes)
+Note: frameworks/base/core/tests/hosttests/test-apps/DownloadManagerTestApp/src/com/android/frameworks/downloadmanagertests/DownloadManagerBaseTest.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: EmailTests (out/target/common/obj/APPS/EmailTests_intermediates/classes)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: Exchange2Tests (out/target/common/obj/APPS/Exchange2Tests_intermediates/classes)
+target Java: ExternalLocAllPermsTestApp (out/target/common/obj/APPS/ExternalLocAllPermsTestApp_intermediates/classes)
+target Java: ExternalLocPermFLTestApp (out/target/common/obj/APPS/ExternalLocPermFLTestApp_intermediates/classes)
+target Java: ExternalLocTestApp (out/target/common/obj/APPS/ExternalLocTestApp_intermediates/classes)
+target Java: ExternalLocVersionedTestApp_v1 (out/target/common/obj/APPS/ExternalLocVersionedTestApp_v1_intermediates/classes)
+target Java: ExternalLocVersionedTestApp_v2 (out/target/common/obj/APPS/ExternalLocVersionedTestApp_v2_intermediates/classes)
+target Java: ExternalSharedPermsBTTestApp (out/target/common/obj/APPS/ExternalSharedPermsBTTestApp_intermediates/classes)
+target Java: ExternalSharedPermsDiffKeyTestApp (out/target/common/obj/APPS/ExternalSharedPermsDiffKeyTestApp_intermediates/classes)
+target Java: ExternalSharedPermsFLTestApp (out/target/common/obj/APPS/ExternalSharedPermsFLTestApp_intermediates/classes)
+target Java: ExternalSharedPermsTestApp (out/target/common/obj/APPS/ExternalSharedPermsTestApp_intermediates/classes)
+target Java: FixedGridLayout (out/target/common/obj/APPS/FixedGridLayout_intermediates/classes)
+Copying: out/target/common/obj/JAVA_LIBRARIES/core-tests_intermediates/classes.jar
+target Static Jar: core-tests (out/target/common/obj/JAVA_LIBRARIES/core-tests_intermediates/javalib.jar)
+target Java: FrameworksCoreSystemPropertiesTests (out/target/common/obj/APPS/FrameworksCoreSystemPropertiesTests_intermediates/classes)
+target Java: FrameworksCoreTests (out/target/common/obj/APPS/FrameworksCoreTests_intermediates/classes)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+target Java: FrameworksServicesTests (out/target/common/obj/APPS/FrameworksServicesTests_intermediates/classes)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: GL2CameraEye (out/target/common/obj/APPS/GL2CameraEye_intermediates/classes)
+target Java: GestureBuilder (out/target/common/obj/APPS/GestureBuilder_intermediates/classes)
+Note: development/apps/GestureBuilder/src/com/android/gesture/builder/GestureBuilderActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: HelloActivity (out/target/common/obj/APPS/HelloActivity_intermediates/classes)
+Copying: out/target/common/obj/APPS/HelloActivity_intermediates/classes-jarjar.jar
+Copying: out/target/common/obj/APPS/HelloActivity_intermediates/emma_out/lib/classes-jarjar.jar
+Copying: out/target/common/obj/APPS/HelloActivity_intermediates/classes.jar
+target Java: HelloActivityTests (out/target/common/obj/APPS/HelloActivityTests_intermediates/classes)
+target Java: HelloEffects (out/target/common/obj/APPS/HelloEffects_intermediates/classes)
+target Java: HelloSpellChecker (out/target/common/obj/APPS/HelloSpellChecker_intermediates/classes)
+Note: development/samples/SpellChecker/HelloSpellChecker/src/com/example/android/hellospellchecker/HelloSpellCheckerActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: Home (out/target/common/obj/APPS/Home_intermediates/classes)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: HoneycombGallery (out/target/common/obj/APPS/HoneycombGallery_intermediates/classes)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: HugeBackup (out/target/common/obj/APPS/HugeBackup_intermediates/classes)
+target Java: InternalLocTestApp (out/target/common/obj/APPS/InternalLocTestApp_intermediates/classes)
+target Java: JETBoy (out/target/common/obj/APPS/JETBoy_intermediates/classes)
+target Java: KeyChainDemo (out/target/common/obj/APPS/KeyChainDemo_intermediates/classes)
+Note: development/samples/KeyChainDemo/src/com/example/android/keychain/SecureWebServerService.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: KeyChainTests (out/target/common/obj/APPS/KeyChainTests_intermediates/classes)
+target Java: LatinIMETests (out/target/common/obj/APPS/LatinIMETests_intermediates/classes)
+target Java: LunarLander (out/target/common/obj/APPS/LunarLander_intermediates/classes)
+Copying: out/target/common/obj/APPS/LunarLander_intermediates/classes-jarjar.jar
+Copying: out/target/common/obj/APPS/LunarLander_intermediates/emma_out/lib/classes-jarjar.jar
+Copying: out/target/common/obj/APPS/LunarLander_intermediates/classes.jar
+target Java: LunarLanderTests (out/target/common/obj/APPS/LunarLanderTests_intermediates/classes)
+target Java: MediaDump (out/target/common/obj/APPS/MediaDump_intermediates/classes)
+Note: frameworks/base/media/tests/MediaDump/src/com/android/mediadump/MediaDump.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: MissileLauncher (out/target/common/obj/APPS/MissileLauncher_intermediates/classes)
+target Java: MultiResolution (out/target/common/obj/APPS/MultiResolution_intermediates/classes)
+target Java: MusicTests (out/target/common/obj/APPS/MusicTests_intermediates/classes)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: NaughtySuggestions (out/target/common/obj/APPS/NaughtySuggestions_intermediates/classes)
+target Java: NfcTests (out/target/common/obj/APPS/NfcTests_intermediates/classes)
+target Java: NoLocTestApp (out/target/common/obj/APPS/NoLocTestApp_intermediates/classes)
+target Java: NoLocVersionedTestApp_v1 (out/target/common/obj/APPS/NoLocVersionedTestApp_v1_intermediates/classes)
+target Java: NoLocVersionedTestApp_v2 (out/target/common/obj/APPS/NoLocVersionedTestApp_v2_intermediates/classes)
+target Java: NotePad (out/target/common/obj/APPS/NotePad_intermediates/classes)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: Notepadv1Solution (out/target/common/obj/APPS/Notepadv1Solution_intermediates/classes)
+Note: development/tutorials/NotepadCodeLab/Notepadv1Solution/src/com/android/demo/notepad1/Notepadv1.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: Notepadv1 (out/target/common/obj/APPS/Notepadv1_intermediates/classes)
+target Java: Notepadv2Solution (out/target/common/obj/APPS/Notepadv2Solution_intermediates/classes)
+Note: development/tutorials/NotepadCodeLab/Notepadv2Solution/src/com/android/demo/notepad2/Notepadv2.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: Notepadv2 (out/target/common/obj/APPS/Notepadv2_intermediates/classes)
+Note: development/tutorials/NotepadCodeLab/Notepadv2/src/com/android/demo/notepad2/Notepadv2.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: Notepadv3Solution (out/target/common/obj/APPS/Notepadv3Solution_intermediates/classes)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: Notepadv3 (out/target/common/obj/APPS/Notepadv3_intermediates/classes)
+Note: development/tutorials/NotepadCodeLab/Notepadv3/src/com/android/demo/notepad3/Notepadv3.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: NsdChat (out/target/common/obj/APPS/NsdChat_intermediates/classes)
+target Java: ObbApp (out/target/common/obj/APPS/ObbApp_intermediates/classes)
+Note: development/samples/Obb/src/com/example/android/obbapp/ObbMountActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: Protips (out/target/common/obj/APPS/Protips_intermediates/classes)
+target Java: QuickSearchBoxBenchmarks (out/target/common/obj/APPS/QuickSearchBoxBenchmarks_intermediates/classes)
+Note: packages/apps/QuickSearchBox/benchmarks/src/com/android/quicksearchbox/benchmarks/SourceLatency.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: QuickSearchBoxTests (out/target/common/obj/APPS/QuickSearchBoxTests_intermediates/classes)
+target Java: RSSReader (out/target/common/obj/APPS/RSSReader_intermediates/classes)
+target Java: RandomMusicPlayer (out/target/common/obj/APPS/RandomMusicPlayer_intermediates/classes)
+Note: development/samples/RandomMusicPlayer/src/com/example/android/musicplayer/MusicService.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: RsHelloWorld (out/target/common/obj/APPS/RsHelloWorld_intermediates/classes)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: RsMiscSamples (out/target/common/obj/APPS/RsMiscSamples_intermediates/classes)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: SampleSpellCheckerService (out/target/common/obj/APPS/SampleSpellCheckerService_intermediates/classes)
+target Java: SampleSyncAdapter (out/target/common/obj/APPS/SampleSyncAdapter_intermediates/classes)
+Note: development/samples/SampleSyncAdapter/src/com/example/android/samplesync/authenticator/AuthenticatorActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: SearchableDictionary (out/target/common/obj/APPS/SearchableDictionary_intermediates/classes)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Convert api file to xml: out/target/common/obj/APPS/SignatureTest_intermediates/api.xml
+Copy generated resources: SignatureTest
+target R.java/Manifest.java: SignatureTest (out/target/common/obj/APPS/SignatureTest_intermediates/src/R.stamp)
+target Java: SignatureTest (out/target/common/obj/APPS/SignatureTest_intermediates/classes)
+Copying: out/target/common/obj/APPS/SignatureTest_intermediates/classes-jarjar.jar
+Copying: out/target/common/obj/APPS/SignatureTest_intermediates/emma_out/lib/classes-jarjar.jar
+Copying: out/target/common/obj/APPS/SignatureTest_intermediates/classes.jar
+target Java: SignatureTestTests (out/target/common/obj/APPS/SignatureTestTests_intermediates/classes)
+target Java: SimpleJNI (out/target/common/obj/APPS/SimpleJNI_intermediates/classes)
+target Java: SimpleTestApp (out/target/common/obj/APPS/SimpleTestApp_intermediates/classes)
+target Java: SipDemo (out/target/common/obj/APPS/SipDemo_intermediates/classes)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: SkeletonApp (out/target/common/obj/APPS/SkeletonApp_intermediates/classes)
+Copying: out/target/common/obj/APPS/SkeletonApp_intermediates/classes-jarjar.jar
+Copying: out/target/common/obj/APPS/SkeletonApp_intermediates/emma_out/lib/classes-jarjar.jar
+Copying: out/target/common/obj/APPS/SkeletonApp_intermediates/classes.jar
+target Java: SkeletonAppTests (out/target/common/obj/APPS/SkeletonAppTests_intermediates/classes)
+target Java: Snake (out/target/common/obj/APPS/Snake_intermediates/classes)
+Copying: out/target/common/obj/APPS/Snake_intermediates/classes-jarjar.jar
+Copying: out/target/common/obj/APPS/Snake_intermediates/emma_out/lib/classes-jarjar.jar
+Copying: out/target/common/obj/APPS/Snake_intermediates/classes.jar
+target Java: SnakeTests (out/target/common/obj/APPS/SnakeTests_intermediates/classes)
+target Java: SoftKeyboard (out/target/common/obj/APPS/SoftKeyboard_intermediates/classes)
+Note: development/samples/SoftKeyboard/src/com/example/android/softkeyboard/CandidateView.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: StackWidget (out/target/common/obj/APPS/StackWidget_intermediates/classes)
+Note: development/samples/StackWidget/src/com/example/android/stackwidget/StackWidgetProvider.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: Support13Demos (out/target/common/obj/APPS/Support13Demos_intermediates/classes)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: Support4Demos (out/target/common/obj/APPS/Support4Demos_intermediates/classes)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: SupportAppNavigation (out/target/common/obj/APPS/SupportAppNavigation_intermediates/classes)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Static Jar: mockrilcontroller (out/target/common/obj/JAVA_LIBRARIES/mockrilcontroller_intermediates/javalib.jar)
+target Java: TelephonyMockRilTests (out/target/common/obj/APPS/TelephonyMockRilTests_intermediates/classes)
+target Java: TestDeviceSetup (out/target/common/obj/APPS/TestDeviceSetup_intermediates/classes)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: ToyVpn (out/target/common/obj/APPS/ToyVpn_intermediates/classes)
+target Java: TtsEngine (out/target/common/obj/APPS/TtsEngine_intermediates/classes)
+target Java: UpdateExtToIntLocTestApp_v1_ext (out/target/common/obj/APPS/UpdateExtToIntLocTestApp_v1_ext_intermediates/classes)
+target Java: UpdateExtToIntLocTestApp_v2_int (out/target/common/obj/APPS/UpdateExtToIntLocTestApp_v2_int_intermediates/classes)
+target Java: UpdateExternalLocTestApp_v1_ext (out/target/common/obj/APPS/UpdateExternalLocTestApp_v1_ext_intermediates/classes)
+target Java: UpdateExternalLocTestApp_v2_none (out/target/common/obj/APPS/UpdateExternalLocTestApp_v2_none_intermediates/classes)
+target Java: VersatileTestApp_Auto (out/target/common/obj/APPS/VersatileTestApp_Auto_intermediates/classes)
+target Java: VersatileTestApp_External (out/target/common/obj/APPS/VersatileTestApp_External_intermediates/classes)
+target Java: VersatileTestApp_Internal (out/target/common/obj/APPS/VersatileTestApp_Internal_intermediates/classes)
+target Java: VersatileTestApp_None (out/target/common/obj/APPS/VersatileTestApp_None_intermediates/classes)
+target Java: VoiceRecognitionService (out/target/common/obj/APPS/VoiceRecognitionService_intermediates/classes)
+Note: development/samples/VoiceRecognitionService/src/com/example/android/voicerecognitionservice/VoiceRecognitionSettings.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: VoicemailProviderDemo (out/target/common/obj/APPS/VoicemailProviderDemo_intermediates/classes)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: development/samples/VoicemailProviderDemo/src/com/example/android/voicemail/AddVoicemailActivity.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+target Java: WeatherListWidget (out/target/common/obj/APPS/WeatherListWidget_intermediates/classes)
+Note: development/samples/WeatherListWidget/src/com/example/android/weatherlistwidget/WeatherWidgetProvider.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: WiFiDirectDemo (out/target/common/obj/APPS/WiFiDirectDemo_intermediates/classes)
+target Java: WiFiDirectServiceDiscovery (out/target/common/obj/APPS/WiFiDirectServiceDiscovery_intermediates/classes)
+target Java: WidgetPreview (out/target/common/obj/APPS/WidgetPreview_intermediates/classes)
+Note: development/apps/WidgetPreview/src/com/android/widgetpreview/WidgetPreviewActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: WiktionarySimple (out/target/common/obj/APPS/WiktionarySimple_intermediates/classes)
+Note: development/samples/WiktionarySimple/src/com/example/android/simplewiktionary/WordWidget.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: Wiktionary (out/target/common/obj/APPS/Wiktionary_intermediates/classes)
+Note: development/samples/Wiktionary/src/com/example/android/wiktionary/WordWidget.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+target Java: android.core.tests.libcore.package.com.no-core-tests-res (out/target/common/obj/APPS/android.core.tests.libcore.package.com.no-core-tests-res_intermediates/classes)
+target Java: android.core.tests.libcore.package.dalvik.no-core-tests-res (out/target/common/obj/APPS/android.core.tests.libcore.package.dalvik.no-core-tests-res_intermediates/classes)
+target Java: android.core.tests.libcore.package.libcore.no-core-tests-res (out/target/common/obj/APPS/android.core.tests.libcore.package.libcore.no-core-tests-res_intermediates/classes)
+target Java: android.core.tests.libcore.package.org.no-core-tests-res (out/target/common/obj/APPS/android.core.tests.libcore.package.org.no-core-tests-res_intermediates/classes)
+target Java: android.core.tests.libcore.package.sun.no-core-tests-res (out/target/common/obj/APPS/android.core.tests.libcore.package.sun.no-core-tests-res_intermediates/classes)
+target Java: android.core.tests.libcore.package.tests.no-core-tests-res (out/target/common/obj/APPS/android.core.tests.libcore.package.tests.no-core-tests-res_intermediates/classes)
+target Java: bordeaux (out/target/common/obj/APPS/bordeaux_intermediates/classes)
+Note: frameworks/ml/bordeaux/service/src/android/bordeaux/services/BordeauxService.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+target Java: xmladapters (out/target/common/obj/APPS/xmladapters_intermediates/classes)
+Note: development/samples/XmlAdapters/src/com/example/android/xmladapters/Adapters.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Copying: out/target/common/obj/APPS/android.core.tests.libcore.package.com.no-core-tests-res_intermediates/classes-jarjar.jar
+Copying: out/target/common/obj/APPS/android.core.tests.libcore.package.com.no-core-tests-res_intermediates/emma_out/lib/classes-jarjar.jar
+Copying: out/target/common/obj/APPS/android.core.tests.libcore.package.com.no-core-tests-res_intermediates/classes.jar
+Copying: out/target/common/obj/APPS/android.core.tests.libcore.package.com.no-core-tests-res_intermediates/noproguard.classes.jar
+target Dex: android.core.tests.libcore.package.com.no-core-tests-res
+Copying: out/target/common/obj/APPS/android.core.tests.libcore.package.com.no-core-tests-res_intermediates/noproguard.classes.dex
+target Package: android.core.tests.libcore.package.com.no-core-tests-res (out/target/product/beagleboard/obj/APPS/android.core.tests.libcore.package.com.no-core-tests-res_intermediates/package.apk)
+ 'out/target/common/obj/APPS/android.core.tests.libcore.package.com.no-core-tests-res_intermediates/classes.dex' as 'classes.dex'...
+Add resources to package (out/target/product/beagleboard/obj/APPS/android.core.tests.libcore.package.com_intermediates/package.apk)
+# javalib.jar should only contain .dex files, but the harmony tests also include
+# some .class files, so get rid of them
+Copying: out/target/common/obj/APPS/android.core.tests.libcore.package.dalvik.no-core-tests-res_intermediates/classes-jarjar.jar
+Copying: out/target/common/obj/APPS/android.core.tests.libcore.package.dalvik.no-core-tests-res_intermediates/emma_out/lib/classes-jarjar.jar
+Copying: out/target/common/obj/APPS/android.core.tests.libcore.package.dalvik.no-core-tests-res_intermediates/classes.jar
+Copying: out/target/common/obj/APPS/android.core.tests.libcore.package.dalvik.no-core-tests-res_intermediates/noproguard.classes.jar
+target Dex: android.core.tests.libcore.package.dalvik.no-core-tests-res
+Copying: out/target/common/obj/APPS/android.core.tests.libcore.package.dalvik.no-core-tests-res_intermediates/noproguard.classes.dex
+target Package: android.core.tests.libcore.package.dalvik.no-core-tests-res (out/target/product/beagleboard/obj/APPS/android.core.tests.libcore.package.dalvik.no-core-tests-res_intermediates/package.apk)
+ 'out/target/common/obj/APPS/android.core.tests.libcore.package.dalvik.no-core-tests-res_intermediates/classes.dex' as 'classes.dex'...
+Add resources to package (out/target/product/beagleboard/obj/APPS/android.core.tests.libcore.package.dalvik_intermediates/package.apk)
+# javalib.jar should only contain .dex files, but the harmony tests also include
+# some .class files, so get rid of them
+Copying: out/target/common/obj/APPS/android.core.tests.libcore.package.libcore.no-core-tests-res_intermediates/classes-jarjar.jar
+Copying: out/target/common/obj/APPS/android.core.tests.libcore.package.libcore.no-core-tests-res_intermediates/emma_out/lib/classes-jarjar.jar
+Copying: out/target/common/obj/APPS/android.core.tests.libcore.package.libcore.no-core-tests-res_intermediates/classes.jar
+Copying: out/target/common/obj/APPS/android.core.tests.libcore.package.libcore.no-core-tests-res_intermediates/noproguard.classes.jar
+target Dex: android.core.tests.libcore.package.libcore.no-core-tests-res
+Copying: out/target/common/obj/APPS/android.core.tests.libcore.package.libcore.no-core-tests-res_intermediates/noproguard.classes.dex
+target Package: android.core.tests.libcore.package.libcore.no-core-tests-res (out/target/product/beagleboard/obj/APPS/android.core.tests.libcore.package.libcore.no-core-tests-res_intermediates/package.apk)
+ 'out/target/common/obj/APPS/android.core.tests.libcore.package.libcore.no-core-tests-res_intermediates/classes.dex' as 'classes.dex'...
+Add resources to package (out/target/product/beagleboard/obj/APPS/android.core.tests.libcore.package.libcore_intermediates/package.apk)
+# javalib.jar should only contain .dex files, but the harmony tests also include
+# some .class files, so get rid of them
+Copying: out/target/common/obj/APPS/android.core.tests.libcore.package.org.no-core-tests-res_intermediates/classes-jarjar.jar
+Copying: out/target/common/obj/APPS/android.core.tests.libcore.package.org.no-core-tests-res_intermediates/emma_out/lib/classes-jarjar.jar
+Copying: out/target/common/obj/APPS/android.core.tests.libcore.package.org.no-core-tests-res_intermediates/classes.jar
+Copying: out/target/common/obj/APPS/android.core.tests.libcore.package.org.no-core-tests-res_intermediates/noproguard.classes.jar
+target Dex: android.core.tests.libcore.package.org.no-core-tests-res
+Copying: out/target/common/obj/APPS/android.core.tests.libcore.package.org.no-core-tests-res_intermediates/noproguard.classes.dex
+target Package: android.core.tests.libcore.package.org.no-core-tests-res (out/target/product/beagleboard/obj/APPS/android.core.tests.libcore.package.org.no-core-tests-res_intermediates/package.apk)
+ 'out/target/common/obj/APPS/android.core.tests.libcore.package.org.no-core-tests-res_intermediates/classes.dex' as 'classes.dex'...
+Add resources to package (out/target/product/beagleboard/obj/APPS/android.core.tests.libcore.package.org_intermediates/package.apk)
+# javalib.jar should only contain .dex files, but the harmony tests also include
+# some .class files, so get rid of them
+Copying: out/target/common/obj/APPS/android.core.tests.libcore.package.sun.no-core-tests-res_intermediates/classes-jarjar.jar
+Copying: out/target/common/obj/APPS/android.core.tests.libcore.package.sun.no-core-tests-res_intermediates/emma_out/lib/classes-jarjar.jar
+Copying: out/target/common/obj/APPS/android.core.tests.libcore.package.sun.no-core-tests-res_intermediates/classes.jar
+Copying: out/target/common/obj/APPS/android.core.tests.libcore.package.sun.no-core-tests-res_intermediates/noproguard.classes.jar
+target Dex: android.core.tests.libcore.package.sun.no-core-tests-res
+Copying: out/target/common/obj/APPS/android.core.tests.libcore.package.sun.no-core-tests-res_intermediates/noproguard.classes.dex
+target Package: android.core.tests.libcore.package.sun.no-core-tests-res (out/target/product/beagleboard/obj/APPS/android.core.tests.libcore.package.sun.no-core-tests-res_intermediates/package.apk)
+ 'out/target/common/obj/APPS/android.core.tests.libcore.package.sun.no-core-tests-res_intermediates/classes.dex' as 'classes.dex'...
+Add resources to package (out/target/product/beagleboard/obj/APPS/android.core.tests.libcore.package.sun_intermediates/package.apk)
+# javalib.jar should only contain .dex files, but the harmony tests also include
+# some .class files, so get rid of them
+Copying: out/target/common/obj/APPS/android.core.tests.libcore.package.tests.no-core-tests-res_intermediates/classes-jarjar.jar
+Copying: out/target/common/obj/APPS/android.core.tests.libcore.package.tests.no-core-tests-res_intermediates/emma_out/lib/classes-jarjar.jar
+Copying: out/target/common/obj/APPS/android.core.tests.libcore.package.tests.no-core-tests-res_intermediates/classes.jar
+Copying: out/target/common/obj/APPS/android.core.tests.libcore.package.tests.no-core-tests-res_intermediates/noproguard.classes.jar
+target Dex: android.core.tests.libcore.package.tests.no-core-tests-res
+Copying: out/target/common/obj/APPS/android.core.tests.libcore.package.tests.no-core-tests-res_intermediates/noproguard.classes.dex
+target Package: android.core.tests.libcore.package.tests.no-core-tests-res (out/target/product/beagleboard/obj/APPS/android.core.tests.libcore.package.tests.no-core-tests-res_intermediates/package.apk)
+ 'out/target/common/obj/APPS/android.core.tests.libcore.package.tests.no-core-tests-res_intermediates/classes.dex' as 'classes.dex'...
+Add resources to package (out/target/product/beagleboard/obj/APPS/android.core.tests.libcore.package.tests_intermediates/package.apk)
+# javalib.jar should only contain .dex files, but the harmony tests also include
+# some .class files, so get rid of them
+Copying: out/target/common/obj/APPS/android.core.tests.runner.no-core-tests-res_intermediates/classes.jar
+Copying: out/target/common/obj/APPS/android.core.tests.runner.no-core-tests-res_intermediates/noproguard.classes.jar
+target Dex: android.core.tests.runner.no-core-tests-res
+Copying: out/target/common/obj/APPS/android.core.tests.runner.no-core-tests-res_intermediates/noproguard.classes.dex
+target Package: android.core.tests.runner.no-core-tests-res (out/target/product/beagleboard/obj/APPS/android.core.tests.runner.no-core-tests-res_intermediates/package.apk)
+ 'out/target/common/obj/APPS/android.core.tests.runner.no-core-tests-res_intermediates/classes.dex' as 'classes.dex'...
+Add resources to package (out/target/product/beagleboard/obj/APPS/android.core.tests.runner_intermediates/package.apk)
+# javalib.jar should only contain .dex files, but the harmony tests also include
+# some .class files, so get rid of them
+Installed file list: out/target/product/beagleboard/installed-files.txt
+Target system fs image: out/target/product/beagleboard/obj/PACKAGING/systemimage_intermediates/system.img
++ echo 'in mkuserimg.sh PATH=out/host/linux-x86/bin/:/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/tools:/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin:/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp/u-boot/tools:/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin:/home/anhpx/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/media/anhpx/anhpx/Virtual_machines/share/adt-bundle-linux-x86_64-20140702/sdk/platform-tools:/media/anhpx/anhpx/WORK/CodeSourcery/Sourcery_G++_Lite/bin:/media/DATA/arm_gcc/bin:/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin'
+in mkuserimg.sh PATH=out/host/linux-x86/bin/:/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/u-boot/tools:/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin:/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp/u-boot/tools:/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin:/home/anhpx/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/media/anhpx/anhpx/Virtual_machines/share/adt-bundle-linux-x86_64-20140702/sdk/platform-tools:/media/anhpx/anhpx/WORK/CodeSourcery/Sourcery_G++_Lite/bin:/media/DATA/arm_gcc/bin:/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin
++ ENABLE_SPARSE_IMAGE=
++ '[' -s = -s ']'
++ ENABLE_SPARSE_IMAGE=-s
++ shift
++ '[' 5 -ne 4 -a 5 -ne 5 -a 5 -ne 6 ']'
++ SRC_DIR=out/target/product/beagleboard/system
++ '[' '!' -d out/target/product/beagleboard/system ']'
++ OUTPUT_FILE=out/target/product/beagleboard/obj/PACKAGING/systemimage_intermediates/system.img
++ EXT_VARIANT=ext4
++ MOUNT_POINT=system
++ SIZE=268435456
++ FC=
++ case $EXT_VARIANT in
++ '[' -z system ']'
++ '[' -z 268435456 ']'
++ '[' -n '' ']'
++ MAKE_EXT4FS_CMD='make_ext4fs -s  -l 268435456 -a system out/target/product/beagleboard/obj/PACKAGING/systemimage_intermediates/system.img out/target/product/beagleboard/system'
++ echo make_ext4fs -s -l 268435456 -a system out/target/product/beagleboard/obj/PACKAGING/systemimage_intermediates/system.img out/target/product/beagleboard/system
+make_ext4fs -s -l 268435456 -a system out/target/product/beagleboard/obj/PACKAGING/systemimage_intermediates/system.img out/target/product/beagleboard/system
++ make_ext4fs -s -l 268435456 -a system out/target/product/beagleboard/obj/PACKAGING/systemimage_intermediates/system.img out/target/product/beagleboard/system
+Creating filesystem with parameters:
+    Size: 268435456
+    Block size: 4096
+    Blocks per group: 32768
+    Inodes per group: 8192
+    Inode size: 256
+    Journal blocks: 1024
+    Label: 
+    Blocks: 65536
+    Block groups: 2
+    Reserved block group size: 15
+Created filesystem with 1047/16384 inodes and 44691/65536 blocks
++ '[' 0 -ne 0 ']'
+Running:  mkuserimg.sh -s out/target/product/beagleboard/system out/target/product/beagleboard/obj/PACKAGING/systemimage_intermediates/system.img ext4 system 268435456
+Install system fs image: out/target/product/beagleboard/system.img
+out/target/product/beagleboard/system.img+ maxsize=274053120 blocksize=4224 total=180907676 reserve=2770944
+make -C kernel ARCH=arm CROSS_COMPILE=arm-eabi- uImage
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/kernel'
+  CHK     include/linux/version.h
+  CHK     include/generated/utsrelease.h
+make[2]: `include/generated/mach-types.h' is up to date.
+  CALL    scripts/checksyscalls.sh
+  CHK     include/generated/compile.h
+  Kernel: arch/arm/boot/Image is ready
+  SHIPPED arch/arm/boot/compressed/lib1funcs.S
+  AS      arch/arm/boot/compressed/lib1funcs.o
+  LD      arch/arm/boot/compressed/vmlinux
+  OBJCOPY arch/arm/boot/zImage
+  Kernel: arch/arm/boot/zImage is ready
+  UIMAGE  arch/arm/boot/uImage
+Image Name:   Linux-2.6.37
+Created:      Thu Jun  9 12:06:47 2016
+Image Type:   ARM Linux Kernel Image (uncompressed)
+Data Size:    3405504 Bytes = 3325.69 kB = 3.25 MB
+Load Address: 80008000
+Entry Point:  80008000
+  Image arch/arm/boot/uImage is ready
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/kernel'
+make -C hardware/ti/sgx ANDROID_ROOT_DIR=/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/hardware/ti/sgx'
+building the sgx kernel modules...
+WARNING: Android version is newer than this DDK supports
+make[2]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/hardware/ti/sgx/eurasiacon/build/linux2/omap4430_android'
+  Building modules, stage 2.
+  MODPOST 2 modules
+make[2]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/hardware/ti/sgx/eurasiacon/build/linux2/omap4430_android'
+copying the sgx kernel modules to /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/hardware/ti/sgx/gfx_rel_es5.x_android
+building devmem2...
+make -C /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/hardware/ti/sgx/tools/devmem2 && make -C /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/hardware/ti/sgx/tools/devmem2 install
+make[2]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/hardware/ti/sgx/tools/devmem2'
+make[2]: `Obj/devmem2' is up to date.
+make[2]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/hardware/ti/sgx/tools/devmem2'
+make[2]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/hardware/ti/sgx/tools/devmem2'
+copying devmem2 to /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/hardware/ti/sgx/gfx_rel_es5.x_android
+cp ./Obj/devmem2 /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/hardware/ti/sgx/gfx_rel_es5.x_android
+make[2]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/hardware/ti/sgx/tools/devmem2'
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/hardware/ti/sgx'
+make -C hardware/ti/sgx ANDROID_ROOT_DIR=/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0 install
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/hardware/ti/sgx'
+
+Installing PowerVR Consumer/Embedded DDK 'sgxddk_1.8@789263' on host
+
+File system installation root is /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/out/target/product/beagleboard//
+
+Uninstalling existing version sgxddk_1.8@789263
+Uninstallation completed.
+boot script rc.pvr -> /system/bin/sgx/rc.pvr
+kernel module pvrsrvkm.ko -> /system/bin/sgx/pvrsrvkm.ko
+kernel module omaplfb.ko -> /system/bin/sgx/omaplfb.ko
+shared library libGLESv1_CM_POWERVR_SGX530_125.so -> /system/lib/egl/libGLESv1_CM_POWERVR_SGX530_125.so
+shared library libusc.so -> /system/lib/libusc.so
+shared library libGLESv2_POWERVR_SGX530_125.so -> /system/lib/egl/libGLESv2_POWERVR_SGX530_125.so
+shared library libglslcompiler.so -> /system/lib/libglslcompiler.so
+shared library libIMGegl.so -> /system/lib/libIMGegl.so
+shared library libEGL_POWERVR_SGX530_125.so -> /system/lib/egl/libEGL_POWERVR_SGX530_125.so
+shared library libpvr2d.so -> /system/lib/libpvr2d.so
+shared library libsrv_um.so -> /system/lib/libsrv_um.so
+shared library libsrv_init.so -> /system/lib/libsrv_init.so
+shared library libPVRScopeServices.so -> /system/lib/libPVRScopeServices.so
+shared library gralloc.omap3.so -> /system/lib/hw/gralloc.omap3.so
+shared library libpvrANDROID_WSEGL.so -> /system/lib/libpvrANDROID_WSEGL.so
+binary pvrsrvinit -> /system/bin/pvrsrvinit
+binary pvrsrvctl -> /system/bin/pvrsrvctl
+binary sgx_init_test -> /system/bin/sgx_init_test
+binary devmem2 -> /system/bin/devmem2
+binary services_test -> /system/bin/services_test
+binary sgx_flip_test -> /system/bin/sgx_flip_test
+binary sgx_render_flip_test -> /system/bin/sgx_render_flip_test
+binary testwrap -> /system/bin/testwrap
+binary gles1test1.apk -> /data/app/gles1test1.apk
+binary gles2test1.apk -> /data/app/gles2test1.apk
+binary eglinfo.apk -> /data/app/eglinfo.apk
+binary launcher.apk -> /data/app/launcher.apk
+binary hal_client_test -> /system/bin/hal_client_test
+binary hal_server_test -> /system/bin/hal_server_test
+binary framebuffer_test -> /system/bin/framebuffer_test
+binary texture_benchmark -> /system/bin/texture_benchmark
+
+Installation complete!
+
+cat install.sh >install 
+chmod a+x install
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/hardware/ti/sgx'
+make -C hardware/ti/wlan/mac80211/compat_wl12xx ANDROID_ROOT_DIR=/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0 CROSS_COMPILE=arm-eabi- ARCH=arm install
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/hardware/ti/wlan/mac80211/compat_wl12xx'
+make -j1 ARCH=arm CROSS_COMPILE=arm-eabi- -C /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/kernel M=/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/hardware/ti/wlan/mac80211/compat_wl12xx modules
+make[2]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/kernel'
+  Building modules, stage 2.
+  MODPOST 9 modules
+make[2]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/kernel'
+Installing WL12xx compat driver...
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/hardware/ti/wlan/mac80211/compat_wl12xx'

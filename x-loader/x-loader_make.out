@@ -1,0 +1,101 @@
+arm-eabi-gcc -Wa,-gstabs -D__ASSEMBLY__  -Os  -fno-strict-aliasing  -fno-common -ffixed-r8  -DONE_BIT_ERROR_CORRECT -D__KERNEL__ -DTEXT_BASE=0x40200800 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/x-loader/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -march=armv7-a -mabi=apcs-gnu -mno-thumb-interwork -c -o cpu/omap3/start.o /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/x-loader/cpu/omap3/start.S
+make -C `dirname board/omap3beagle/libomap3beagle.a`
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/x-loader/board/omap3beagle'
+arm-eabi-gcc -M  -Os  -fno-strict-aliasing  -fno-common -ffixed-r8  -DONE_BIT_ERROR_CORRECT -D__KERNEL__ -DTEXT_BASE=0x40200800 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/x-loader/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -march=armv7-a -mabi=apcs-gnu -mno-thumb-interwork platform.S omap3beagle.c > .depend
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/x-loader/board/omap3beagle'
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/x-loader/board/omap3beagle'
+arm-eabi-gcc  -Os  -fno-strict-aliasing  -fno-common -ffixed-r8  -DONE_BIT_ERROR_CORRECT -D__KERNEL__ -DTEXT_BASE=0x40200800 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/x-loader/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -march=armv7-a -mabi=apcs-gnu -mno-thumb-interwork -Wall -Wstrict-prototypes -c -o omap3beagle.o omap3beagle.c
+arm-eabi-gcc -Wa,-gstabs -D__ASSEMBLY__  -Os  -fno-strict-aliasing  -fno-common -ffixed-r8  -DONE_BIT_ERROR_CORRECT -D__KERNEL__ -DTEXT_BASE=0x40200800 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/x-loader/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -march=armv7-a -mabi=apcs-gnu -mno-thumb-interwork -c -o platform.o /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/x-loader/board/omap3beagle/platform.S
+arm-eabi-ar crv libomap3beagle.a omap3beagle.o platform.o
+a - omap3beagle.o
+a - platform.o
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/x-loader/board/omap3beagle'
+make -C `dirname cpu/omap3/libomap3.a`
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/x-loader/cpu/omap3'
+arm-eabi-gcc -M  -Os  -fno-strict-aliasing  -fno-common -ffixed-r8  -DONE_BIT_ERROR_CORRECT -D__KERNEL__ -DTEXT_BASE=0x40200800 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/x-loader/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -march=armv7-a -mabi=apcs-gnu -mno-thumb-interwork -Wall -Wstrict-prototypes start.S cpu.c mmc.c gpio.c > .depend
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/x-loader/cpu/omap3'
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/x-loader/cpu/omap3'
+arm-eabi-gcc  -Os  -fno-strict-aliasing  -fno-common -ffixed-r8  -DONE_BIT_ERROR_CORRECT -D__KERNEL__ -DTEXT_BASE=0x40200800 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/x-loader/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -march=armv7-a -mabi=apcs-gnu -mno-thumb-interwork -Wall -Wstrict-prototypes -c -o cpu.o cpu.c
+arm-eabi-gcc  -Os  -fno-strict-aliasing  -fno-common -ffixed-r8  -DONE_BIT_ERROR_CORRECT -D__KERNEL__ -DTEXT_BASE=0x40200800 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/x-loader/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -march=armv7-a -mabi=apcs-gnu -mno-thumb-interwork -Wall -Wstrict-prototypes -c -o mmc.o mmc.c
+arm-eabi-gcc  -Os  -fno-strict-aliasing  -fno-common -ffixed-r8  -DONE_BIT_ERROR_CORRECT -D__KERNEL__ -DTEXT_BASE=0x40200800 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/x-loader/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -march=armv7-a -mabi=apcs-gnu -mno-thumb-interwork -Wall -Wstrict-prototypes -c -o gpio.o gpio.c
+arm-eabi-ar crv libomap3.a cpu.o mmc.o gpio.o
+a - cpu.o
+a - mmc.o
+a - gpio.o
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/x-loader/cpu/omap3'
+make -C `dirname lib/libarm.a`
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/x-loader/lib'
+arm-eabi-gcc -M  -Os  -fno-strict-aliasing  -fno-common -ffixed-r8  -DONE_BIT_ERROR_CORRECT -D__KERNEL__ -DTEXT_BASE=0x40200800 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/x-loader/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -march=armv7-a -mabi=apcs-gnu -mno-thumb-interwork -Wall -Wstrict-prototypes _udivsi3.S _umodsi3.S board.c ecc.c omap_bch_decoder.c omap_bch.c printf.c div0.c > .depend
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/x-loader/lib'
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/x-loader/lib'
+arm-eabi-gcc -Wa,-gstabs -D__ASSEMBLY__  -Os  -fno-strict-aliasing  -fno-common -ffixed-r8  -DONE_BIT_ERROR_CORRECT -D__KERNEL__ -DTEXT_BASE=0x40200800 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/x-loader/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -march=armv7-a -mabi=apcs-gnu -mno-thumb-interwork -c -o _udivsi3.o /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/x-loader/lib/_udivsi3.S
+arm-eabi-gcc -Wa,-gstabs -D__ASSEMBLY__  -Os  -fno-strict-aliasing  -fno-common -ffixed-r8  -DONE_BIT_ERROR_CORRECT -D__KERNEL__ -DTEXT_BASE=0x40200800 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/x-loader/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -march=armv7-a -mabi=apcs-gnu -mno-thumb-interwork -c -o _umodsi3.o /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/x-loader/lib/_umodsi3.S
+arm-eabi-gcc  -Os  -fno-strict-aliasing  -fno-common -ffixed-r8  -DONE_BIT_ERROR_CORRECT -D__KERNEL__ -DTEXT_BASE=0x40200800 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/x-loader/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -march=armv7-a -mabi=apcs-gnu -mno-thumb-interwork -Wall -Wstrict-prototypes -c -o board.o board.c
+arm-eabi-gcc  -Os  -fno-strict-aliasing  -fno-common -ffixed-r8  -DONE_BIT_ERROR_CORRECT -D__KERNEL__ -DTEXT_BASE=0x40200800 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/x-loader/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -march=armv7-a -mabi=apcs-gnu -mno-thumb-interwork -Wall -Wstrict-prototypes -c -o ecc.o ecc.c
+arm-eabi-gcc  -Os  -fno-strict-aliasing  -fno-common -ffixed-r8  -DONE_BIT_ERROR_CORRECT -D__KERNEL__ -DTEXT_BASE=0x40200800 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/x-loader/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -march=armv7-a -mabi=apcs-gnu -mno-thumb-interwork -Wall -Wstrict-prototypes -c -o omap_bch_decoder.o omap_bch_decoder.c
+arm-eabi-gcc  -Os  -fno-strict-aliasing  -fno-common -ffixed-r8  -DONE_BIT_ERROR_CORRECT -D__KERNEL__ -DTEXT_BASE=0x40200800 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/x-loader/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -march=armv7-a -mabi=apcs-gnu -mno-thumb-interwork -Wall -Wstrict-prototypes -c -o omap_bch.o omap_bch.c
+arm-eabi-gcc  -Os  -fno-strict-aliasing  -fno-common -ffixed-r8  -DONE_BIT_ERROR_CORRECT -D__KERNEL__ -DTEXT_BASE=0x40200800 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/x-loader/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -march=armv7-a -mabi=apcs-gnu -mno-thumb-interwork -Wall -Wstrict-prototypes -c -o printf.o printf.c
+printf.c: In function 'serial_printf':
+printf.c:290:7: warning: variable 'i' set but not used [-Wunused-but-set-variable]
+arm-eabi-gcc  -Os  -fno-strict-aliasing  -fno-common -ffixed-r8  -DONE_BIT_ERROR_CORRECT -D__KERNEL__ -DTEXT_BASE=0x40200800 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/x-loader/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -march=armv7-a -mabi=apcs-gnu -mno-thumb-interwork -Wall -Wstrict-prototypes -c -o div0.o div0.c
+arm-eabi-ar crv libarm.a _udivsi3.o _umodsi3.o board.o ecc.o omap_bch_decoder.o omap_bch.o printf.o div0.o 
+a - _udivsi3.o
+a - _umodsi3.o
+a - board.o
+a - ecc.o
+a - omap_bch_decoder.o
+a - omap_bch.o
+a - printf.o
+a - div0.o
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/x-loader/lib'
+make -C `dirname fs/fat/libfat.a`
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/x-loader/fs/fat'
+arm-eabi-gcc -M  -Os  -fno-strict-aliasing  -fno-common -ffixed-r8  -DONE_BIT_ERROR_CORRECT -D__KERNEL__ -DTEXT_BASE=0x40200800 -I../..//include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -march=armv7-a -mabi=apcs-gnu -mno-thumb-interwork -Wall -Wstrict-prototypes  fat.c file.c > .depend
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/x-loader/fs/fat'
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/x-loader/fs/fat'
+arm-eabi-gcc  -Os  -fno-strict-aliasing  -fno-common -ffixed-r8  -DONE_BIT_ERROR_CORRECT -D__KERNEL__ -DTEXT_BASE=0x40200800 -I../..//include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -march=armv7-a -mabi=apcs-gnu -mno-thumb-interwork -Wall -Wstrict-prototypes -c -o fat.o fat.c
+arm-eabi-gcc  -Os  -fno-strict-aliasing  -fno-common -ffixed-r8  -DONE_BIT_ERROR_CORRECT -D__KERNEL__ -DTEXT_BASE=0x40200800 -I../..//include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -march=armv7-a -mabi=apcs-gnu -mno-thumb-interwork -Wall -Wstrict-prototypes -c -o file.o file.c
+In file included from file.c:34:0:
+../..//include/linux/time.h: In function 'asctime_r':
+../..//include/linux/time.h:61:5: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+file.c: In function 'file_cd':
+file.c:92:3: warning: implicit declaration of function 'strncpy' [-Wimplicit-function-declaration]
+file.c: In function 'file_detectfs':
+file.c:157:4: warning: implicit declaration of function 'strcpy' [-Wimplicit-function-declaration]
+arm-eabi-ar crv libfat.a  fat.o file.o
+a - fat.o
+a - file.o
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/x-loader/fs/fat'
+make -C `dirname disk/libdisk.a`
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/x-loader/disk'
+arm-eabi-gcc -M  -Os  -fno-strict-aliasing  -fno-common -ffixed-r8  -DONE_BIT_ERROR_CORRECT -D__KERNEL__ -DTEXT_BASE=0x40200800 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/x-loader/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -march=armv7-a -mabi=apcs-gnu -mno-thumb-interwork -Wall -Wstrict-prototypes part.c part_dos.c > .depend
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/x-loader/disk'
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/x-loader/disk'
+arm-eabi-gcc  -Os  -fno-strict-aliasing  -fno-common -ffixed-r8  -DONE_BIT_ERROR_CORRECT -D__KERNEL__ -DTEXT_BASE=0x40200800 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/x-loader/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -march=armv7-a -mabi=apcs-gnu -mno-thumb-interwork -Wall -Wstrict-prototypes -c -o part.o part.c
+arm-eabi-gcc  -Os  -fno-strict-aliasing  -fno-common -ffixed-r8  -DONE_BIT_ERROR_CORRECT -D__KERNEL__ -DTEXT_BASE=0x40200800 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/x-loader/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -march=armv7-a -mabi=apcs-gnu -mno-thumb-interwork -Wall -Wstrict-prototypes -c -o part_dos.o part_dos.c
+part_dos.c: In function 'test_block_type':
+part_dos.c:79:2: warning: implicit declaration of function 'strncmp' [-Wimplicit-function-declaration]
+arm-eabi-ar crv libdisk.a part.o part_dos.o
+a - part.o
+a - part_dos.o
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/x-loader/disk'
+make -C `dirname drivers/libdrivers.a`
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/x-loader/drivers'
+arm-eabi-gcc -M  -Os  -fno-strict-aliasing  -fno-common -ffixed-r8  -DONE_BIT_ERROR_CORRECT -D__KERNEL__ -DTEXT_BASE=0x40200800 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/x-loader/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -march=armv7-a -mabi=apcs-gnu -mno-thumb-interwork -Wall -Wstrict-prototypes serial.c ns16550.c onenand.c k9f1g08r0a.c > .depend
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/x-loader/drivers'
+make[1]: Entering directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/x-loader/drivers'
+arm-eabi-gcc  -Os  -fno-strict-aliasing  -fno-common -ffixed-r8  -DONE_BIT_ERROR_CORRECT -D__KERNEL__ -DTEXT_BASE=0x40200800 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/x-loader/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -march=armv7-a -mabi=apcs-gnu -mno-thumb-interwork -Wall -Wstrict-prototypes -c -o serial.o serial.c
+arm-eabi-gcc  -Os  -fno-strict-aliasing  -fno-common -ffixed-r8  -DONE_BIT_ERROR_CORRECT -D__KERNEL__ -DTEXT_BASE=0x40200800 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/x-loader/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -march=armv7-a -mabi=apcs-gnu -mno-thumb-interwork -Wall -Wstrict-prototypes -c -o ns16550.o ns16550.c
+arm-eabi-gcc  -Os  -fno-strict-aliasing  -fno-common -ffixed-r8  -DONE_BIT_ERROR_CORRECT -D__KERNEL__ -DTEXT_BASE=0x40200800 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/x-loader/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -march=armv7-a -mabi=apcs-gnu -mno-thumb-interwork -Wall -Wstrict-prototypes -c -o onenand.o onenand.c
+arm-eabi-gcc  -Os  -fno-strict-aliasing  -fno-common -ffixed-r8  -DONE_BIT_ERROR_CORRECT -D__KERNEL__ -DTEXT_BASE=0x40200800 -I/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/x-loader/include -fno-builtin -ffreestanding -nostdinc -isystem /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google/include -pipe  -DCONFIG_ARM -D__ARM__ -march=armv7-a -mabi=apcs-gnu -mno-thumb-interwork -Wall -Wstrict-prototypes -c -o k9f1g08r0a.o k9f1g08r0a.c
+arm-eabi-ar crv libdrivers.a serial.o ns16550.o onenand.o k9f1g08r0a.o
+a - serial.o
+a - ns16550.o
+a - onenand.o
+a - k9f1g08r0a.o
+make[1]: Leaving directory `/media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/x-loader/drivers'
+UNDEF_SYM=`arm-eabi-objdump -x board/omap3beagle/libomap3beagle.a cpu/omap3/libomap3.a lib/libarm.a fs/fat/libfat.a disk/libdisk.a drivers/libdrivers.a |sed  -n -e 's/.*\(__u_boot_cmd_.*\)/-u\1/p'|sort|uniq`;\
+ 		arm-eabi-ld -Bstatic -T /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/x-loader/board/omap3beagle/x-load.lds -Ttext 0x40200800  $UNDEF_SYM cpu/omap3/start.o \
+			--start-group board/omap3beagle/libomap3beagle.a cpu/omap3/libomap3.a lib/libarm.a fs/fat/libfat.a disk/libdisk.a drivers/libdrivers.a --end-group -L /media/anhpx/anhpx/WORK/sources/mza-v3.0-bsp_0/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/../lib/gcc/arm-eabi/4.6.x-google -lgcc \
+			-Map x-load.map -o x-load
+arm-eabi-objcopy --gap-fill=0xff -O binary x-load x-load.bin
